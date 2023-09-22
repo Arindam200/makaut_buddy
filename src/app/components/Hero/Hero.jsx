@@ -18,13 +18,19 @@ export default function Hero() {
             the University.
           </h3>
           <div className="btn space-x-5">
-            <Button radius="sm" size="lg" color="white" variant="bordered">
+            <Button
+              className="text-lg"
+              radius="sm"
+              size="lg"
+              color="white"
+              variant="bordered"
+            >
               Check Out Resources
             </Button>
             <Button
               radius="sm"
               size="lg"
-              className="text-black bg-white"
+              className="text-black bg-white text-lg"
               color="red"
               variant="solid"
             >
@@ -36,7 +42,6 @@ export default function Hero() {
           <Image src={logo} className="p-10 py-0" alt="Logo" />
         </div>
       </div>
-      
     </>
   );
 }
