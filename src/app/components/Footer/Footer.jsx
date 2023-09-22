@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="logo pr-10">
             <Image src={logo} className="px-10  w-80 h-80 " alt="Logo" />
           </div>
-          <div className="px-32 pt-16 flex space-x-40">
+          <div className="px-20 pt-16 flex space-x-40">
             <div className="">
               <ul className=" space-y-2">
                 <h1 className="font-medium text-lg pb-2 text-white">
