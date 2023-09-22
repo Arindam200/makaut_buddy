@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <>
       <div className="flex mt-20 justify-between px-32">
-        <div className="pt-10 w-3/5 space-y-5">
+        <div className="pt-20 w-3/5 space-y-5">
           <h2 className="text-6xl  font-bold text-white text-start ">
             All the resources you want, at your fingertips.
           </h2>
