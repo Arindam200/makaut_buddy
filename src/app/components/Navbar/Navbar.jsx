@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <Navbar
-      className="text-white  "
+      className="text-white "
       height="5rem"
       isBordered
       isBlurred
@@ -34,18 +34,12 @@ export default function App() {
         />
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden pr-3" justify="center">
-        {/* <NavbarBrand>
-          <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
-        </NavbarBrand> */}
-      </NavbarContent>
+      <NavbarContent
+        className="sm:hidden pr-3"
+        justify="center"
+      ></NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
-        {/* <NavbarBrand>
-          <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
-        </NavbarBrand> */}
         <NavbarItem className="text-white ">
           <Link className="text-white text-lg" color="foreground" href="#">
             Home
@@ -76,7 +70,20 @@ export default function App() {
           <Button
             radius="sm"
             size="lg"
-            className=" text-white"
+            className=" text-white max-sm:hidden sm:text-lg text-sm"
+            color="white"
+            variant="bordered"
+            as={Link}
+            href="#"
+          >
+            Sign Up
+          </Button>
+        </NavbarItem>
+        <NavbarItem>
+          <Button
+            radius="sm"
+            size="sm"
+            className="text-white sm:hidden text-sm"
             color="white"
             variant="bordered"
             as={Link}

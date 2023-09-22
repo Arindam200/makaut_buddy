@@ -8,18 +8,19 @@ import logo from "../../../../public/hero.svg";
 export default function Hero() {
   return (
     <>
-      <div className="flex mt-20 justify-between px-32">
-        <div className="pt-20 w-3/5 space-y-5">
-          <h2 className="text-6xl  font-bold text-white text-start ">
-            All the resources you want, at your fingertips.
+      <div className="sm:flex sm:mt-20 sm:justify-between px-10 sm:px-32">
+        <div className="sm:pt-20 pt-10 w-3/5 max-sm:w-full space-y-5">
+          <h2 className="text-6xl max-sm:text-2xl max-sm:text-center font-bold text-white text-start ">
+            <span className="sm:text-8xl text-4xl">All</span> the resources you
+            want, at your fingertips.
           </h2>
-          <h3 className="text-start text-xl text-white">
+          <h3 className="text-start text-xl max-sm:text-sm max-sm:text-center text-white">
             MAKAUT Buddy is the one-stop academic solution for every students of
             the University.
           </h3>
-          <div className="btn space-x-5">
+          <div className="sm:space-x-5 space-x-2 max-sm:flex">
             <Button
-              className="text-lg"
+              className="sm:text-lg text-sm"
               radius="sm"
               size="lg"
               color="white"
@@ -30,7 +31,7 @@ export default function Hero() {
             <Button
               radius="sm"
               size="lg"
-              className="text-black bg-white text-lg"
+              className="text-black bg-white sm:text-lg text-sm"
               color="red"
               variant="solid"
             >
@@ -38,7 +39,7 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="w-2/5">
+        <div className="sm:w-2/5">
           <Image src={logo} className="p-10 py-0" alt="Logo" />
         </div>
       </div>
