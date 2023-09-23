@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{jsx,js}\""
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.13",
