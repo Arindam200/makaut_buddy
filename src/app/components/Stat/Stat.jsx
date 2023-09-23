@@ -7,15 +7,15 @@ export default function Stat() {
         <div className="sm:h-40 h-28 text-black  flex p-10 justify-around">
           <div className="">
             <h1 className="sm:text-6xl text-xl text-center font-bold">100+</h1>
-            <h3 className="sm:text-xl text-md text-center">Resources</h3>
+            <h3 className="sm:text-2xl text-md text-center">Resources</h3>
           </div>
           <div className="">
             <h1 className="sm:text-6xl text-xl text-center font-bold">100+</h1>
-            <h3 className="sm:text-xl text-md text-center">Resources</h3>
+            <h3 className="sm:text-2xl text-md text-center">Resources</h3>
           </div>
           <div className="">
             <h1 className="sm:text-6xl text-xl text-center font-bold">100+</h1>
-            <h3 className="sm:text-xl text-md text-center">Resources</h3>
+            <h3 className="sm:text-2xl text-md text-center">Resources</h3>
           </div>
         </div>
       </div>

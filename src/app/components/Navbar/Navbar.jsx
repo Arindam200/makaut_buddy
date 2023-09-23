@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <Navbar
-      className="text-white "
+      className="text-white"
       height="5rem"
       isBordered
       isBlurred
@@ -74,7 +74,7 @@ export default function App() {
             color="white"
             variant="bordered"
             as={Link}
-            href="#"
+            href="/signup"
           >
             Sign Up
           </Button>
@@ -87,7 +87,7 @@ export default function App() {
             color="white"
             variant="bordered"
             as={Link}
-            href="#"
+            href="/signup"
           >
             Sign Up
           </Button>

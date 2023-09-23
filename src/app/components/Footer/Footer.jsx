@@ -6,8 +6,8 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="w-full overflow-hidden px-20 text-[#FFFFFF80] py-5 space-y-2 rounded-t-3xl bg-[#1e1e1e]">
-        <div className="sm:flex  sm:divide-x-2 divide-y-2 divide-white ">
+      <div className="w-full overflow-hidden sm:px-20 px-10 text-[#FFFFFF80] py-5 space-y-2 rounded-t-3xl bg-[#1e1e1e]">
+        <div className="sm:flex  sm:divide-x-2 max-sm:divide-y-2 divide-[#FFFFFF80] ">
           <div className="logo sm:pr-10">
             <Image
               src={logo}
@@ -15,7 +15,7 @@ export default function Footer() {
               alt="Logo"
             />
           </div>
-          <div className="sm:px-20 max-sm:text-center sm:pt-16 pt-10 sm:flex sm:space-x-40">
+          <div className="sm:px-20 hidden max-sm:text-center sm:pt-16 pt-10 sm:flex sm:space-x-40">
             <div className="">
               <ul className="space-y-2">
                 <h1 className="font-medium text-lg pb-2 text-white">
@@ -54,7 +54,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <p className="sm:text-center max-sm:text-sm">
+        <p className="text-center max-sm:text-xs">
           Created with love ❣ by Swapnoneel Saha, Arindam Majumder and
           Samyabrata Maji
         </p>
