@@ -15,22 +15,7 @@ export default function page() {
           </h2>
           <div className="flex">
             <div className="w-1/2 ">
-              <div>
-                <h3>Select your branch and semester</h3>
-                <select>
-                  <option value="B.Tech CSE 1st year">B.Tech CSE 1st year</option>
-                </select>
-              </div>
-              <div>
-              <h3>Select subject</h3>
-                <select>
-                  <option value="Chemsitry">Chemistry</option>
-                  <option value="Engineering Drawing">Engineering Drawing</option>
-                  <option value="Electrical and Digital Electronics">Electrical and Digital Electronics</option>
-                  <option value="Mathematics">Mathematics</option>
-                </select>
-              </div>
-              <div></div>
+              <Dropdown />
             </div>
             <div className="w-1/2">
               <Tabs />
@@ -41,3 +26,20 @@ export default function page() {
     </>
   );
 }
+
+// <div>
+//                 <h3>Select your branch and semester</h3>
+//                 <select>
+//                   <option value="B.Tech CSE 1st year">B.Tech CSE 1st year</option>
+//                 </select>
+//               </div>
+//               <div>
+//               <h3>Select subject</h3>
+//                 <select>
+//                   <option value="Chemsitry">Chemistry</option>
+//                   <option value="Engineering Drawing">Engineering Drawing</option>
+//                   <option value="Electrical and Digital Electronics">Electrical and Digital Electronics</option>
+//                   <option value="Mathematics">Mathematics</option>
+//                 </select>
+//               </div>
+//               <div></div>
