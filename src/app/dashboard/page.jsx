@@ -2,6 +2,7 @@
 
 import React from "react";
 import Tabs from "../components/Tabs/Tabs.jsx";
+import Dropdown from "../components/Dropdown/Dropdown.jsx";
 // import { Tabs, Tab } from "@nextui-org/react";
 
 export default function page() {
@@ -13,7 +14,24 @@ export default function page() {
             Dashboard
           </h2>
           <div className="flex">
-            <div className="w-1/2 ">hijibiji</div>
+            <div className="w-1/2 ">
+              <div>
+                <h3>Select your branch and semester</h3>
+                <select>
+                  <option value="B.Tech CSE 1st year">B.Tech CSE 1st year</option>
+                </select>
+              </div>
+              <div>
+              <h3>Select subject</h3>
+                <select>
+                  <option value="Chemsitry">Chemistry</option>
+                  <option value="Engineering Drawing">Engineering Drawing</option>
+                  <option value="Electrical and Digital Electronics">Electrical and Digital Electronics</option>
+                  <option value="Mathematics">Mathematics</option>
+                </select>
+              </div>
+              <div></div>
+            </div>
             <div className="w-1/2">
               <Tabs />
             </div>
