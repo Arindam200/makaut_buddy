@@ -43,7 +43,7 @@ export default function Footer() {
             <div className="">
               <ul className="space-y-2">
                 <h1 className="font-medium text-lg pb-2 text-white">
-                  Samyabrata Majhi
+                  Samyabrata Maji
                 </h1>
                 <li className="text-md max-sm:hidden">Website</li>
                 <li className="text-md max-sm:hidden">Github</li>
