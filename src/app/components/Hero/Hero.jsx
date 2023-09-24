@@ -16,7 +16,7 @@ export default function Hero() {
               <span className="sm:text-8xl text-4xl">All </span> the resources
               you want, at your fingertips.
             </h2> */}
-          <motion.h1 className="text-6xl max-sm:text-2xl max-sm:text-center font-bold leading-snug tracking-normal text bg-gradient-to-r from-white to-[rgba(225,225,225,0.12)] bg-clip-text text-transparent">
+          <motion.h1 className="text-6xl max-sm:text-2xl max-sm:text-center font-semibold leading-snug tracking-normal text bg-gradient-to-r from-white to-[rgba(225,225,225,0.12)] bg-clip-text text-transparent">
             <span className="sm:text-8xl text-4xl">All </span>the resources you
             want, at your fingertips.
           </motion.h1>
@@ -31,7 +31,7 @@ export default function Hero() {
               className="bg-white text-black hover:bg-white/90 sm:text-lg text-sm px-4 py-2 rounded-md"
               variant="solid"
             >
-              <Link href="/signup">Join Now</Link>
+              <Link href="/join">Join Now</Link>
             </Button>
             <Button
               className="sm:text-lg text-sm hover:bg-[rgba(225,225,225,0.12)] px-4 py-2 rounded-md"

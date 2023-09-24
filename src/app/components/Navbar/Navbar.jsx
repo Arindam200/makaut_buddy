@@ -74,7 +74,7 @@ export default function App() {
             color="white"
             variant="bordered"
             as={Link}
-            href="/signup"
+            href="/login"
           >
             Sign Up
           </Button>
@@ -87,7 +87,7 @@ export default function App() {
             color="white"
             variant="bordered"
             as={Link}
-            href="/signup"
+            href="/login"
           >
             Sign Up
           </Button>
