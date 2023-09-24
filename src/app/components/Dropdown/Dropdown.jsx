@@ -15,7 +15,7 @@ export default function App() {
             <Select
               key={placement}
               labelPlacement={placement}
-              label="Favorite Animal"
+              // label="Favorite Animal"
               className="max-w-xs"
             >
               {animals.map((animal) => (
