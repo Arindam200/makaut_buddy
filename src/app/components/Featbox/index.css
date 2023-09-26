@@ -1,0 +1,11 @@
+.box {
+  /* height: 150px;
+  width: 100px; */
+  background-color: #fff;
+}
+.tri {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid#000;
+}
