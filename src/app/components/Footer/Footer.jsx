@@ -6,7 +6,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="w-full overflow-hidden sm:px-20 px-10 text-[#FFFFFF80] py-5 space-y-2 rounded-t-3xl bg-[#1e1e1e]">
+      <div className="w-full overflow-hidden sm:px-20 px-10 text-[#FFFFFF80] py-5 space-y-2 rounded-t-3xl bg-[#0E0E0E]">
         <div className="sm:flex  sm:divide-x-2 max-sm:divide-y-2 divide-[#FFFFFF80] ">
           <div className="logo sm:pr-10">
             <Image
