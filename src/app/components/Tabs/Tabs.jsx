@@ -16,7 +16,7 @@ export default function App() {
         selectedKey={selected}
         onSelectionChange={setSelected}
       >
-        <Tab className="" key="photos" title="Photos">
+        <Tab className="" key="photos" title="PYQs">
           <Card className="min-h-[450px]">
             <CardBody>
               <div className="flex gap-5">
@@ -39,7 +39,7 @@ export default function App() {
             </CardBody>
           </Card>
         </Tab>
-        <Tab key="music" title="Music">
+        <Tab key="music" title="Video Tutorials">
           <Card className="min-h-[450px]">
             <CardBody className="space-y-5">
               <div className="flex gap-5">
@@ -62,7 +62,7 @@ export default function App() {
             </CardBody>
           </Card>
         </Tab>
-        <Tab key="videos" title="Videos">
+        <Tab key="videos" title="Notes">
           <Card className="min-h-[450px]">
             <CardBody>
               <div className="flex gap-5">
