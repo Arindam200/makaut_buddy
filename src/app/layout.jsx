@@ -1,9 +1,19 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Grenze_Gotisch } from "next/font/google";
 import { Providers } from "./providers";
 import { ClerkProvider } from "@clerk/nextjs";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const grenze = Grenze_Gotisch({
+  subsets: ["latin"],
+  variable: "--font-grenze",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +22,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark text-foreground">
+    <html
+      lang="en"
+      className={`${inter.variable} ${grenze.variable} dark text-foreground`}
+    >
       <body className={inter.className}>
         <ClerkProvider>
           <Providers>{children}</Providers>

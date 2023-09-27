@@ -9,9 +9,9 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <>
-      <div className="sm:flex sm:h-[calc(100vh-40px)] sm:justify-between px-10 sm:px-32 gap-16 sm:min-h-[calc(100vh-40px)]">
+      <div className="font-grenze sm:flex sm:h-[calc(100vh-40px)] sm:justify-between px-10 sm:px-32 gap-16 sm:min-h-[calc(100vh-40px)]">
         {/* sm:pt-20  */}
-        <div className=" w-3/5 max-sm:pt-10 flex flex-col items-start justify-center gap-4 max-sm:w-full ">
+        <div className="w-3/5 max-sm:pt-10 flex flex-col items-start justify-center gap-4 max-sm:w-full">
           {/* <h2 className="text-6xl max-sm:text-2xl max-sm:text-center font-bold text-white text-start ">
               <span className="sm:text-8xl text-4xl">All </span> the resources
               you want, at your fingertips.

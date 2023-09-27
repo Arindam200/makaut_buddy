@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <Navbar
-      className="text-white"
+      className="text-white "
       height="5rem"
       isBordered
       isBlurred

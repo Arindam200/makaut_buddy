@@ -7,7 +7,7 @@ export default function FAQ() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <>
-      <div className="sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
+      <div className="font-grenze sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
         <div className="sm:w-1/2 flex items-center justify-start">
           <div className="space-y-5 max-sm:px-10">
             <h1 className="sm:text-5xl text-3xl max-sm:text-center font-bold">
