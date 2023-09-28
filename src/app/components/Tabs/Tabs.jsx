@@ -46,7 +46,7 @@ export default function App() {
   ];
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-2">
       <Tabs
         className="justify-center flex flex-col"
         size="lg"
