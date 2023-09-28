@@ -3,6 +3,7 @@ import React from "react";
 // import { Divider } from "@nextui-org/react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 export default function FAQ() {
+  const [selectedKeys, setSelectedKeys] = React.useState(new Set(["1"]));
   const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
@@ -20,7 +21,10 @@ export default function FAQ() {
         </div>
 
         <div className="sm:w-1/2 w-full text-white">
-          <Accordion>
+          <Accordion
+            selectedKeys={selectedKeys}
+            onSelectionChange={setSelectedKeys}
+          >
             <AccordionItem
               className="text-white"
               key="1"
