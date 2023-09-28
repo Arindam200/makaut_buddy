@@ -10,7 +10,7 @@ export default function PageJoin() {
             borderRadius: "0",
             colorBackground: "#d9d9d9",
             colorInputBackground: "#d9d9d9",
-            colorPrimary: "#171717"
+            colorPrimary: "#171717",
           },
         }}
       />
