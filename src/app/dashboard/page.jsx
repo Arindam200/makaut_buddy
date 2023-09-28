@@ -9,7 +9,8 @@ import "../components/Featbox/index.css";
 export default function page() {
   return (
     <>
-      <div className="sm:trilarge tridown bg-white rotate-180 z-40"></div>
+      <div className="trilarge max-sm:hidden bg-white rotate-180 z-40"></div>
+      <div className="tridown bg-white rotate-180 z-40"></div>
       <div className=" flex items-center justify-center sm:justify-between px-10 sm:px-40 gap-16">
         <div className="">
           <div className="sm:flex">
