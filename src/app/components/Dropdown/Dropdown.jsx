@@ -3,10 +3,10 @@ import { Select, SelectItem } from "@nextui-org/react";
 import { stream, subject } from "./data";
 
 export default function App() {
-  const placement = "outside"; // Since there's only one placement value
+  const placement = "outside";
 
   return (
-    <div className="w-full flex flex-col gap-6">
+    <div className="w-full flex flex-col sm:gap-6">
       <div className="flex flex-col gap-2">
         <div className="flex w-full flex-wrap items-end md:flex-nowrap mb-6 md:mb-0 gap-4">
           <Select

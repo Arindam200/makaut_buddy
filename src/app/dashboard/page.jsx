@@ -9,17 +9,17 @@ import "../components/Featbox/index.css";
 export default function page() {
   return (
     <>
-      <div className="trilarge bg-white rotate-180 z-40"></div>
-      <div className="sm:h-full flex items-center justify-center sm:justify-between px-10 sm:px-40 gap-16">
+      <div className="sm:trilarge tridown bg-white rotate-180 z-40"></div>
+      <div className=" flex items-center justify-center sm:justify-between px-10 sm:px-40 gap-16">
         <div className="">
-          <h2 className="text-5xl pb-12 mt-0 font-bold text-center sm:text-start">
-            Dashboard
-          </h2>
-          <div className="flex">
-            <div className="w-1/2">
+          <div className="sm:flex">
+            <div className="sm:w-1/2">
+              <h2 className="text-6xl font-grenze max-sm:text-center pb-12 font-bold text-center sm:text-start">
+                Dashboard
+              </h2>
               <Dropdown />
             </div>
-            <div className="w-1/2">
+            <div className="sm:w-1/2">
               <Tabs />
             </div>
           </div>
