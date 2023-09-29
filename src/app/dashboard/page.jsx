@@ -3,7 +3,7 @@
 import React from "react";
 import Tabs from "../components/Tabs/Tabs.jsx";
 import Dropdown from "../components/Dropdown/Dropdown.jsx";
-import "../components/Featbox/index.css";
+import "../components/Features/index.css";
 // import { Tabs, Tab } from "@nextui-org/react";
 
 export default function page() {

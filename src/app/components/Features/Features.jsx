@@ -2,7 +2,7 @@
 
 import React from "react";
 import logo_s from "../../../../public/logo_shade.svg";
-import Featbox from "../Featbox/Featbox";
+import "./index.css";
 
 export default function Features() {
   return (
@@ -13,33 +13,39 @@ export default function Features() {
             Features
           </h1>
           <div className="flex max-sm:flex-col justify-start gap-10">
-            {/* <div className="bg-white  w-64 h-96 text-black space-y-5 pt-10 p-5">
-              <h1 className="text-5xl text-start font-bold">1.</h1>
-              <p className="text-lg">
-                All the previous year questions compiled in a bundle so that
-                practice becomes easy and ever, and chances of getting commons
-                are extremely high.
-              </p>
+            <div className=" box w-64 h-96 text-black ">
+              <div className="tri"></div>
+              <div className="pl-8 pt-1 pr-6 space-y-5 ">
+                <h1 className="text-7xl text-start font-grenze font-bold">1.</h1>
+                <h3 className="text-lg text-[#171717]">
+                  All the previous year questions compiled in a bundle so that
+                  practice becomes easy and ever, and chances of getting commons are
+                  extremely high.
+                </h3>
+              </div>
             </div>
-            <div className="bg-white w-64 h-96 text-black space-y-5 pt-10 p-5">
-              <h1 className="text-5xl text-start font-bold">2.</h1>
-              <p className="text-lg">
-                The best YouTube tutorials that can help you one-shot each and
-                every concepts with ultimate ease, and make the last-night prep
-                easy af.
-              </p>
+            <div className=" box w-64 h-96 text-black ">
+              <div className="tri"></div>
+              <div className="pl-8 pt-1 pr-6 space-y-5 ">
+                <h1 className="text-7xl text-start font-grenze font-bold">2.</h1>
+                <h3 className="text-lg text-[#171717]">
+                  The best YouTube tutorials that can help you one-shot each and
+                  every concepts with ultimate ease, and make the last-night prep
+                  easy af.
+                </h3>
+              </div>
             </div>
-            <div className="bg-white w-64 h-96 text-black space-y-5 pt-10 p-5">
-              <h1 className="text-5xl text-start font-bold">3.</h1>
-              <p className="text-lg">
-                Classified Handwritten notes just for you guys, straight from
-                the toppers which will give you the ultimate edge at the
-                semester exam.
-              </p>
-            </div> */}
-            <Featbox />
-            <Featbox />
-            <Featbox />
+            <div className=" box w-64 h-96 text-black ">
+              <div className="tri"></div>
+              <div className="pl-8 pt-1 pr-6 space-y-5 ">
+                <h1 className="text-7xl text-start font-grenze font-bold">3.</h1>
+                <h3 className="text-lg text-[#171717]">
+                  Classified Handwritten notes just for you guys, straight from
+                  the toppers which will give you the ultimate edge at excelling the
+                  semester exam.
+                </h3>
+              </div>
+            </div>
           </div>
         </div>
         <div className="hidden sm:block">
