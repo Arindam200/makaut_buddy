@@ -6,8 +6,8 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="font-grenze w-full overflow-hidden sm:px-20 px-10 text-[#FFFFFF80] py-5 space-y-2 rounded-t-3xl bg-[#0E0E0E]">
-        <div className="sm:flex  sm:divide-x-2 max-sm:divide-y-2 divide-[#FFFFFF80] ">
+      <div className="font-sans w-full overflow-hidden sm:px-20 px-10 text-[#FFFFFF80] py-5 space-y-2 rounded-t-3xl bg-[#0E0E0E]">
+        <div className="sm:flex  sm:divide-x-2 max-sm:divide-y-2 divide-[#FFFFFF10] ">
           <div className="logo sm:pr-10">
             <Image
               src={logo}
@@ -21,11 +21,11 @@ export default function Footer() {
                 <h1 className="font-medium text-lg pb-2 text-white">
                   Swapnoneel Saha
                 </h1>
-                <li className="text-md max-sm:hidden">Website</li>
-                <li className="text-md max-sm:hidden">Github</li>
-                <li className="text-md max-sm:hidden">Blog</li>
-                <li className="text-md max-sm:hidden">Twitter</li>
-                <li className="text-md max-sm:hidden">LinkedIn</li>
+                <li className="text-md max-sm:hidden"><a href="https://swapnoneel.vercel.app">Website</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://github.com/Swpn0neel">GitHub</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://swapnoneel.hashnode.dev">Blogs</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://x.com/swapnoneel123">Twitter</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://www.linkedin.com/in/swapnoneel-saha-14a3161b6/">LinkedIn</a></li>
               </ul>
             </div>
             <div className="">
@@ -33,11 +33,11 @@ export default function Footer() {
                 <h1 className="font-medium text-lg pb-2 text-white">
                   Arindam Majumder
                 </h1>
-                <li className="text-md max-sm:hidden">Website</li>
-                <li className="text-md max-sm:hidden">Github</li>
-                <li className="text-md max-sm:hidden">Blog</li>
-                <li className="text-md max-sm:hidden">Twitter</li>
-                <li className="text-md max-sm:hidden">LinkedIn</li>
+                <li className="text-md max-sm:hidden"><a href="">Website</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://github.com/Arindam200">GitHub</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://arindam1729.hashnode.dev">Blogs</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://x.com/Arindam_1729">Twitter</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://www.linkedin.com/in/arindam-majumder-021bb623b/">LinkedIn</a></li>
               </ul>
             </div>
             <div className="">
@@ -45,18 +45,20 @@ export default function Footer() {
                 <h1 className="font-medium text-lg pb-2 text-white">
                   Samyabrata Maji
                 </h1>
-                <li className="text-md max-sm:hidden">Website</li>
-                <li className="text-md max-sm:hidden">Github</li>
-                <li className="text-md max-sm:hidden">Blog</li>
-                <li className="text-md max-sm:hidden">Twitter</li>
-                <li className="text-md max-sm:hidden">LinkedIn</li>
+                <li className="text-md max-sm:hidden"><a href="https://sammaji.pages.dev">Website</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://github.com/samyabrata-maji">GitHub</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://sammaji.hashnode.dev">Blogs</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://twitter.com/sammaji15">Twitter</a></li>
+                <li className="text-md max-sm:hidden"><a href="https://www.linkedin.com/in/samyabrata-maji/">LinkedIn</a></li>
               </ul>
             </div>
           </div>
         </div>
-        <p className="text-center max-sm:text-xs">
-          Created with love ❣ by Swapnoneel Saha, Arindam Majumder and
-          Samyabrata Maji
+        <p className="text-center text-[FFFFFF90] max-sm:text-xs">
+          Created with love ❤️ by
+          <a className="text-white ml-2" href="https://swapnoneel.vercel.app">Swapnoneel Saha</a> ,
+          <a className="text-white ml-2" href="">Arindam Majumder</a> and 
+          <a className="text-white ml-2" href="https://sammaji.pages.dev">Samyabrata Maji</a>
         </p>
       </div>
     </>
