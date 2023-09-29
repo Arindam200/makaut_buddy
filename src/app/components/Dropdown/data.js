@@ -1,10 +1,14 @@
 import React from "react";
 
-
 export const stream = [
   {
     label: "B.Tech CSE 1st Semester",
     value: "B.Tech CSE 1st Semester",
+    description: "",
+  },
+  {
+    label: "B.Tech CSE 2nd Semester",
+    value: "B.Tech CSE 2nd Semester",
     description: "",
   },
 ];

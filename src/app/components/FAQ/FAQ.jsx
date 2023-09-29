@@ -3,24 +3,28 @@ import React from "react";
 // import { Divider } from "@nextui-org/react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 export default function FAQ() {
+  const [selectedKeys, setSelectedKeys] = React.useState(new Set(["1"]));
   const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <>
-      <div className="font-grenze sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
+      <div className=" sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
         <div className="sm:w-1/2 flex items-center justify-start">
-          <div className="space-y-5 max-sm:px-10">
-            <h1 className="sm:text-5xl text-3xl max-sm:text-center font-bold">
+          <div className="space-y-5 max-sm:px-10 font-grenze">
+            <h1 className="sm:text-7xl text-5xl max-sm:text-center font-bold">
               FAQ
             </h1>
-            <h3 className="sm:text-xl text-sm max-sm:text-center">
+            <h3 className="sm:text-3xl text-lg max-sm:text-center">
               Frequently Asked Questions
             </h3>
           </div>
         </div>
 
         <div className="sm:w-1/2 w-full text-white">
-          <Accordion>
+          <Accordion
+            selectedKeys={selectedKeys}
+            onSelectionChange={setSelectedKeys}
+          >
             <AccordionItem
               className="text-white"
               key="1"

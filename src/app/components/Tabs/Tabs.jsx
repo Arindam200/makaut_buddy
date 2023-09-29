@@ -46,7 +46,7 @@ export default function App() {
   ];
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-2">
       <Tabs
         className="justify-center flex flex-col"
         size="lg"
@@ -56,21 +56,21 @@ export default function App() {
       >
         {tabs.map((tab) => (
           <Tab key={tab.key} title={tab.title}>
-            <Card className="min-h-[450px]">
+            <Card className="sm:min-h-[450px]">
               <CardBody className="space-y-5">
                 {tab.content.map((contentItem, index) => (
-                  <div className="flex gap-5" key={index}>
+                  <div className="sm:flex gap-5" key={index}>
                     <Image
                       isZoomed
-                      className="h-32 w-52"
+                      className="sm:h-32 h-full w-full sm:w-52"
                       alt="NextUI hero Image"
                       src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
                     />
-                    <div className="flex-col w-2/3 mt-5">
-                      <h3 className="text-xl font-semibold">
+                    <div className="flex-col sm:w-2/3 mt-3 sm:mt-5">
+                      <h3 className="text-xl  max-sm:text-center font-semibold">
                         {contentItem.heading}
                       </h3>
-                      <p className="text-sm w-full">
+                      <p className="text-sm w-full max-sm:mt-2">
                         {contentItem.description}
                       </p>
                     </div>

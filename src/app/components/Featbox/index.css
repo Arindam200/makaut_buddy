@@ -9,3 +9,16 @@
   border-right: 50px solid transparent;
   border-top: 50px solid#000;
 }
+.tridown {
+  width: 0;
+  height: 0;
+  border-right: 60px solid transparent;
+  border-top: 60px solid#000;
+}
+
+.trilarge {
+  width: 0;
+  height: 0;
+  border-right: 150px solid transparent;
+  border-top: 150px solid#000;
+}
