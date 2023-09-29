@@ -1,23 +1,19 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import { Button } from "@nextui-org/button";
-import logo from "../../../../public/Logo_Hero.png";
 import { motion } from "framer-motion";
 import ImgLeftLogo from "../../../../public/logo_components/left.png";
 import ImgRightLogo from "../../../../public/logo_components/right.png";
 import { useScroll, useTransform } from "framer-motion";
 
 export default function Hero() {
-  const { scrollY, scrollYProgress } = useScroll();
-  const scale = useTransform(scrollYProgress, [0, 1], [0.5, 2]);
+  const { scrollYProgress } = useScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 2]);
+  const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 2]);
   const rotate = useTransform(scrollYProgress, [0, 1], [0, -30]);
   const revRotate = useTransform(scrollYProgress, [0, 1], [0, 30]);
-
-  useEffect(() => {
-    console.log(scrollY);
-  }, [scrollY]);
 
   return (
     <>
@@ -60,8 +56,8 @@ export default function Hero() {
           <div className="grid grid-cols-2 justify-center items-end">
             <div>
               <motion.img
-                initial={{ translateX: "25%" }}
-                style={{ rotate }}
+                initial={{ translateX: "25%", opacity: 0.5 }}
+                style={{ rotate, scale, opacity }}
                 className="relative justify-end"
                 src={ImgLeftLogo.src}
               />
@@ -69,7 +65,7 @@ export default function Hero() {
             <div>
               <motion.img
                 initial={{ translateX: "-25%" }}
-                style={{ rotate: revRotate }}
+                style={{ rotate: revRotate, scale, opacity }}
                 className="relative justify-start items-end"
                 src={ImgRightLogo.src}
               />
