@@ -44,7 +44,7 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="sm:w-2/5 sm:mt-[70px]">
+        <div className="sm:w-2/5 sm:mt-[63px]">
           <img src={logo.src} />
         </div>
       </div>

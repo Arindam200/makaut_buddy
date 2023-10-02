@@ -16,7 +16,7 @@ import {
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Profile", "Dashboard", "Activity"];
+  const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
 
   return (
     <Navbar
@@ -46,7 +46,11 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="text-white text-lg" href="#" aria-current="page">
+          <Link
+            className="text-white text-lg"
+            href="#Features"
+            aria-current="page"
+          >
             Features
           </Link>
         </NavbarItem>
