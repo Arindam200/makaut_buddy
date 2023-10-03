@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Makaut_buddy
 
-First, run the development server:
+This project provides study material for college students. Where they can get videos,notes, and PYQ in one place for their semester exams.
+
+
+## Quick start
+1. Clone this repo using:
+```
+git clone https://github.com/Arindam200/makaut_buddy.git
+```
+2. To install dependencies and clean the git repo run:
+```
+npm install
+```
+###### or
+you can also use ```yarn install ``` for it
+
+3. For running the project we need to add .env file as we use some keys for the Clerk.
+
+
+
+
+
+
+## Environment Variables
+
+To run this project, you will need to add the .env file and add following environment variables 
+
+`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+
+`CLERK_SECRET_KEY`
+
+You can get this by going to the clerk:```https://clerk.com/```
+You need to log in to Clerk and then add the application. Then you will get both keys and paste them into the .env file.
+
+
+
+# Running the project
 
 ```bash
 npm run dev
@@ -14,11 +48,8 @@ pnpm dev
 bun dev
 ```
 
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
@@ -29,8 +60,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
