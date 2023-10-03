@@ -1,13 +1,13 @@
 "use client";
 
-import React from "react";
+import React, {forwardRef} from "react";
 import logo_s from "../../../../public/logo_shade.svg";
 import "./index.css";
 
-export default function Features() {
+const Features = forwardRef(function Features(props, ref) {
   return (
     <>
-      <div className="sm:px-32 flex relative px-16">
+      <div className="sm:px-32 flex relative px-16" ref={ref}>
         <div className="space-y-10 sm:py-20 pt-16">
           <h1 className="text-7xl max-sm:text-center font-bold font-grenze">
             Features
@@ -60,4 +60,6 @@ export default function Features() {
       </div>
     </>
   );
-}
+});
+
+export default Features

@@ -1,3 +1,6 @@
+"use client"
+
+import { useRef } from 'react'
 import Image from "next/image";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -7,12 +10,14 @@ import Footer from "./components/Footer/Footer";
 import Features from "./components/Features/Features";
 
 export default function Home() {
+  const featureRef = useRef();
+
   return (
     <>
-      <Navbar />
+      <Navbar featureRef={featureRef} />
       <Hero />
       <Stat />
-      <Features />
+      <Features ref={featureRef} />
       <FAQ />
       <Footer />
     </>
