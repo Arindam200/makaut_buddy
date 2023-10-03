@@ -4,6 +4,7 @@ import React from "react";
 import Tabs from "../components/Tabs/Tabs.jsx";
 import Dropdown from "../components/Dropdown/Dropdown.jsx";
 import Image from "next/image.js";
+import Arrow from "../../../public/Arrow.svg";
 import "../components/Features/index.css";
 // import { Tabs, Tab } from "@nextui-org/react";
 
