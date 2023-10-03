@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       className={`${inter.variable} ${grenze.variable} dark text-foreground`}
     >
       <body className={inter.className}>
-        <ClerkProvider>
+        <ClerkProvider publishablekey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}>
           <Providers>{children}</Providers>
         </ClerkProvider>
       </body>
