@@ -17,7 +17,6 @@ export default function page() {
         <Image 
           src={Arrow} 
           alt="back-arrow"
-          onClick={() => console.log("hi")}
           className="relative md:bottom-[6.75rem] md:w-10 lg:h-10 md:left-[15px] w-[1.5rem] h-[0.75rem] bottom-[2.75rem] left-[5px] cursor-pointer"
         />
       </a>
