@@ -63,3 +63,16 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Thanks to all Contributors 💪 
+
+Contributions are always welcome!
+
+Please adhere to this project's `code of conduct`.
+
+Thanks a lot for spending your time helping all-round-calculator grow. Thanks a lot! Keep rocking 🍻
+
+<a href="https://github.com/Arindam200/makaut_buddy/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Arindam200/makaut_buddy" />
+</a>
+
+
