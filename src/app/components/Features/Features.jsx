@@ -1,7 +1,7 @@
 "use client";
 
-import React, {forwardRef} from "react";
-import logo_s from "../../../../public/logo_shade.svg";
+import React, { forwardRef } from "react";
+import logo_s from "../../../../public/fixed_image_180.png";
 import "./index.css";
 
 const Features = forwardRef(function Features(props, ref) {
@@ -62,4 +62,4 @@ const Features = forwardRef(function Features(props, ref) {
   );
 });
 
-export default Features
+export default Features;

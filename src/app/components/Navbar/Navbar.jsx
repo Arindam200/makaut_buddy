@@ -13,14 +13,14 @@ import {
 } from "@nextui-org/react";
 // import { AcmeLogo } from "./AcmeLogo.jsx";
 
-export default function App({featureRef}) {
+export default function App({ featureRef }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
- 
+
   const handleFeatureClick = () => {
-    featureRef.current.scrollIntoView({ behavior: 'smooth' });
-  }
+    featureRef.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <Navbar
@@ -49,7 +49,7 @@ export default function App({featureRef}) {
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        <NavbarItem>
           <Link
             className="text-white text-lg"
             onClick={handleFeatureClick}
