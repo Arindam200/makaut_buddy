@@ -54,6 +54,7 @@ export default function App({ featureRef }) {
             className="text-white text-lg"
             onClick={handleFeatureClick}
             aria-current="page"
+            href="#"
           >
             Features
           </Link>
