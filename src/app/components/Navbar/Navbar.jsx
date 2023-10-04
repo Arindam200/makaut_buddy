@@ -1,26 +1,39 @@
 "use client";
-import React from "react";
+
 import {
+  Button,
+  Link,
   Navbar,
-  NavbarBrand,
-  NavbarMenuToggle,
   NavbarContent,
   NavbarItem,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
-  Button,
+  NavbarMenuToggle,
 } from "@nextui-org/react";
-// import { AcmeLogo } from "./AcmeLogo.jsx";
+import { useEffect, useState } from "react";
 
-export default function App({ featureRef }) {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
 
-  const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
+export default function App() {
+  const [activeMenu, setActiveMenu] = useState("");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleFeatureClick = () => {
-    featureRef.current.scrollIntoView({ behavior: "smooth" });
+  const handleActiveMenu = () => {
+    if (window.location.hash) {
+      const hash = window.location.hash.split("#")[1];
+      setActiveMenu(hash);
+    } else {
+      setActiveMenu("");
+    }
   };
+
+  useEffect(() => {
+    window.addEventListener("hashchange", handleActiveMenu, false);
+
+    return () => {
+      window.removeEventListener("hashchange", handleActiveMenu);
+    };
+  }, []);
 
   return (
     <Navbar
@@ -44,31 +57,25 @@ export default function App({ featureRef }) {
       ></NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
-        <NavbarItem className="text-white ">
-          <Link className="text-white text-lg" color="foreground" href="#">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-white text-lg"
-            onClick={handleFeatureClick}
-            aria-current="page"
-            href="#"
+        {menuItems.map((menu) => (
+          <NavbarItem
+            key={menu}
+            isActive={
+              menu === "Home"
+                ? activeMenu === ""
+                : activeMenu === menu.toLowerCase()
+            }
+            className="text-white "
           >
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-white text-lg" color="foreground" href="#">
-            Dashboard
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-white text-lg" color="foreground" href="#">
-            FAQ
-          </Link>
-        </NavbarItem>
+            <Link
+              className="text-white text-lg"
+              color="foreground"
+              href={`#${menu.toLowerCase()}`}
+            >
+              {menu}
+            </Link>
+          </NavbarItem>
+        ))}
       </NavbarContent>
 
       <NavbarContent justify="end">

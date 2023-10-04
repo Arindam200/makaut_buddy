@@ -4,10 +4,10 @@ import React, { forwardRef } from "react";
 import logo_s from "../../../../public/fixed_image_180.png";
 import "./index.css";
 
-const Features = forwardRef(function Features(props, ref) {
+const Features = () => {
   return (
     <>
-      <div className="sm:px-32 flex relative px-16" ref={ref}>
+      <div id="features" className="sm:px-32 flex relative px-16">
         <div className="space-y-10 sm:py-20 pt-16">
           <h1 className="text-7xl max-sm:text-center font-bold font-grenze">
             Features
@@ -60,6 +60,6 @@ const Features = forwardRef(function Features(props, ref) {
       </div>
     </>
   );
-});
+};
 
 export default Features;
