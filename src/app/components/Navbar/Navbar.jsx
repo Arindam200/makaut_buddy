@@ -57,25 +57,26 @@ export default function App() {
       ></NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
-        {menuItems.map((menu) => (
-          <NavbarItem
-            key={menu}
-            isActive={
-              menu === "Home"
-                ? activeMenu === ""
-                : activeMenu === menu.toLowerCase()
-            }
-            className="text-white "
-          >
-            <Link
-              className="text-white text-lg"
-              color="foreground"
-              href={`#${menu.toLowerCase()}`}
+        {menuItems.map((menu) => {
+          const isHome = menu === "Home";
+          return (
+            <NavbarItem
+              key={menu}
+              isActive={
+                isHome ? activeMenu === "" : activeMenu === menu.toLowerCase()
+              }
+              className="text-white "
             >
-              {menu}
-            </Link>
-          </NavbarItem>
-        ))}
+              <Link
+                className="text-white text-lg"
+                color="foreground"
+                href={isHome ? "#" : `#${menu.toLowerCase()}`}
+              >
+                {menu}
+              </Link>
+            </NavbarItem>
+          );
+        })}
       </NavbarContent>
 
       <NavbarContent justify="end">
