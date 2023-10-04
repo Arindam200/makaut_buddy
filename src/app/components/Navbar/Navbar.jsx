@@ -82,7 +82,7 @@ export default function App({ featureRef }) {
             color="white"
             variant="bordered"
             as={Link}
-            href="/login"
+            href="/join"
           >
             Sign In
           </Button>
