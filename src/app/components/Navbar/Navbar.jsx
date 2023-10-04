@@ -58,19 +58,21 @@ export default function App() {
 
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
         {menuItems.map((menu) => {
-          const isHome = menu === "Home";
+          const isHome = menu.toLowerCase() === "home";
           return (
             <NavbarItem
               key={menu}
               isActive={
-                isHome ? activeMenu === "" : activeMenu === menu.toLowerCase()
+                isHome
+                  ? activeMenu === ""
+                  : activeMenu === menu.toLowerCase().trim()
               }
               className="text-white "
             >
               <Link
                 className="text-white text-lg"
                 color="foreground"
-                href={isHome ? "#" : `#${menu.toLowerCase()}`}
+                href={isHome ? "#" : `#${menu.toLowerCase().trim()}`}
               >
                 {menu}
               </Link>
