@@ -11,7 +11,7 @@ export default function FAQ() {
   return (
     <>
       <div className=" sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
-        <div className="sm:w-1/2 flex items-center justify-start">
+        <div className="sm:w-1/2 flex items-center justify-start self-start pt-20 pl-10">
           <div className="space-y-5 max-sm:px-10 font-grenze">
             <h1 className="sm:text-7xl text-5xl max-sm:text-center font-bold">
               FAQ
