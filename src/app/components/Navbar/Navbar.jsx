@@ -97,7 +97,7 @@ export default function App({ featureRef }) {
             as={Link}
             href="/join"
           >
-            Sign In
+            Sign Up
           </Button>
         </NavbarItem>
       </NavbarContent>
