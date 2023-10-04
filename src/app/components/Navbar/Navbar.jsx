@@ -84,7 +84,7 @@ export default function App({ featureRef }) {
             as={Link}
             href="/login"
           >
-            Sign Up
+            Sign In
           </Button>
         </NavbarItem>
         <NavbarItem>
@@ -97,7 +97,7 @@ export default function App({ featureRef }) {
             as={Link}
             href="/login"
           >
-            Sign Up
+            Sign In
           </Button>
         </NavbarItem>
       </NavbarContent>
