@@ -82,9 +82,9 @@ export default function App({ featureRef }) {
             color="white"
             variant="bordered"
             as={Link}
-            href="/login"
+            href="/join"
           >
-            Sign Up
+            Sign up
           </Button>
         </NavbarItem>
         <NavbarItem>
@@ -95,7 +95,7 @@ export default function App({ featureRef }) {
             color="white"
             variant="bordered"
             as={Link}
-            href="/login"
+            href="/join"
           >
             Sign Up
           </Button>
