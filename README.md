@@ -1,7 +1,10 @@
 
 # Makaut_buddy
 
-This project provides study material for college students. Where they can get videos,notes, and PYQ in one place for their semester exams.
+This project provides study material for college students. Where they can get videos, notes, and PYQ in one place for their semester exams.
+
+![image](https://github.com/Arindam200/makaut_buddy/assets/109217591/5872b26b-6005-4c99-b37f-7f5de997d8e1)
+
 
 
 ## Quick start
