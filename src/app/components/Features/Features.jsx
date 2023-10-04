@@ -55,7 +55,7 @@ const Features = forwardRef(function Features(props, ref) {
           </div>
         </div>
         <div className="hidden sm:block relative mr-5">
-          <img src={logo_s.src} className="-z-50 w-[500px] ml-[100px]"/>
+          <img src={logo_s.src} className="-z-50 w-[490px] ml-[105px]"/>
         </div>
       </div>
     </>
