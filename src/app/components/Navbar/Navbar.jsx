@@ -1,26 +1,39 @@
 "use client";
-import React from "react";
+
 import {
+  Button,
+  Link,
   Navbar,
-  NavbarBrand,
-  NavbarMenuToggle,
   NavbarContent,
   NavbarItem,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
-  Button,
+  NavbarMenuToggle,
 } from "@nextui-org/react";
-// import { AcmeLogo } from "./AcmeLogo.jsx";
+import { useEffect, useState } from "react";
 
-export default function App({ featureRef }) {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
 
-  const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
+export default function App() {
+  const [activeMenu, setActiveMenu] = useState("");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleFeatureClick = () => {
-    featureRef.current.scrollIntoView({ behavior: "smooth" });
+  const handleActiveMenu = () => {
+    if (window.location.hash) {
+      const hash = window.location.hash.split("#")[1];
+      setActiveMenu(hash);
+    } else {
+      setActiveMenu("");
+    }
   };
+
+  useEffect(() => {
+    window.addEventListener("hashchange", handleActiveMenu, false);
+
+    return () => {
+      window.removeEventListener("hashchange", handleActiveMenu);
+    };
+  }, []);
 
   return (
     <Navbar
@@ -44,37 +57,31 @@ export default function App({ featureRef }) {
       ></NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
-        <NavbarItem className="text-white ">
-          <Link className="text-white text-lg" color="foreground" href="#">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-white text-lg"
-            onClick={handleFeatureClick}
-            aria-current="page"
-            href="#"
-          >
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-white text-lg" color="foreground" href="#">
-            Dashboard
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-white text-lg" color="foreground" href="#">
-            FAQ
-          </Link>
-        </NavbarItem>
+        {menuItems.map((menu) => {
+          const isHome = menu.toLowerCase() === "home";
+          return (
+            <NavbarItem
+              key={menu}
+              isActive={
+                isHome
+                  ? activeMenu === ""
+                  : activeMenu === menu.trim().toLowerCase()
+              }
+              className="text-white "
+            >
+              <Link
+                className="text-white text-lg"
+                color="foreground"
+                href={isHome ? "#" : `#${menu.toLowerCase().trim()}`}
+              >
+                {menu}
+              </Link>
+            </NavbarItem>
+          );
+        })}
       </NavbarContent>
 
       <NavbarContent justify="end">
-        {/* <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem> */}
         <NavbarItem>
           <Button
             radius="sm"
@@ -104,24 +111,31 @@ export default function App({ featureRef }) {
       </NavbarContent>
 
       <NavbarMenu className="">
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              className="w-full text-white"
-              color={
-                index === 2
-                  ? "warning"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
-              href="#"
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
+        {menuItems.map((item, index) => {
+          const isHome = item.toLowerCase() === "home";
+          const isActive = isHome
+            ? activeMenu === ""
+            : activeMenu === item.trim().toLowerCase();
+          return (
+            <NavbarMenuItem key={`${item}-${index}`}>
+              <Link
+                className={`w-full ${isActive && "font-bold"}`}
+                color={
+                  index === 2
+                    ? "warning"
+                    : index === menuItems.length - 1
+                    ? "danger"
+                    : "foreground"
+                }
+                href={isHome ? "#" : `#${item.toLowerCase().trim()}`}
+                onClick={() => setIsMenuOpen(false)}
+                size="lg"
+              >
+                {item}
+              </Link>
+            </NavbarMenuItem>
+          );
+        })}
       </NavbarMenu>
     </Navbar>
   );
