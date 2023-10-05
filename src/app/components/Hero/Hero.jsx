@@ -50,7 +50,7 @@ export default function Hero() {
           <img
             alt="makaut buddy company logo"
             src={logo.src}
-            className="mt-[120px]"
+            className="2xl:mt-[120px] "
           />
         </div>
       </div>

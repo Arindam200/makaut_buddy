@@ -55,7 +55,7 @@ const Features = () => {
           </div>
         </div>
         <div className="hidden sm:block relative mr-5">
-          <img src={logo_s.src} className="-z-50 w-[490px] ml-[105px]"/>
+          <img src={logo_s.src} className="-z-50 w-[490px] 2xl:ml-[105px]" />
         </div>
       </div>
     </>
