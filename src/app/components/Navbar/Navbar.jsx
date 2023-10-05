@@ -65,7 +65,7 @@ export default function App() {
               isActive={
                 isHome
                   ? activeMenu === ""
-                  : activeMenu === menu.toLowerCase().trim()
+                  : activeMenu === menu.trim().toLowerCase()
               }
               className="text-white "
             >
@@ -115,7 +115,7 @@ export default function App() {
           const isHome = item.toLowerCase() === "home";
           const isActive = isHome
             ? activeMenu === ""
-            : activeMenu === item.toLowerCase().trim();
+            : activeMenu === item.trim().toLowerCase();
           return (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
