@@ -20,6 +20,9 @@ module.exports = {
         sans: ["var(--font-inter)"],
         grenze: ["var(--font-grenze)"],
       },
+      height: {
+        '540px': '540px',
+      }
     },
   },
   darkMode: "class",

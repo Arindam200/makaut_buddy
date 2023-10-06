@@ -18,7 +18,7 @@ export default function FAQ() {
     <>
       <div
         id="faq"
-        className=" sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10"
+        className=" sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10 h-540px"
       >
         <div className="sm:w-1/2 flex items-center justify-start">
           <div className="space-y-5 max-sm:px-10 font-grenze">
