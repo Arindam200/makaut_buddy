@@ -1,7 +1,8 @@
 .box {
   /* height: 150px;
   width: 100px; */
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
+  background-color: black;
 }
 .tri {
   width: 0;
@@ -21,4 +22,8 @@
   height: 0;
   border-right: 150px solid transparent;
   border-top: 150px solid#000;
+}
+
+.border{
+  border-top:3px solid #000;
 }

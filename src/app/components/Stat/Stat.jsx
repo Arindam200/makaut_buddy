@@ -8,9 +8,10 @@ export default function Stat() {
     { label: "Handwritten Notes", value: "15+" },
   ];
 
+  //bg-gradient-to-b from-blue-500 to-purple-500
   return (
-    <div className=" sm:px-32 bg-[#D9D9D9]">
-      <div className="sm:h-40 h-28 text-[#171717] flex p-10 justify-around">
+    <div className=" sm:px-32 bg-black">
+      <div className="sm:h-40 h-28 text-white flex p-10 justify-around ">
         {stats.map((stat, index) => (
           <div key={index}>
             <h1 className="sm:text-8xl -mt-7 align-middle items-center self-center font-grenze text-4xl text-center font-bold">
