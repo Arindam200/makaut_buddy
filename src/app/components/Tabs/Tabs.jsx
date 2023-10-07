@@ -8,15 +8,12 @@ import Data from './Data';
 
 export default function App() {
   const [selected, setSelected] = useState('photos');
-
   const tabss = [
     { key: 'photos', title: 'PYQs' },
     { key: 'music', title: 'Video Tutorials' },
     { key: 'videos', title: 'Notes' },
   ];
-
   const tabs = Data();
-
   return (
     <div className="flex flex-col gap-2 ">
       <Tabs
