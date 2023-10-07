@@ -7,8 +7,8 @@ const Notes = ({ data }) => {
     <div>
       {data &&
         data.map(({ key, heading, description, link }) => (
-          <div className="sm:flex gap-5" key={key}>
-            <a href={link} target="_blank">
+          <div  key={key}>
+            <a href={link} className="sm:flex gap-5" target="_blank">
               <Image
                 isZoomed
                 className="sm:h-32 h-full w-full sm:w-52"
