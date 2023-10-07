@@ -1,14 +1,12 @@
 'use client';
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { Tabs, Tab, Card, CardBody } from '@nextui-org/react';
 import Videos from '../Video/Video';
 import PYQ from '../PYQ/Pyq';
 import Notes from '../Notes/Notes';
-import DataContext from '@/app/Context/DataContext';
 import Data from './Data';
 
 export default function App() {
-  const getData = useContext(DataContext);
   const [selected, setSelected] = useState('photos');
 
   const tabss = [
