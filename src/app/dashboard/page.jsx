@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
-import React from 'react'
-import Tabs from '../components/Tabs/Tabs.jsx'
-import Dropdown from '../components/Dropdown/Dropdown.jsx'
-import Image from 'next/image.js'
-import Arrow from '../../../public/Arrow.svg'
-import '../components/Features/index.css'
+import React from "react";
+import Tabs from "../components/Tabs/Tabs.jsx";
+import Dropdown from "../components/Dropdown/Dropdown.jsx";
+import Image from "next/image.js";
+import Arrow from "../../../public/Arrow.svg";
+import "../components/Features/index.css";
 // import { Tabs, Tab } from "@nextui-org/react";
 
 export default function page() {
@@ -21,7 +21,7 @@ export default function page() {
         />
       </a>
       <div className=" flex items-center justify-center sm:justify-between px-10 sm:px-40 gap-16">
-        <div className="">
+        <div className="w-full">
           <div className="sm:flex">
             <div className="sm:w-1/2">
               <h2 className="text-6xl font-grenze max-sm:text-center pb-12 font-bold text-center sm:text-start">
@@ -36,7 +36,7 @@ export default function page() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 // <div>

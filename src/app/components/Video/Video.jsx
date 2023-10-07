@@ -1,14 +1,14 @@
-'use client';
-import React from 'react';
-import { Image } from '@nextui-org/react';
+"use client";
+import React from "react";
+import { Image } from "@nextui-org/react";
 
 const Video = ({ data }) => {
   return (
-    <div>
+    <>
       {data &&
         data.map(({ key, heading, description, link }) => (
-          <div className="sm:flex gap-5" key={key}>
-            <a href={link} target="_blank">
+          <div className="" key={key}>
+            <a href={link} className="sm:flex gap-5" target="_blank">
               <Image
                 isZoomed
                 className="sm:h-32 h-full w-full sm:w-52"
@@ -24,7 +24,7 @@ const Video = ({ data }) => {
             </a>
           </div>
         ))}
-    </div>
+    </>
   );
 };
 
