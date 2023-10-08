@@ -10,25 +10,29 @@ const Data = () => {
           {
             key: 1,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 2,
             heading: "Unitary Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/3nafrDiN0gU?si=OwRhRtzVqLtxMySv",
           },
           {
             key: 3,
             heading: "Linear Form of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
           },
           {
             key: 4,
             heading: "Taylor Series",
-            description: " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
+            description:
+              " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
             link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
           },
         ],
@@ -36,49 +40,45 @@ const Data = () => {
           {
             key: 1,
             heading: "Mathematics-I 2021",
-            description: "Mathematics-I 2021 question paper of MAKAUT in-house batch",
+            description:
+              "Mathematics-I 2021 question paper of MAKAUT in-house batch",
           },
         ],
         notes: [
           {
             key: 1,
             heading: "Matrix Practice Problems",
-            description: "Matrix Problems involving unitary matrix, rank of a matrix, orthogonal matrix, Trace of a matrix, etc.",
+            description:
+              "Matrix Problems involving unitary matrix, rank of a matrix, orthogonal matrix, Trace of a matrix, etc.",
           },
         ],
       },
-      getData.sub == "Electrical & Digital Electronics" &&
+    getData.sub == "Electrical & Digital Electronics" &&
       getData.year == "B.Tech CSE 1st Semester" && {
         video: [
           {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+            heading:
+              "Understand and analyze basic electric and magnetic circuits",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            link: "https://www.youtube.com/watch?v=UdaDs-zKfsA",
           },
           {
             key: 2,
-            heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+            heading:
+              "Study the working principles of electrical machines and power converters.",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            link: "https://youtu.be/j_4jvMwIla0?si=ue3tTdmOsEZrd1ai",
           },
           {
             key: 3,
-            heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 4,
-            heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 5,
-            heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+            heading:
+              "Introduce the components of low voltage electrical installations",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            link: "https://youtu.be/2_deQIpxNkQ?si=qfU5fReEKM5_Etjb",
           },
         ],
         pyq: [
@@ -96,37 +96,42 @@ const Data = () => {
           },
         ],
       },
-      getData.sub == "Engineering Drawing" &&
+    getData.sub == "Engineering Drawing" &&
       getData.year == "B.Tech CSE 1st Semester" && {
         video: [
           {
             key: 1,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 2,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 3,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 4,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 5,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
         ],
@@ -151,31 +156,36 @@ const Data = () => {
           {
             key: 1,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 2,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 3,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 4,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
           {
             key: 5,
             heading: "Rank & Inverse of Matrix",
-            description: "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
+            description:
+              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
         ],
