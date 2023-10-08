@@ -10,7 +10,6 @@ import Stat from "./components/Stat/Stat";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Stat />
       <Features />
