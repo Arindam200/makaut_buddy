@@ -81,9 +81,17 @@ const Data = () => {
             link: "https://youtu.be/2_deQIpxNkQ?si=qfU5fReEKM5_Etjb",
           },
           {
+            key: 4,
+            heading:
+              "All about Forward Bias",
+            description:
+              "In forward bias, the p-type(anode) of the semiconductor is connected to the positive end, and the n-type(cathode) is connected to the negative end of the battery.",
+            link: "https://youtu.be/icrAf1us2IQ?si=t1Sm6NJFaQ72t6AA",
+          },
+          {
             key: 5,
             heading:
-              " All about  reverse bias ",
+              " All about Reverse bias ",
             description:
               "The backward diode is a special form of tunnel diode in which the tunneling phenomenon is only incipient, and the negative resistance region virtually disappears",
             link: "https://youtu.be/u_8b4GAUWCg?si=tVdWEuqno9ddsw5h",
