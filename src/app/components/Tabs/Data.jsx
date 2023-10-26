@@ -80,6 +80,16 @@ const Data = () => {
               "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://youtu.be/2_deQIpxNkQ?si=qfU5fReEKM5_Etjb",
           },
+          {
+            key:6,
+            heading:
+            " All about Ideal Diode (First Approximation of PN junction Diode) Basic Electronics",
+            description:
+            "An ideal diode means a perfect diode which has all properties in their perfect sense without any flaws",
+          link:
+          "https://www.youtube.com/watch?v=W_4rBZdd41Q&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=5",
+          }
+
         ],
         pyq: [
           {
