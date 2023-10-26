@@ -80,6 +80,35 @@ const Data = () => {
               "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://youtu.be/2_deQIpxNkQ?si=qfU5fReEKM5_Etjb",
           },
+
+          {
+
+
+            key: 4,
+            heading:
+              "All about Forward Bias",
+            description:
+              "In forward bias, the p-type(anode) of the semiconductor is connected to the positive end, and the n-type(cathode) is connected to the negative end of the battery.",
+            link: "https://youtu.be/icrAf1us2IQ?si=t1Sm6NJFaQ72t6AA",
+          },
+          {
+            key: 5,
+            heading:
+              " All about Reverse bias ",
+            description:
+              "The backward diode is a special form of tunnel diode in which the tunneling phenomenon is only incipient, and the negative resistance region virtually disappears",
+            link: "https://youtu.be/u_8b4GAUWCg?si=tVdWEuqno9ddsw5h",
+          },
+              {
+           
+            key:6,
+            heading:
+            " All about Ideal Diode (First Approximation of PN junction Diode) Basic Electronics",
+            description:
+            "An ideal diode means a perfect diode which has all properties in their perfect sense without any flaws",
+          link:
+          "https://www.youtube.com/watch?v=W_4rBZdd41Q&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=5",}
+         
         ],
         pyq: [
           {
