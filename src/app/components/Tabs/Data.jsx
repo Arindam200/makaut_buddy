@@ -80,6 +80,14 @@ const Data = () => {
               "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://youtu.be/2_deQIpxNkQ?si=qfU5fReEKM5_Etjb",
           },
+          {
+            key: 5,
+            heading:
+              " All about  reverse bias ",
+            description:
+              "The backward diode is a special form of tunnel diode in which the tunneling phenomenon is only incipient, and the negative resistance region virtually disappears",
+            link: "https://youtu.be/u_8b4GAUWCg?si=tVdWEuqno9ddsw5h",
+          },
         ],
         pyq: [
           {
