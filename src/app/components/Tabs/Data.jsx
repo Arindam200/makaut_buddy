@@ -80,6 +80,14 @@ const Data = () => {
               "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://youtu.be/2_deQIpxNkQ?si=qfU5fReEKM5_Etjb",
           },
+          {
+            key: 4,
+            heading:
+              "All about Forward Bias",
+            description:
+              "In forward bias, the p-type(anode) of the semiconductor is connected to the positive end, and the n-type(cathode) is connected to the negative end of the battery.",
+            link: "https://youtu.be/icrAf1us2IQ?si=t1Sm6NJFaQ72t6AA",
+          },
         ],
         pyq: [
           {
