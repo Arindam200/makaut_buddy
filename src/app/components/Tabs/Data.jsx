@@ -108,8 +108,17 @@ const Data = () => {
             "An ideal diode means a perfect diode which has all properties in their perfect sense without any flaws",
           link:
           "https://www.youtube.com/watch?v=W_4rBZdd41Q&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=5",}
+          ,{
+            key:7,
+            heading:"Photo Diode (Construction & Working) Special Purpose Diodes (Basic Electronics)",
+            description:"A photodiode is a light-sensitive semiconductor diode.It produces current when it absorbs photons.",
+            link:"https://www.youtube.com/watch?v=BZLOGi3t740&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=36",
+          }
          
         ],
+      
+
+        
         pyq: [
           {
             key: 1,
@@ -217,6 +226,8 @@ const Data = () => {
               "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
             link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
           },
+          
+          
         ],
         pyq: [
           {
