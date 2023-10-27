@@ -35,6 +35,20 @@ const Data = () => {
               " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
             link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
           },
+          {
+            key: 7,
+            heading: "Properties of Matrices",
+            description:
+              " What is Adjoint matrix? What is Inverse of a matrix? What are symmetric, skew-symmetric and orthogonal matrices?? ",
+            link: "https://www.youtube.com/watch?v=HyaeoGZyX10&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=3",
+          },
+          {
+            key: 8,
+            heading: "Rank of a matrix using Elementary Operations",
+            description:
+              " What is Rank of a matrix ?? How to calculate it ?? Calculation of Rank using Elementary transformation.",
+            link: "https://youtu.be/p5rBJj5CKCg?si=pPXTxicqYATGcOGQ",
+          },
         ],
         pyq: [
           {
