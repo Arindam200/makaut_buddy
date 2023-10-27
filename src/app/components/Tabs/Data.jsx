@@ -107,7 +107,16 @@ const Data = () => {
             description:
             "An ideal diode means a perfect diode which has all properties in their perfect sense without any flaws",
           link:
-          "https://www.youtube.com/watch?v=W_4rBZdd41Q&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=5",}
+          "https://www.youtube.com/watch?v=W_4rBZdd41Q&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=5",},
+          {
+            key:8,
+            heading:
+            " All about Zener Diode",
+            description:
+            "Zener diodes are semiconductor devices that allow current to flow in both directions but specialize in current flowing in reverse. Also known as breakdown diodes.",
+          link:
+          "https://youtu.be/qVwEVXf3CBQ?si=Go_1C_oDuR-9z1Z2",},
+          
          
         ],
         pyq: [
