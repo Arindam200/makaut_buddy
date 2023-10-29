@@ -49,10 +49,7 @@ const Data = () => {
             "Numericals on Determinants, Types of Matrices and Multiplication of Matrices & its properties ",
             link: "https://www.youtube.com/watch?v=OWykXurjpFU&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=2"
           },
-          {
-            key: 7,
-            heading: "Matrices 3"
-          }
+          
 
         ],
         pyq: [
