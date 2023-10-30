@@ -153,6 +153,16 @@ const Data = () => {
             "Zener diodes are semiconductor devices that allow current to flow in both directions but specialize in current flowing in reverse. Also known as breakdown diodes.",
           link:
           "https://youtu.be/qVwEVXf3CBQ?si=Go_1C_oDuR-9z1Z2",},
+          {
+            key:9,
+            heading:
+            " characteristics of PN junction Diode (Diode thory & applications)",
+            description:
+            "PN junction diode has the ability to rectify electric current. It can create a potential barrier and make use of its capacitance properties. PN junction creates various nonlinear current-voltage characteristics in the semiconductor diode",
+          link:
+          "https://youtu.be/7ITiehTTh-o?si=biSt8YIpolzsHOAy",},
+          
+
          
         ],
       
