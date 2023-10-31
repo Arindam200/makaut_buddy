@@ -35,6 +35,7 @@ const Data = () => {
               " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
             link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
           },
+          
         ],
         pyq: [
           {
@@ -183,10 +184,17 @@ const Data = () => {
           },
           {
             key: 5,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Quasistatic Process",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "It is a process that happens at an infinitesimally slow rate",
+            link: "https://youtu.be/GDI2bVji2DU?si=_99WJldAUUnFlHJw",
+          },
+          {
+            key: 6,
+            heading: "Thermodynamic Equilibrium",
+            description:
+              " the state in which two objects connected by a permeable barrier don't have any heat transfer between them",
+            link: " https://youtu.be/LH40zR2EPmQ?si=VgrWa_xY8H3dxadr",
           },
         ],
         pyq: [
