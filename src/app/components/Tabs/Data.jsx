@@ -169,17 +169,17 @@ const Data = () => {
           },
           {
             key: 3,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Thermodynamic Properties and Process",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "some basic concepts related to thermodynamic properties and thermodynamic processes",
+            link: "https://youtu.be/ke1Qfc5SnnE?si=ykhgrV2mZq01uVlO",
           },
           {
             key: 4,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Different Types Of Thermodynamic Process",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              " different types of thermodynamic processes on the basis of pressure, temperature and volume.",
+            link: "https://youtu.be/llJd3XcboBo?si=VuMuCeww1ky1kPKW",
           },
           {
             key: 5,
