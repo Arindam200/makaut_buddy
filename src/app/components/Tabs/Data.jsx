@@ -243,9 +243,23 @@ const Data = () => {
             heading: "Thermodynamic Systems",
             description:
              "A thermodynamic system is defined as a quantity of matter or a region in space that is of interest.",
-            link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t", 
+            link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t",
           },
-
+          {
+            key: 3,
+            heading: "Thermodynamic Properties and Process",
+            description:
+              "some basic concepts related to thermodynamic properties and thermodynamic processes.",
+            link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
+          },
+          
+          {
+            key: 4,
+            heading: "Different Types Of Thermodynamic Process",
+            description:
+              "different types of thermodynamic processes on the basis of pressure, temperature and volume.",
+            link: "https://youtu.be/llJd3XcboBo?si=hew8qTo8OXmSzY_N",
+          }, 
           {
             key: 5,
             heading: "Quasistatic Process ",
@@ -260,7 +274,7 @@ const Data = () => {
               "the properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
             link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
           },
-         
+        
           
           
         ],
