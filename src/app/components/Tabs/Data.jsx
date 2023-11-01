@@ -232,39 +232,20 @@ const Data = () => {
         video: [
           {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Thermodynamics",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
+            link: "https://youtu.be/72JId0JrNKU?si=0dg-9XcP_KkAG3K2",
           },
           {
             key: 2,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Thermodynamic Systems",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+             "A thermodynamic system is defined as a quantity of matter or a region in space that is of interest.",
+            link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t", 
           },
-          {
-            key: 3,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 4,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 5,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
+
+             
           
           
         ],
