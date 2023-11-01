@@ -234,47 +234,20 @@ const Data = () => {
       getData.year == "B.Tech CSE 1st Semester" && {
         video: [
           {
-            key: 1,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 2,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 3,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 4,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
             key: 5,
-            heading: "Quasistatic Process",
+            heading: "Quasistatic Process ",
             description:
-              "It is a process that happens at an infinitesimally slow rate",
-            link: "https://youtu.be/GDI2bVji2DU?si=_99WJldAUUnFlHJw",
+              "some basic concepts related to quasistatic process.",
+            link: "https://youtu.be/GDI2bVji2DU?si=b1zf42vOnFxZB-UV",
           },
           {
             key: 6,
-            heading: "Thermodynamic Equilibrium",
+            heading: "Thermodynamic Equilibrium ",
             description:
-              " the state in which two objects connected by a permeable barrier don't have any heat transfer between them",
-            link: " https://youtu.be/LH40zR2EPmQ?si=VgrWa_xY8H3dxadr",
+              "the properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
+            link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
           },
+         
           
           
         ],
