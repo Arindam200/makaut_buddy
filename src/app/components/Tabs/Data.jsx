@@ -231,40 +231,19 @@ const Data = () => {
       getData.year == "B.Tech CSE 1st Semester" && {
         video: [
           {
-            key: 1,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 2,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
             key: 3,
             heading: "Thermodynamic Properties and Process",
             description:
-              "some basic concepts related to thermodynamic properties and thermodynamic processes",
-            link: "https://youtu.be/ke1Qfc5SnnE?si=ykhgrV2mZq01uVlO",
+              "some basic concepts related to thermodynamic properties and thermodynamic processes.",
+            link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
           },
           {
             key: 4,
             heading: "Different Types Of Thermodynamic Process",
             description:
-              " different types of thermodynamic processes on the basis of pressure, temperature and volume.",
-            link: "https://youtu.be/llJd3XcboBo?si=VuMuCeww1ky1kPKW",
-          },
-          {
-            key: 5,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
+              "different types of thermodynamic processes on the basis of pressure, temperature and volume.",
+            link: "https://youtu.be/llJd3XcboBo?si=hew8qTo8OXmSzY_N",
+          }, 
           
           
         ],
