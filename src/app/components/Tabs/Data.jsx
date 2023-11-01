@@ -153,6 +153,14 @@ const Data = () => {
             "Zener diodes are semiconductor devices that allow current to flow in both directions but specialize in current flowing in reverse. Also known as breakdown diodes.",
           link:
           "https://youtu.be/qVwEVXf3CBQ?si=Go_1C_oDuR-9z1Z2",},
+          {
+            key:10,
+            heading:
+            "All about half wave rectifier",
+            description:
+            "A half-wave rectifier converts an AC signal to DC by passing either the negative or positive half-cycle of the waveform and blocking the other. ",
+          link:
+          "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
          
         ],
       
