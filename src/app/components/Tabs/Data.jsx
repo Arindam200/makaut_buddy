@@ -35,8 +35,7 @@ const Data = () => {
               " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
             link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
           },
-<<<<<<< HEAD
-=======
+
           {
             key: 5,
             heading: "Matrices 1",
@@ -65,7 +64,6 @@ const Data = () => {
               " What is Rank of a matrix ?? How to calculate it ?? Calculation of Rank using Elementary transformation.",
             link: "https://youtu.be/p5rBJj5CKCg?si=pPXTxicqYATGcOGQ",
           },
->>>>>>> 65dad187b0499331834635b841ddf644a074758a
           
         ],
         pyq: [
@@ -233,6 +231,21 @@ const Data = () => {
     getData.sub == "Chemistry" &&
       getData.year == "B.Tech CSE 1st Semester" && {
         video: [
+          {
+            key: 1,
+            heading: "Introduction to Thermodynamics",
+            description:
+              "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
+            link: "https://youtu.be/72JId0JrNKU?si=0dg-9XcP_KkAG3K2",
+          },
+          {
+            key: 2,
+            heading: "Thermodynamic Systems",
+            description:
+             "A thermodynamic system is defined as a quantity of matter or a region in space that is of interest.",
+            link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t", 
+          },
+
           {
             key: 5,
             heading: "Quasistatic Process ",
