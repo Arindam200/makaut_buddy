@@ -35,6 +35,7 @@ const Data = () => {
               " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
             link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
           },
+
           {
             key: 5,
             heading: "Matrices 1",
@@ -245,7 +246,21 @@ const Data = () => {
             link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t", 
           },
 
-             
+          {
+            key: 5,
+            heading: "Quasistatic Process ",
+            description:
+              "some basic concepts related to quasistatic process.",
+            link: "https://youtu.be/GDI2bVji2DU?si=b1zf42vOnFxZB-UV",
+          },
+          {
+            key: 6,
+            heading: "Thermodynamic Equilibrium ",
+            description:
+              "the properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
+            link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
+          },
+         
           
           
         ],
