@@ -153,7 +153,7 @@ const Data = () => {
             "Zener diodes are semiconductor devices that allow current to flow in both directions but specialize in current flowing in reverse. Also known as breakdown diodes.",
           link:
           "https://youtu.be/qVwEVXf3CBQ?si=Go_1C_oDuR-9z1Z2",},
-          {
+          { 
             key:9,
             heading:
             " characteristics of PN junction Diode (Diode thory & applications)",
@@ -161,10 +161,16 @@ const Data = () => {
             "PN junction diode has the ability to rectify electric current. It can create a potential barrier and make use of its capacitance properties. PN junction creates various nonlinear current-voltage characteristics in the semiconductor diode",
           link:
           "https://youtu.be/7ITiehTTh-o?si=biSt8YIpolzsHOAy",},
-          
+          {
+            key:10,
+            heading:
+            "All about half wave rectifier",
+            description:
+            "A half-wave rectifier converts an AC signal to DC by passing either the negative or positive half-cycle of the waveform and blocking the other. ",
+          link:
+          "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
 
-         
-        ],
+            ],
       
 
         
