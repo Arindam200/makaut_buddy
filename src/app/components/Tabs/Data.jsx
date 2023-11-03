@@ -158,7 +158,7 @@ const Data = () => {
             heading:
             " characteristics of PN junction Diode (Diode thory & applications)",
             description:
-            "PN junction diode has the ability to rectify electric current. It can create a potential barrier and make use of its capacitance properties. PN junction creates various nonlinear current-voltage characteristics in the semiconductor diode",
+            "PN junction diode has the ability to rectify electric current. It can create a potential barrier and make use of its capacitance properties. ",
           link:
           "https://youtu.be/7ITiehTTh-o?si=biSt8YIpolzsHOAy",},
           {
