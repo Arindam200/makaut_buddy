@@ -12,9 +12,7 @@ html {
   --background-end-rgb: 255, 255, 255;
 }
 
-.cl-internal-1lyyxjq {
-  display: none;
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
