@@ -9,61 +9,60 @@ const Data = () => {
         video: [
           {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 2,
-            heading: "Unitary Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/3nafrDiN0gU?si=OwRhRtzVqLtxMySv",
-          },
-          {
-            key: 3,
-            heading: "Linear Form of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
-          },
-          {
-            key: 4,
-            heading: "Taylor Series",
-            description:
-              " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
-            link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
-          },
-          {
-            key: 5,
-            heading: "Matrices 1",
+            heading: "Introduction to Matrices 1",
             description:
               " What is matix?, How to calculate Determinants?,Types of Determinants, Minor & Cofactors, and Properties of Determinants",
             link: "https://www.youtube.com/watch?v=b-UZJVdLbXc&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=1",
           },
           {
-            key: 6,
-            heading: "Matrices 2",
+            key: 2,
+            heading: "Introduction to Matrices 2",
             description:
             "Numericals on Determinants, Types of Matrices and Multiplication of Matrices & its properties ",
             link: "https://www.youtube.com/watch?v=OWykXurjpFU&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=2"
           },
           {
-            key: 7,
+            key: 3,
             heading: "Properties of Matrices",
             description:
               " What is Adjoint matrix? What is Inverse of a matrix? What are symmetric, skew-symmetric and orthogonal matrices?? ",
             link: "https://www.youtube.com/watch?v=HyaeoGZyX10&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=3",
           },
           {
-            key: 8,
+            key: 4,
             heading: "Rank of a matrix using Elementary Operations",
             description:
               " What is Rank of a matrix ?? How to calculate it ?? Calculation of Rank using Elementary transformation.",
             link: "https://youtu.be/p5rBJj5CKCg?si=pPXTxicqYATGcOGQ",
           },
-          
+          {
+            key: 5,
+            heading: "Rank & Inverse of Matrix",
+            description:
+              "Rank of a Matrix: Maximum independent rows/columns,Inverse of a Matrix: Multiplicative counterpart, yielding identity matrix when multiplied.",
+            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+          },
+          {
+            key: 6,
+            heading: "Unitary Matrix",
+            description:
+              "Unitary Matrix Basics: Definition and properties, Applications: Quantum mechanics, signal processing, and data compression.",
+            link: "https://www.youtube.com/live/3nafrDiN0gU?si=OwRhRtzVqLtxMySv",
+          },
+          {
+            key: 7,
+            heading: "Linear Form of Matrix",
+            description:
+              "Linear Form Basics: Understanding linear transformations and representations, Applications: Computer graphics, physics simulations, and engineering modeling.",
+            link: "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
+          },
+          {
+            key: 8,
+            heading: "Taylor Series",
+            description:
+              " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
+            link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
+          },          
         ],
         pyq: [
           {
