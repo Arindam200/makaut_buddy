@@ -247,17 +247,17 @@ const Data = () => {
         video: [
           {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Thermodynamics",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "thermodynamics, science of the relationship between heat, work, temperature, and energy.",
+            link: "https://youtu.be/72JId0JrNKU?si=XqK6tRIDexfq3Npn",
           },
           {
             key: 2,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Thermodynamic Systems",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "A thermodynamic system is a specific portion of matter with a definite boundary on which our attention is focused.",
+            link: "https://youtu.be/H3dCYqw-Y4o?si=4sd7BzPWms3Z6-s8",
           },
           {
             key: 3,
