@@ -63,6 +63,21 @@ const Data = () => {
               " What is Rank of a matrix ?? How to calculate it ?? Calculation of Rank using Elementary transformation.",
             link: "https://youtu.be/p5rBJj5CKCg?si=pPXTxicqYATGcOGQ",
           },
+          {
+            key: 9,
+            heading: "Rank of a matrix using Normal Form ",
+            description:
+              " What is Normal Form? How to calculate Rank of a matrix using Normal Form and solve related problems?",
+            link: "https://www.youtube.com/watch?v=gdMfFdg6RNk",
+             },
+             {
+              key: 10,
+              heading: "Consistency of Linear Non-Homogenous Equations",
+              description:
+                " Concept of consistency. Working rule to check consistency. Unique solution, infinite solution and no solution.",
+              link: "https://www.youtube.com/watch?v=41Y38WjHbtE",
+            },
+             
           
         ],
         pyq: [
