@@ -76,7 +76,21 @@ const Data = () => {
             description:
               "Concept of consistency, how to check consistency, condition for unique solution, infinite solution and no solution",
             link: "https://www.youtube.com/watch?v=41Y38WjHbtE",
-          },          
+          },        
+          {
+            key: 11,
+            heading: "Cayley Hamilton Theorem & its application",
+            description:
+              " Statement of Cayley Hamilton Theorem. Usage of Cayley Hamilton theorem. Solved problems",
+            link: "https://youtu.be/H53VgxdohRM?si=RHrsvd26uMn3byRP",
+          },
+          {
+            key: 12,
+            heading: "Eigen Value and Eigen Vector",
+            description:
+              "Concept of Eigen value and Eigen vector. Working rule to find Eigen value and Eigen vector. Examples",
+            link: "https://www.youtube.com/watch?v=ZX5YnDMzwbs",
+          },         
         ],
         pyq: [
           {
