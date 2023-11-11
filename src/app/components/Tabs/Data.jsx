@@ -62,7 +62,21 @@ const Data = () => {
             description:
               " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
             link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
-          }, 
+          },
+          {
+            key: 9,
+            heading: "Rank of Matrix Using Normal Form",
+            description:
+              "Concept of Normal form and its Type, Calculation of Rank Using Normal/Canonical Form along with example.",
+            link: "https://www.youtube.com/watch?v=gdMfFdg6RNk",
+          },
+          {
+            key: 10,
+            heading: "Consistency of Linear Non-Homogeneous Equations",
+            description:
+              "Concept of consistency, how to check consistency, condition for unique solution, infinite solution and no solution",
+            link: "https://www.youtube.com/watch?v=41Y38WjHbtE",
+          },        
           {
             key: 11,
             heading: "Cayley Hamilton Theorem & its application",
