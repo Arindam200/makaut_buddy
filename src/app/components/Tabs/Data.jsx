@@ -266,6 +266,7 @@ const Data = () => {
             description:
               "some basic concepts related to quasistatic process.",
             link: "https://youtu.be/GDI2bVji2DU?si=b1zf42vOnFxZB-UV",
+
           },
           {
             key: 6,
@@ -274,10 +275,21 @@ const Data = () => {
               "the properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
             link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
           },
-        
-          
-          
-        ],
+          {
+            key: 7,
+            heading: "Pure Substance And State Postulate.",
+            description:
+              "the state postulate for a simple, pure substance states that the equilibrium state can be determined by specifying any two independent intensive properties",
+            link: "https://youtu.be/eP9Fd2N2Jtc?si=BSo52O_xDmGrA",
+          },
+          {
+            key: 8,
+            heading: "Concept Of Continuum",
+            description:
+              "an area that can keep being divided and divided infinitely; no individual particles",
+            link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
+          },
+          ],
         pyq: [
           {
             key: 1,
