@@ -9,62 +9,89 @@ const Data = () => {
         video: [
           {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
-          {
-            key: 2,
-            heading: "Unitary Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/3nafrDiN0gU?si=OwRhRtzVqLtxMySv",
-          },
-          {
-            key: 3,
-            heading: "Linear Form of Matrix",
-            description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
-          },
-          {
-            key: 4,
-            heading: "Taylor Series",
-            description:
-              " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
-            link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
-          },
-
-          {
-            key: 5,
-            heading: "Matrices 1",
+            heading: "Introduction to Matrices 1",
             description:
               " What is matix?, How to calculate Determinants?,Types of Determinants, Minor & Cofactors, and Properties of Determinants",
             link: "https://www.youtube.com/watch?v=b-UZJVdLbXc&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=1",
           },
           {
-            key: 6,
-            heading: "Matrices 2",
+            key: 2,
+            heading: "Introduction to Matrices 2",
             description:
             "Numericals on Determinants, Types of Matrices and Multiplication of Matrices & its properties ",
             link: "https://www.youtube.com/watch?v=OWykXurjpFU&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=2"
           },
           {
-            key: 7,
+            key: 3,
             heading: "Properties of Matrices",
             description:
               " What is Adjoint matrix? What is Inverse of a matrix? What are symmetric, skew-symmetric and orthogonal matrices?? ",
             link: "https://www.youtube.com/watch?v=HyaeoGZyX10&list=PLvTTv60o7qj_tdY9zH7YceES7jfXiZkAz&index=3",
           },
           {
-            key: 8,
+            key: 4,
             heading: "Rank of a matrix using Elementary Operations",
             description:
               " What is Rank of a matrix ?? How to calculate it ?? Calculation of Rank using Elementary transformation.",
             link: "https://youtu.be/p5rBJj5CKCg?si=pPXTxicqYATGcOGQ",
           },
-          
+
+          {
+            key: 5,
+            heading: "Rank & Inverse of Matrix",
+            description:
+              "Rank of a Matrix: Maximum independent rows/columns,Inverse of a Matrix: Multiplicative counterpart, yielding identity matrix when multiplied.",
+            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+          },
+          {
+            key: 6,
+            heading: "Unitary Matrix",
+            description:
+              "Unitary Matrix Basics: Definition and properties, Applications: Quantum mechanics, signal processing, and data compression.",
+            link: "https://www.youtube.com/live/3nafrDiN0gU?si=OwRhRtzVqLtxMySv",
+          },
+          {
+            key: 7,
+            heading: "Linear Form of Matrix",
+            description:
+              "Linear Form Basics: Understanding linear transformations and representations, Applications: Computer graphics, physics simulations, and engineering modeling.",
+            link: "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
+          },
+          {
+            key: 8,
+            heading: "Taylor Series",
+            description:
+              " What is Taylor Theorem and how To Prove this? What is Taylor Series and how to expand this By Taylor Theorem?",
+            link: "https://youtu.be/LEspaisjDFE?si=ygEIeVE__0-bMl1_",
+          },
+          {
+            key: 9,
+            heading: "Rank of Matrix Using Normal Form",
+            description:
+              "Concept of Normal form and its Type, Calculation of Rank Using Normal/Canonical Form along with example.",
+            link: "https://www.youtube.com/watch?v=gdMfFdg6RNk",
+          },
+          {
+            key: 10,
+            heading: "Consistency of Linear Non-Homogeneous Equations",
+            description:
+              "Concept of consistency, how to check consistency, condition for unique solution, infinite solution and no solution",
+            link: "https://www.youtube.com/watch?v=41Y38WjHbtE",
+          },        
+          {
+            key: 11,
+            heading: "Cayley Hamilton Theorem & its application",
+            description:
+              " Statement of Cayley Hamilton Theorem. Usage of Cayley Hamilton theorem. Solved problems",
+            link: "https://youtu.be/H53VgxdohRM?si=RHrsvd26uMn3byRP",
+          },
+          {
+            key: 12,
+            heading: "Eigen Value and Eigen Vector",
+            description:
+              "Concept of Eigen value and Eigen vector. Working rule to find Eigen value and Eigen vector. Examples",
+            link: "https://www.youtube.com/watch?v=ZX5YnDMzwbs",
+          },         
         ],
         pyq: [
           {
@@ -154,8 +181,24 @@ const Data = () => {
             "Zener diodes are semiconductor devices that allow current to flow in both directions but specialize in current flowing in reverse. Also known as breakdown diodes.",
           link:
           "https://youtu.be/qVwEVXf3CBQ?si=Go_1C_oDuR-9z1Z2",},
-         
-        ],
+          { 
+            key:9,
+            heading:
+            " characteristics of PN junction Diode (Diode thory & applications)",
+            description:
+            "PN junction diode has the ability to rectify electric current. It can create a potential barrier and make use of its capacitance properties. ",
+          link:
+          "https://youtu.be/7ITiehTTh-o?si=biSt8YIpolzsHOAy",},
+          {
+            key:10,
+            heading:
+            "All about half wave rectifier",
+            description:
+            "A half-wave rectifier converts an AC signal to DC by passing either the negative or positive half-cycle of the waveform and blocking the other. ",
+          link:
+          "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
+
+            ],
       
 
         
@@ -235,7 +278,7 @@ const Data = () => {
             key: 1,
             heading: "Introduction to Thermodynamics",
             description:
-              "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
+             "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
             link: "https://youtu.be/72JId0JrNKU?si=0dg-9XcP_KkAG3K2",
           },
           {
