@@ -35,6 +35,7 @@ const Data = () => {
               " What is Rank of a matrix ?? How to calculate it ?? Calculation of Rank using Elementary transformation.",
             link: "https://youtu.be/p5rBJj5CKCg?si=pPXTxicqYATGcOGQ",
           },
+
           {
             key: 5,
             heading: "Rank & Inverse of Matrix",
@@ -277,40 +278,61 @@ const Data = () => {
             key: 1,
             heading: "Introduction to Thermodynamics",
             description:
-              "thermodynamics, science of the relationship between heat, work, temperature, and energy.",
-            link: "https://youtu.be/72JId0JrNKU?si=XqK6tRIDexfq3Npn",
+             "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
+            link: "https://youtu.be/72JId0JrNKU?si=0dg-9XcP_KkAG3K2",
           },
           {
             key: 2,
             heading: "Thermodynamic Systems",
             description:
-              "A thermodynamic system is a specific portion of matter with a definite boundary on which our attention is focused.",
-            link: "https://youtu.be/H3dCYqw-Y4o?si=4sd7BzPWms3Z6-s8",
+             "A thermodynamic system is defined as a quantity of matter or a region in space that is of interest.",
+            link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t",
           },
           {
             key: 3,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Thermodynamic Properties and Process",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "some basic concepts related to thermodynamic properties and thermodynamic processes.",
+            link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
           },
+          
           {
             key: 4,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Different Types Of Thermodynamic Process",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
-          },
+              "different types of thermodynamic processes on the basis of pressure, temperature and volume.",
+            link: "https://youtu.be/llJd3XcboBo?si=hew8qTo8OXmSzY_N",
+          }, 
           {
             key: 5,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Quasistatic Process ",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "some basic concepts related to quasistatic process.",
+            link: "https://youtu.be/GDI2bVji2DU?si=b1zf42vOnFxZB-UV",
+
           },
-          
-          
-        ],
+          {
+            key: 6,
+            heading: "Thermodynamic Equilibrium ",
+            description:
+              "the properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
+            link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
+          },
+          {
+            key: 7,
+            heading: "Pure Substance And State Postulate.",
+            description:
+              "the state postulate for a simple, pure substance states that the equilibrium state can be determined by specifying any two independent intensive properties",
+            link: "https://youtu.be/eP9Fd2N2Jtc?si=BSo52O_xDmGrA",
+          },
+          {
+            key: 8,
+            heading: "Concept Of Continuum",
+            description:
+              "an area that can keep being divided and divided infinitely; no individual particles",
+            link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
+          },
+          ],
         pyq: [
           {
             key: 1,
