@@ -197,6 +197,56 @@ const Data = () => {
             "A half-wave rectifier converts an AC signal to DC by passing either the negative or positive half-cycle of the waveform and blocking the other. ",
           link:
           "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
+          {
+            key:15,
+            heading:
+            "CB configuration (Common Base Connection) Bipolar Junction Transistor ",
+            description:
+            "In Common Base Connection arrangement, input is applied between the emitter and base, and output is taken from the collector and base ",
+          link:
+          "https://youtu.be/RoN-sXrFXZI?si=tcFFPR27e2uYgC2y",},
+          {
+            key:16,
+            heading:
+            "CE configuration (Common Emitter Connection) Bipolar Junction Transistor ",
+            description:
+            "In electronics, a common-emitter amplifier is one of three basic single-stage bipolar-junction-transistor (BJT) amplifier topologies, typically used as a voltage amplifier ",
+          link:
+          "https://youtu.be/bUx-9zu4syM?si=dCHQlA2aulyUd3Ww",},
+          {
+            key:17,
+            heading:
+            "CC configuration (Common Collector Connection) Bipolar Junction Transistor ",
+            description:
+            "The configuration in which the collector is common between emitter and base is known as CC configuration",
+          link:
+          "https://youtu.be/_ayby0owDWg?si=dE4lm0uW0-Zf2T3a",},
+          {
+            key:18,
+            heading:
+            "Transistor Characteristics (CE Transistor) Basic Electronics  ",
+            description:
+            "The variation of collector current(IC) with the base current(IB), keeping Collector-Emitter voltage(VCE) constant.",
+          link:
+          "https://youtu.be/ouVd3urrQxs?si=_oyfjFOlsr3JUEjv",},
+          {
+            key:19,
+            heading:
+            "DC load line | AC load line | Operating point | Q point | BJT | ",
+            description:
+            "The DC load line is the load line of the DC equivalent circuit, defined by reducing the reactive components to zero",
+          link:
+          "https://youtu.be/QBbvca5Az_s?si=jAWMytWoQEOS92T0",},
+          {
+            key:20,
+            heading:
+            "Stability Factor (Transistor) Basics Electronics ",
+            description:
+            "It is the rate of change of collector current (I C) with respect to the reverse saturation current of collector junction (I CO), i.e. S = ∂ I C ∂ I C O",
+          link:
+          "https://youtu.be/4RA7oOtNipw?si=DRZdk8VBa_nJKgeC",},
+          
+
 
             ],
       
