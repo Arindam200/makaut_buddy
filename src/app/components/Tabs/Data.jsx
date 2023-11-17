@@ -222,39 +222,75 @@ const Data = () => {
         video: [
           {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Orthographic Projection",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "Inthis video you will get a detailed understanding about orthographic projection",
+            link: "https://www.youtube.com/watch?v=SB83cUaAiCM&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=1",
           },
           {
             key: 2,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Projection of Point",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "What is Projection of Point?",
+            link: "https://www.youtube.com/watch?v=aZ3gnOQIFHI&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=2",
           },
           {
             key: 3,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Projection of Lines Part1",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "3D projections",
+            link: "https://youtube.com/watch?v=MSg7DpKgaK8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=3",
           },
           {
             key: 4,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Projection of Lines Part2",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "Introduction to Projection of Lines",
+            link: "https://www.youtube.com/watch?v=wzxAFXejjw8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=4",
           },
           {
             key: 5,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Projection of Point | Problem Series ",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "Problems on Projection of point ",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=5",
           },
+          {
+            key: 6,
+            heading: "Projection of Lines | Problem Series | Part 1 ",
+            description:
+              "Problems on Projection of lines",
+            link: "https://www.youtube.com/watch?v=BaaxLHH1d-Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=6",
+          },
+          {
+            key: 7,
+            heading: "Projection of Lines | Problem Series | Part 2 ",
+            description:
+              "Projection of Lines | Problem Series | Part 2 ",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=7",
+          },
+          {
+            key: 8,
+            heading: "Projection of Lines | Problem Series | Part 3 ",
+            description:
+              "Projection of Lines | Problem Series | Part 3 ",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=8",
+          },
+          {
+            key: 9,
+            heading: "Plain and Diagonal Scales | Complete Concept & Problems ",
+            description:
+              "What is Representative fraction, Scale? How to construct a Plain Scale and Diagonal Scale? ",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=9",
+          },
+          {
+            key: 10,
+            heading: "Projection of Planes_Idea & Standard Procedure",
+            description:
+              "Projection of Planes_Idea & Standard Procedure",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
+          },
+
         ],
         pyq: [
           {
