@@ -198,6 +198,7 @@ const Data = () => {
           link:
           "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
           {
+
             key:11,
             heading:
             "All about full wave rectifier",
@@ -277,7 +278,49 @@ const Data = () => {
             "The DC load line is the load line of the DC equivalent circuit, defined by reducing the reactive components to zero",
           link:
           "https://youtu.be/QBbvca5Az_s?si=jAWMytWoQEOS92T0",},
+          {
+            key:21,
+            heading:
+            "Fixed Bias , Base Bias , Transistor Biasing",
+            description:
+            "Fixed bias, base bias, and transistor biasing are techniques in electronic circuits that involve applying a predetermined voltage to the base of a transistor to establish a stable operating point, ensuring proper biasing for optimal transistor performance",
+            link: 
+            "https://www.youtube.com/watch?v=E-CmyN8nD1Y&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=27",},
+            {
+            key:22,
+            heading:
+            "Collector to Base Bias (Transistor Biasing)",
+            description:
+            "Collector-to-Base Bias, a transistor biasing method, involves connecting a resistor between the collector and base terminals to establish a stable operating point for the transistor and ensure proper biasing in electronic circuits.",
+            link: 
+            "https://www.youtube.com/watch?v=1YalqxRJUAI&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=28",},
+              {
+                key:23,
+                heading:
+                "Voltage Divider Bias , in BJT ",
+                description:
+                "Voltage Divider Bias in BJT (Bipolar Junction Transistor) involves using a resistor network to create a stable voltage at the base terminal, ensuring proper transistor biasing for reliable and controlled amplification in electronic circuits",
+                link: 
+                "https://www.youtube.com/watch?v=TysNq8Gww5s&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=30",},
+                {
+                  key:24,
+                  heading:
+                  "JFET (Junction Field Effect Transistor) Working & Characteristics",
+                  description:
+                  "JFET (Junction Field Effect Transistor) operates based on the control of current by voltage at the gate terminal, and its characteristics include high input impedance, low noise, and voltage-controlled amplification in electronic circuits.",
+                 link: 
+                 "https://www.youtube.com/watch?v=5mimDymf0g0&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=58",},
+                 {
+                  key:25,
+                  heading:
+                  "MOSFET , EMOSFET , DMOSFET ",
+                  description:
+                  "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",
+                 link: 
+                 "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",},
+                
         ],
+
         pyq: [
           {
             key: 1,
