@@ -236,6 +236,47 @@ const Data = () => {
             "A transistor can act as a switch or gate for electronic signals, opening and closing an electronic gate many times per second",
           link:
           "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",},
+   
+          {
+            key:16,
+            heading:
+            "CB configuration (Common Base Connection) Bipolar Junction Transistor ",
+            description:
+            "In Common Base Connection arrangement, input is applied between the emitter and base, and output is taken from the collector and base ",
+          link:
+          "https://youtu.be/RoN-sXrFXZI?si=tcFFPR27e2uYgC2y",},
+          {
+            key:17,
+            heading:
+            "CE configuration (Common Emitter Connection) Bipolar Junction Transistor ",
+            description:
+            "In electronics, a common-emitter amplifier is one of three basic single-stage bipolar-junction-transistor (BJT) amplifier topologies, typically used as a voltage amplifier ",
+          link:
+          "https://youtu.be/bUx-9zu4syM?si=dCHQlA2aulyUd3Ww",},
+          {
+            key:18,
+            heading:
+            "CC configuration (Common Collector Connection) Bipolar Junction Transistor ",
+            description:
+            "The configuration in which the collector is common between emitter and base is known as CC configuration",
+          link:
+          "https://youtu.be/_ayby0owDWg?si=dE4lm0uW0-Zf2T3a",},
+          {
+            key:19,
+            heading:
+            "Transistor Characteristics (CE Transistor) Basic Electronics  ",
+            description:
+            "The variation of collector current(IC) with the base current(IB), keeping Collector-Emitter voltage(VCE) constant.",
+          link:
+          "https://youtu.be/ouVd3urrQxs?si=_oyfjFOlsr3JUEjv",},
+          {
+            key:20,
+            heading:
+            "DC load line | AC load line | Operating point | Q point | BJT | ",
+            description:
+            "The DC load line is the load line of the DC equivalent circuit, defined by reducing the reactive components to zero",
+          link:
+          "https://youtu.be/QBbvca5Az_s?si=jAWMytWoQEOS92T0",},
         ],
         pyq: [
           {
@@ -248,6 +289,11 @@ const Data = () => {
           {
             key: 1,
             heading: "heading1",
+            description: "des1",
+          },
+          {
+            key: 2,
+            heading: "heading2",
             description: "des1",
           },
         ],
