@@ -285,11 +285,112 @@ const Data = () => {
           },
           {
             key: 10,
-            heading: "Projection of Planes_Idea & Standard Procedure",
+            heading: "Projection of Planes Idea & Standard Procedure",
             description:
-              "Projection of Planes_Idea & Standard Procedure",
+              "Projection of Planes Idea & Standard Procedure",
             link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
           },
+          {
+            key: 11,
+            heading: "Projection of Planes | Problem Series | Part 1",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/anG2oGzGgF8?si=gWV64YHaVoPXCT2-",
+          },{
+            key: 12,
+            heading: "Projection of Planes | Problem Series | Part 2",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/qQsdiV9PPWI?si=2gB9O9p1eFaE5nYP",
+          },{
+            key: 13,
+            heading: "Projection of Planes | Problem Series | Part 3",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/r7O9SU9w_Eg?si=RGnjXus0GNwWbO3R",
+          },
+          {
+            key: 14,
+            heading: "Projection of Solids Idea & Standard Procedure",
+            description:
+              "How solids are classified and learn to draw the projection of solids when it is inclined to HP, VP and even both??",
+            link: "https://youtu.be/S3ma-LKVJdI?si=NbtAjiWNTGgSfnpzProjection of Solids | Problem Series | Part 1",
+          },
+          {
+            key: 15,
+            heading: "Projection of Solids | Problem Series | Part 1",
+            description:
+              "Problems of Projection of Solids ",
+            link: "https://youtu.be/gb3OCnkr5Ts?si=q29rB0IT7vc21DM6",
+          },
+          {
+            key: 16,
+            heading: "Projection of Solids | Problem Series | Part 2",
+            description:
+              "Problems of Projection of Solids ",
+            link: "https://youtu.be/HQa3GwmGfEY?si=RNWN63NFokE03swV",
+          },
+          {
+            key: 17,
+            heading: "Section of Solids | Concept & Problem Series | Part 1",
+            description:
+              "Concepts & Problems of Section of Solids",
+            link: "https://youtu.be/tm3Ty2yimbc?si=wDPDqes3yz2vHJB4",
+          },
+          {
+            key: 18,
+            heading: "Section of Solids | Concept & Problem Series | Part 2",
+            description:
+              "Concepts & Problems of Section of Solids",
+            link: "https://youtu.be/2HA5eTpO6ec?si=gXBdx-cn0Ut-9Mec",
+          },
+          {
+            key: 19,
+            heading: "Development of Surfaces | Part 1",
+            description:
+              "Devlopment of surfaces of Prism and Pyramid",
+            link: "https://youtu.be/8qpTtaTSdBA?si=THJdUA088KiEUl0L",
+          },
+          {
+            key: 20,
+            heading: "Development of Surfaces | Part 2",
+            description:
+              "Devlopment of surfaces of Cone and Cylinder",
+            link: "https://youtu.be/8yWsVAeeB78?si=WsFnVxY1TKpx-vXv",
+          },
+          {
+            key: 21,
+            heading: "Conic Sections | Part 1 | Introduction and Concept",
+            description:
+              "Introduction and Concept of Conic Sections",
+            link: "https://youtu.be/3V_k9u3Uny8?si=soqM3Q4yHAF7ieVz",
+          },{
+            key: 22,
+            heading: "Conic Sections | Part 2 | Ellipse in General Method",
+            description:
+              "Construction of Ellipse in general method ",
+            link: "https://youtu.be/OM6FB3DWFTI?si=COmeg_Ke0z-5groH",
+          },{
+            key: 23,
+            heading: "Conic Sections | Part 3 | Ellipse in Oblong Method",
+            description:
+              "Construction of Ellipse in oblong method ",
+            link: "https://youtu.be/t5szsD_4kG4?si=J1Tj3mroLTsKipbr",
+          },
+          {
+            key: 24,
+            heading: "Conic Sections | Part 4 | Ellipse in Concentric Circles Method",
+            description:
+              "Construction of Ellipse in Concentric Circles Method",
+            link: "https://youtu.be/UFpKFyLt8Iw?si=A51C_fxZFEvQOUHS",
+          },
+          {
+            key: 25,
+            heading: "Conic Sections | Part 5 | Ellipse in Arcs of Circles Method",
+            description:
+              "Construction of Ellipse in Arcs of Circles Method",
+            link: "https://youtu.be/f2itGi4u3nE?si=KRPi7FF2qHrZ3959",
+          }
 
         ],
         pyq: [
