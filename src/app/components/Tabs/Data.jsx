@@ -198,7 +198,47 @@ const Data = () => {
           link:
           "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
           {
+            key:11,
+            heading:
+            "All about full wave rectifier",
+            description:
+            "A full wave rectifier is defined as a rectifier that converts the complete cycle of alternating current into pulsating DC.",
+          link:
+          "https://youtu.be/8FAaLGxM98U?si=GH-ShzVKBOP_Ks5H",},
+          {
+            key:12,
+            heading:"Introduction to LC Filter",
+            description:"a suitable L and C network can effectively filter out the A.C component from the rectified wave.",
+            link:"https://youtu.be/DBw2sNphRME?si=v8zXdz1LHlPHMZfe",
+          },
+          
+          {
+            key:13,
+            heading:
+            "Introduction to RC Filter",
+            description:
+            "The RC filter influences both the RF bandwidth by removing the harmonics as well as the ripple voltage at the output of the rectifier.",
+          link:
+          "https://youtu.be/97u-Jrab9Ck?si=T1Dz6LnaeDJimmYJ",},
+          { 
+            key:14,
+            heading:
+            "Introduction to Transistor",
+            description:
+            "A transistor is a type of semiconductor device that can be used to conduct and insulate electric current or voltage. ",
+          link:
+          "https://youtu.be/08jcU8rb9SU?si=h_6l-AoOAL6T6frK",},
+          {
             key:15,
+            heading:
+            "Working of Transistor",
+            description:
+            "A transistor can act as a switch or gate for electronic signals, opening and closing an electronic gate many times per second",
+          link:
+          "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",},
+   
+          {
+            key:16,
             heading:
             "CB configuration (Common Base Connection) Bipolar Junction Transistor ",
             description:
@@ -206,7 +246,7 @@ const Data = () => {
           link:
           "https://youtu.be/RoN-sXrFXZI?si=tcFFPR27e2uYgC2y",},
           {
-            key:16,
+            key:17,
             heading:
             "CE configuration (Common Emitter Connection) Bipolar Junction Transistor ",
             description:
@@ -214,7 +254,7 @@ const Data = () => {
           link:
           "https://youtu.be/bUx-9zu4syM?si=dCHQlA2aulyUd3Ww",},
           {
-            key:17,
+            key:18,
             heading:
             "CC configuration (Common Collector Connection) Bipolar Junction Transistor ",
             description:
@@ -222,7 +262,7 @@ const Data = () => {
           link:
           "https://youtu.be/_ayby0owDWg?si=dE4lm0uW0-Zf2T3a",},
           {
-            key:18,
+            key:19,
             heading:
             "Transistor Characteristics (CE Transistor) Basic Electronics  ",
             description:
@@ -230,21 +270,14 @@ const Data = () => {
           link:
           "https://youtu.be/ouVd3urrQxs?si=_oyfjFOlsr3JUEjv",},
           {
-            key:19,
+            key:20,
             heading:
             "DC load line | AC load line | Operating point | Q point | BJT | ",
             description:
             "The DC load line is the load line of the DC equivalent circuit, defined by reducing the reactive components to zero",
           link:
           "https://youtu.be/QBbvca5Az_s?si=jAWMytWoQEOS92T0",},
-          {
-            key:20,
-            heading:
-            "Stability Factor (Transistor) Basics Electronics ",
-            description:
-            "It is the rate of change of collector current (I C) with respect to the reverse saturation current of collector junction (I CO), i.e. S = ∂ I C ∂ I C O",
-          link:
-          "https://youtu.be/4RA7oOtNipw?si=DRZdk8VBa_nJKgeC",},
+          
           
 
 
@@ -252,6 +285,47 @@ const Data = () => {
       
 
         
+
+            key:11,
+            heading:
+            "All about full wave rectifier",
+            description:
+            "A full wave rectifier is defined as a rectifier that converts the complete cycle of alternating current into pulsating DC.",
+          link:
+          "https://youtu.be/8FAaLGxM98U?si=GH-ShzVKBOP_Ks5H",},
+          {
+            key:12,
+            heading:"Introduction to LC Filter",
+            description:"a suitable L and C network can effectively filter out the A.C component from the rectified wave.",
+            link:"https://youtu.be/DBw2sNphRME?si=v8zXdz1LHlPHMZfe",
+          },
+          
+          {
+            key:13,
+            heading:
+            "Introduction to RC Filter",
+            description:
+            "The RC filter influences both the RF bandwidth by removing the harmonics as well as the ripple voltage at the output of the rectifier.",
+          link:
+          "https://youtu.be/97u-Jrab9Ck?si=T1Dz6LnaeDJimmYJ",},
+          { 
+            key:14,
+            heading:
+            "Introduction to Transistor",
+            description:
+            "A transistor is a type of semiconductor device that can be used to conduct and insulate electric current or voltage. ",
+          link:
+          "https://youtu.be/08jcU8rb9SU?si=h_6l-AoOAL6T6frK",},
+          {
+            key:15,
+            heading:
+            "Working of Transistor",
+            description:
+            "A transistor can act as a switch or gate for electronic signals, opening and closing an electronic gate many times per second",
+          link:
+          "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",},
+        ],
+
         pyq: [
           {
             key: 1,
