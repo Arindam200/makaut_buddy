@@ -197,11 +197,46 @@ const Data = () => {
             "A half-wave rectifier converts an AC signal to DC by passing either the negative or positive half-cycle of the waveform and blocking the other. ",
           link:
           "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
-
-            ],
-      
-
-        
+          {
+            key:11,
+            heading:
+            "All about full wave rectifier",
+            description:
+            "A full wave rectifier is defined as a rectifier that converts the complete cycle of alternating current into pulsating DC.",
+          link:
+          "https://youtu.be/8FAaLGxM98U?si=GH-ShzVKBOP_Ks5H",},
+          {
+            key:12,
+            heading:"Introduction to LC Filter",
+            description:"a suitable L and C network can effectively filter out the A.C component from the rectified wave.",
+            link:"https://youtu.be/DBw2sNphRME?si=v8zXdz1LHlPHMZfe",
+          },
+          
+          {
+            key:13,
+            heading:
+            "Introduction to RC Filter",
+            description:
+            "The RC filter influences both the RF bandwidth by removing the harmonics as well as the ripple voltage at the output of the rectifier.",
+          link:
+          "https://youtu.be/97u-Jrab9Ck?si=T1Dz6LnaeDJimmYJ",},
+          { 
+            key:14,
+            heading:
+            "Introduction to Transistor",
+            description:
+            "A transistor is a type of semiconductor device that can be used to conduct and insulate electric current or voltage. ",
+          link:
+          "https://youtu.be/08jcU8rb9SU?si=h_6l-AoOAL6T6frK",},
+          {
+            key:15,
+            heading:
+            "Working of Transistor",
+            description:
+            "A transistor can act as a switch or gate for electronic signals, opening and closing an electronic gate many times per second",
+          link:
+          "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",},
+        ],
         pyq: [
           {
             key: 1,
