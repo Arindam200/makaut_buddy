@@ -391,6 +391,104 @@ const Data = () => {
               "Construction of Ellipse in Arcs of Circles Method",
             link: "https://youtu.be/f2itGi4u3nE?si=KRPi7FF2qHrZ3959",
           }
+          {
+            key: 26,
+            heading: "Conic Sections | Part 6 | Best Problems on Ellipse",
+            description:
+              "Problems and solutions on Construction of Ellipse",
+            link: "https://youtu.be/Y-bR4ChEslY?si=TRmGouS7vU4ZU_rR",
+          }
+          {
+            key: 27,
+            heading: "Conic Sections | Part 7 | Parabola in General Method",
+            description:
+              "Construction of Parabola in General Method",
+            link: "https://youtu.be/EEAjjP-Phe4?si=_ps9ap2SYZO4tlKN",
+          }
+          {
+            key: 28,
+            heading: "Conic Sections | Part 8 | Problem 1 on Parabola in Rectangle Method",
+            description:
+              "Problem 1 on Construction of Parabola in Rectangle Method",
+            link: "https://youtu.be/XqB4MEzFkJ4?si=V3IwAR5kDjaLNJEc",
+          }
+          {
+            key: 29,
+            heading: "Conic Sections | Part 9 | Problem 2 on Parabola in Rectangle Method",
+            description:
+              "Problem 2 on Construction of Parabola in Rectangle Method",
+            link: "https://youtu.be/O7ZcrsioRBE?si=A8fk46dqQnHNPdFy",
+          }
+          {
+            key: 30,
+            heading: "Conic Sections | Part 10 | Problem 3 on Parabola in Rectangle Method",
+            description:
+              "Problem 3 on Construction of Parabola in Rectangle Method",
+            link: "https://youtu.be/g9YnfkMrR-w?si=uG3seShoeVsQRB4V",
+          }
+          {
+            key: 31,
+            heading: "Conic Sections | Part 11 | Problem 4 on Parabola in Tangent Method",
+            description:
+              "Problem 4 on Construction of Parabola in Tangent Method",
+            link: "https://youtu.be/FMClHjnXk7Y?si=YhlWv13NWLHbMt1G",
+          }
+          {
+            key: 32,
+            heading: "Conic Sections | Part 12 | Hyperbola in General Method",
+            description:
+              "Construction of Hyperbola in General Method",
+            link: "https://youtu.be/fWOJIxpTVa8?si=gOfm4MyC0Fo5i5t4",
+          }
+          {
+            key: 33,
+            heading: "Conic Sections | Part 14 | Problems on Hyperbola ",
+            description:
+              "Problems and Solutions on Construction of Hyperbola",
+            link: "https://youtu.be/V5qsFot9dMQ?si=OTIzp3gd1KsjZtsE",
+          }
+          {
+            key: 34,
+            heading: "Conic Sections | Part 15 | Hyperbola in Arcs of Circles Method ",
+            description:
+              "Construction of Hyperbola in Arcs of Circles Method ",
+            link: "https://youtu.be/_CeQjBs5AT8?si=omlj6HEwRo0ErUIv",
+          }
+          {
+            key: 35,
+            heading: "Conic Sections | Part 16 | Tangent and Normal to Different Conic Sections ",
+            description:
+              "Construction of Tangent to Ellipse, Parabola, Hyperbola ",
+            link: "https://youtu.be/OnXeBDJbEe8?si=znpXlBnYd6GrsWZi",
+          }
+          {
+            key: 36,
+            heading: "Isometric Projection | Part 1 |",
+            description:
+              "Iso-view and Iso-Projection",
+            link: "https://youtu.be/9aFDVSIcdvI?si=A-y3pE1ba56mvRxt",
+          }
+          {
+            key: 37,
+            heading: "Isometric Projection | Part 2 |",
+            description:
+              "Orthographic Projection and Isometric View",
+            link: "https://youtu.be/tLFjCS3h9MY?si=k8_eGi2WdN2_eyem",
+          }
+          {
+            key: 38,
+            heading: "Isometric Projection | Part 5 |",
+            description:
+              "Problem 4 on Isometric View",
+            link: "https://youtu.be/TqrID4SeFTo?si=cX0QE-aicjyM_lLA",
+          }
+          {
+            key: 39,
+            heading: "Isometric Projection | Part 6 |",
+            description:
+              "Problem 5 on Isometric View",
+            link: "https://youtu.be/ilWFZOfmvI8?si=OVwRHWSkwdoDqC15",
+          }
 
         ],
         pyq: [
