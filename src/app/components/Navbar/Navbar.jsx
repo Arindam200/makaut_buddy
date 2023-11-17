@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <Navbar
-      className="text-white "
+      className="text-white"
       height="5rem"
       isBordered
       isBlurred
@@ -67,7 +67,7 @@ export default function App() {
                   ? activeMenu === ""
                   : activeMenu === menu.trim().toLowerCase()
               }
-              className="text-white "
+              className="text-white"
             >
               <Link
                 className="text-white text-lg"
@@ -120,13 +120,7 @@ export default function App() {
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
                 className={`w-full ${isActive && "font-bold"}`}
-                color={
-                  index === 2
-                    ? "warning"
-                    : index === menuItems.length - 1
-                    ? "danger"
-                    : "foreground"
-                }
+                color="foreground"
                 href={isHome ? "#" : `#${item.toLowerCase().trim()}`}
                 onClick={() => setIsMenuOpen(false)}
                 size="lg"
