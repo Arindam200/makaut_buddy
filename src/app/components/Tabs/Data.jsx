@@ -224,7 +224,7 @@ const Data = () => {
             key: 1,
             heading: "Introduction to Orthographic Projection",
             description:
-              "Inthis video you will get a detailed understanding about orthographic projection",
+              "In this video you will get a detailed understanding about orthographic projection",
             link: "https://www.youtube.com/watch?v=SB83cUaAiCM&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=1",
           },
           {
@@ -267,28 +267,28 @@ const Data = () => {
             heading: "Projection of Lines | Problem Series | Part 2 ",
             description:
               "Projection of Lines | Problem Series | Part 2 ",
-            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=7",
+            link: "https://www.youtube.com/watch?v=f9e2xq3yKQ0&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=7",
           },
           {
             key: 8,
             heading: "Projection of Lines | Problem Series | Part 3 ",
             description:
               "Projection of Lines | Problem Series | Part 3 ",
-            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=8",
+            link: "https://www.youtube.com/watch?v=RR6k8Djbvh8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=8",
           },
           {
             key: 9,
             heading: "Plain and Diagonal Scales | Complete Concept & Problems ",
             description:
               "What is Representative fraction, Scale? How to construct a Plain Scale and Diagonal Scale? ",
-            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=9",
+            link: "https://www.youtube.com/watch?v=yneCL-mXeH8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=9",
           },
           {
             key: 10,
             heading: "Projection of Planes Idea & Standard Procedure",
             description:
               "Projection of Planes Idea & Standard Procedure",
-            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
+            link: "https://www.youtube.com/watch?v=SNWhs81ho0Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
           },
           {
             key: 11,
@@ -314,7 +314,7 @@ const Data = () => {
             heading: "Projection of Solids Idea & Standard Procedure",
             description:
               "How solids are classified and learn to draw the projection of solids when it is inclined to HP, VP and even both??",
-            link: "https://youtu.be/S3ma-LKVJdI?si=NbtAjiWNTGgSfnpzProjection of Solids | Problem Series | Part 1",
+            link: "https://youtu.be/S3ma-LKVJdI?si=NbtAjiWNTGgSfnpz",
           },
           {
             key: 15,
