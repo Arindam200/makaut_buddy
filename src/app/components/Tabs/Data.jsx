@@ -197,11 +197,130 @@ const Data = () => {
             "A half-wave rectifier converts an AC signal to DC by passing either the negative or positive half-cycle of the waveform and blocking the other. ",
           link:
           "https://youtu.be/gYxH-D9Det8?si=or6doeDfFpivP-CN",},
+          {
 
-            ],
-      
+            key:11,
+            heading:
+            "All about full wave rectifier",
+            description:
+            "A full wave rectifier is defined as a rectifier that converts the complete cycle of alternating current into pulsating DC.",
+          link:
+          "https://youtu.be/8FAaLGxM98U?si=GH-ShzVKBOP_Ks5H",},
+          {
+            key:12,
+            heading:"Introduction to LC Filter",
+            description:"a suitable L and C network can effectively filter out the A.C component from the rectified wave.",
+            link:"https://youtu.be/DBw2sNphRME?si=v8zXdz1LHlPHMZfe",
+          },
+          
+          {
+            key:13,
+            heading:
+            "Introduction to RC Filter",
+            description:
+            "The RC filter influences both the RF bandwidth by removing the harmonics as well as the ripple voltage at the output of the rectifier.",
+          link:
+          "https://youtu.be/97u-Jrab9Ck?si=T1Dz6LnaeDJimmYJ",},
+          { 
+            key:14,
+            heading:
+            "Introduction to Transistor",
+            description:
+            "A transistor is a type of semiconductor device that can be used to conduct and insulate electric current or voltage. ",
+          link:
+          "https://youtu.be/08jcU8rb9SU?si=h_6l-AoOAL6T6frK",},
+          {
+            key:15,
+            heading:
+            "Working of Transistor",
+            description:
+            "A transistor can act as a switch or gate for electronic signals, opening and closing an electronic gate many times per second",
+          link:
+          "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",},
+   
+          {
+            key:16,
+            heading:
+            "CB configuration (Common Base Connection) Bipolar Junction Transistor ",
+            description:
+            "In Common Base Connection arrangement, input is applied between the emitter and base, and output is taken from the collector and base ",
+          link:
+          "https://youtu.be/RoN-sXrFXZI?si=tcFFPR27e2uYgC2y",},
+          {
+            key:17,
+            heading:
+            "CE configuration (Common Emitter Connection) Bipolar Junction Transistor ",
+            description:
+            "In electronics, a common-emitter amplifier is one of three basic single-stage bipolar-junction-transistor (BJT) amplifier topologies, typically used as a voltage amplifier ",
+          link:
+          "https://youtu.be/bUx-9zu4syM?si=dCHQlA2aulyUd3Ww",},
+          {
+            key:18,
+            heading:
+            "CC configuration (Common Collector Connection) Bipolar Junction Transistor ",
+            description:
+            "The configuration in which the collector is common between emitter and base is known as CC configuration",
+          link:
+          "https://youtu.be/_ayby0owDWg?si=dE4lm0uW0-Zf2T3a",},
+          {
+            key:19,
+            heading:
+            "Transistor Characteristics (CE Transistor) Basic Electronics  ",
+            description:
+            "The variation of collector current(IC) with the base current(IB), keeping Collector-Emitter voltage(VCE) constant.",
+          link:
+          "https://youtu.be/ouVd3urrQxs?si=_oyfjFOlsr3JUEjv",},
+          {
+            key:20,
+            heading:
+            "DC load line | AC load line | Operating point | Q point | BJT | ",
+            description:
+            "The DC load line is the load line of the DC equivalent circuit, defined by reducing the reactive components to zero",
+          link:
+          "https://youtu.be/QBbvca5Az_s?si=jAWMytWoQEOS92T0",},
+          {
+            key:21,
+            heading:
+            "Fixed Bias , Base Bias , Transistor Biasing",
+            description:
+            "Fixed bias, base bias, and transistor biasing are techniques in electronic circuits that involve applying a predetermined voltage to the base of a transistor to establish a stable operating point, ensuring proper biasing for optimal transistor performance",
+            link: 
+            "https://www.youtube.com/watch?v=E-CmyN8nD1Y&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=27",},
+            {
+            key:22,
+            heading:
+            "Collector to Base Bias (Transistor Biasing)",
+            description:
+            "Collector-to-Base Bias, a transistor biasing method, involves connecting a resistor between the collector and base terminals to establish a stable operating point for the transistor and ensure proper biasing in electronic circuits.",
+            link: 
+            "https://www.youtube.com/watch?v=1YalqxRJUAI&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=28",},
+              {
+                key:23,
+                heading:
+                "Voltage Divider Bias , in BJT ",
+                description:
+                "Voltage Divider Bias in BJT (Bipolar Junction Transistor) involves using a resistor network to create a stable voltage at the base terminal, ensuring proper transistor biasing for reliable and controlled amplification in electronic circuits",
+                link: 
+                "https://www.youtube.com/watch?v=TysNq8Gww5s&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=30",},
+                {
+                  key:24,
+                  heading:
+                  "JFET (Junction Field Effect Transistor) Working & Characteristics",
+                  description:
+                  "JFET (Junction Field Effect Transistor) operates based on the control of current by voltage at the gate terminal, and its characteristics include high input impedance, low noise, and voltage-controlled amplification in electronic circuits.",
+                 link: 
+                 "https://www.youtube.com/watch?v=5mimDymf0g0&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=58",},
+                 {
+                  key:25,
+                  heading:
+                  "MOSFET , EMOSFET , DMOSFET ",
+                  description:
+                  "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",
+                 link: 
+                 "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",},
+                
+        ],
 
-        
         pyq: [
           {
             key: 1,
@@ -213,6 +332,11 @@ const Data = () => {
           {
             key: 1,
             heading: "heading1",
+            description: "des1",
+          },
+          {
+            key: 2,
+            heading: "heading2",
             description: "des1",
           },
         ],
