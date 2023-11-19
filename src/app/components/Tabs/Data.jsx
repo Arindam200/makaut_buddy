@@ -344,40 +344,276 @@ const Data = () => {
     getData.sub == "Engineering Drawing" &&
       getData.year == "B.Tech CSE 1st Semester" && {
         video: [
-          {
+         {
             key: 1,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Orthographic Projection",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "In this video you will get a detailed understanding about orthographic projection",
+            link: "https://www.youtube.com/watch?v=SB83cUaAiCM&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=1",
           },
           {
             key: 2,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Projection of Point",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "What is Projection of Point?",
+            link: "https://www.youtube.com/watch?v=aZ3gnOQIFHI&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=2",
           },
           {
             key: 3,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Projection of Lines Part1",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "3D projections of lines",
+            link: "https://youtube.com/watch?v=MSg7DpKgaK8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=3",
           },
           {
             key: 4,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Introduction to Projection of Lines Part2",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "Introduction to Projection of Lines",
+            link: "https://www.youtube.com/watch?v=wzxAFXejjw8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=4",
           },
           {
             key: 5,
-            heading: "Rank & Inverse of Matrix",
+            heading: "Projection of Point | Problem Series ",
             description:
-              "The horizontal arrays of a matrix are called its rows and the vertical arrays are called its columns. A matrix...",
-            link: "https://www.youtube.com/live/RtuNwdHDEAw?si=uHWFRBzWHZQb_fTa",
+              "Problems on Projection of point ",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=5",
+          },
+          {
+            key: 6,
+            heading: "Projection of Lines | Problem Series | Part 1 ",
+            description:
+              "Problems on Projection of lines",
+            link: "https://www.youtube.com/watch?v=BaaxLHH1d-Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=6",
+          },
+          {
+            key: 7,
+            heading: "Projection of Lines | Problem Series | Part 2 ",
+            description:
+              "Projection of Lines | Problem Series | Part 2 ",
+            link: "https://www.youtube.com/watch?v=f9e2xq3yKQ0&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=7",
+          },
+          {
+            key: 8,
+            heading: "Projection of Lines | Problem Series | Part 3 ",
+            description:
+              "Projection of Lines | Problem Series | Part 3 ",
+            link: "https://www.youtube.com/watch?v=RR6k8Djbvh8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=8",
+          },
+          {
+            key: 9,
+            heading: "Plain and Diagonal Scales | Complete Concept & Problems ",
+            description:
+              "What is Representative fraction, Scale? How to construct a Plain Scale and Diagonal Scale? ",
+            link: "https://www.youtube.com/watch?v=yneCL-mXeH8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=9",
+          },
+          {
+            key: 10,
+            heading: "Projection of Planes Idea & Standard Procedure",
+            description:
+              "Projection of Planes Idea & Standard Procedure",
+            link: "https://www.youtube.com/watch?v=SNWhs81ho0Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
+          },
+          {
+            key: 11,
+            heading: "Projection of Planes | Problem Series | Part 1",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/anG2oGzGgF8?si=gWV64YHaVoPXCT2-",
+          },
+          {
+            key: 12,
+            heading: "Projection of Planes | Problem Series | Part 2",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/qQsdiV9PPWI?si=2gB9O9p1eFaE5nYP",
+          },
+          {
+            key: 13,
+            heading: "Projection of Planes | Problem Series | Part 3",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/r7O9SU9w_Eg?si=RGnjXus0GNwWbO3R",
+          },
+          {
+            key: 14,
+            heading: "Projection of Solids Idea & Standard Procedure",
+            description:
+              "How solids are classified and learn to draw the projection of solids when it is inclined to HP, VP and even both??",
+            link: "https://youtu.be/S3ma-LKVJdI?si=NbtAjiWNTGgSfnpz",
+          },
+          {
+            key: 15,
+            heading: "Projection of Solids | Problem Series | Part 1",
+            description:
+              "Problems of Projection of Solids ",
+            link: "https://youtu.be/gb3OCnkr5Ts?si=q29rB0IT7vc21DM6",
+          },
+          {
+            key: 16,
+            heading: "Projection of Solids | Problem Series | Part 2",
+            description:
+              "Problems of Projection of Solids ",
+            link: "https://youtu.be/HQa3GwmGfEY?si=RNWN63NFokE03swV",
+          },
+          {
+            key: 17,
+            heading: "Section of Solids | Concept & Problem Series | Part 1",
+            description:
+              "Concepts & Problems of Section of Solids",
+            link: "https://youtu.be/tm3Ty2yimbc?si=wDPDqes3yz2vHJB4",
+          },
+          {
+            key: 18,
+            heading: "Section of Solids | Concept & Problem Series | Part 2",
+            description:
+              "Concepts & Problems of Section of Solids",
+            link: "https://youtu.be/2HA5eTpO6ec?si=gXBdx-cn0Ut-9Mec",
+          },
+          {
+            key: 19,
+            heading: "Development of Surfaces | Part 1",
+            description:
+              "Devlopment of surfaces of Prism and Pyramid",
+            link: "https://youtu.be/8qpTtaTSdBA?si=THJdUA088KiEUl0L",
+          },
+          {
+            key: 20,
+            heading: "Development of Surfaces | Part 2",
+            description:
+              "Devlopment of surfaces of Cone and Cylinder",
+            link: "https://youtu.be/8yWsVAeeB78?si=WsFnVxY1TKpx-vXv",
+          },
+          {
+            key: 21,
+            heading: "Conic Sections | Part 1 | Introduction and Concept",
+            description:
+              "Introduction and Concept of Conic Sections",
+            link: "https://youtu.be/3V_k9u3Uny8?si=soqM3Q4yHAF7ieVz",
+          },{
+            key: 22,
+            heading: "Conic Sections | Part 2 | Ellipse in General Method",
+            description:
+              "Construction of Ellipse in general method ",
+            link: "https://youtu.be/OM6FB3DWFTI?si=COmeg_Ke0z-5groH",
+          },{
+            key: 23,
+            heading: "Conic Sections | Part 3 | Ellipse in Oblong Method",
+            description:
+              "Construction of Ellipse in oblong method ",
+            link: "https://youtu.be/t5szsD_4kG4?si=J1Tj3mroLTsKipbr",
+          },
+          {
+            key: 24,
+            heading: "Conic Sections | Part 4 | Ellipse in Concentric Circles Method",
+            description:
+              "Construction of Ellipse in Concentric Circles Method",
+            link: "https://youtu.be/UFpKFyLt8Iw?si=A51C_fxZFEvQOUHS",
+          },
+          {
+            key: 25,
+            heading: "Conic Sections | Part 5 | Ellipse in Arcs of Circles Method",
+            description:
+              "Construction of Ellipse in Arcs of Circles Method",
+            link: "https://youtu.be/f2itGi4u3nE?si=KRPi7FF2qHrZ3959",
+          },
+          {
+            key: 26,
+            heading: "Conic Sections | Part 6 | Best Problems on Ellipse",
+            description:
+              "Problems and solutions on Construction of Ellipse",
+            link: "https://youtu.be/Y-bR4ChEslY?si=TRmGouS7vU4ZU_rR",
+          },
+          {
+            key: 27,
+            heading: "Conic Sections | Part 7 | Parabola in General Method",
+            description:
+              "Construction of Parabola in General Method",
+            link: "https://youtu.be/EEAjjP-Phe4?si=_ps9ap2SYZO4tlKN",
+          },
+          {
+            key: 28,
+            heading: "Conic Sections | Part 8 | Problem 1 on Parabola in Rectangle Method",
+            description:
+              "Problem 1 on Construction of Parabola in Rectangle Method",
+            link: "https://youtu.be/XqB4MEzFkJ4?si=V3IwAR5kDjaLNJEc",
+          },
+          {
+            key: 29,
+            heading: "Conic Sections | Part 9 | Problem 2 on Parabola in Rectangle Method",
+            description:
+              "Problem 2 on Construction of Parabola in Rectangle Method",
+            link: "https://youtu.be/O7ZcrsioRBE?si=A8fk46dqQnHNPdFy",
+          },
+          {
+            key: 30,
+            heading: "Conic Sections | Part 10 | Problem 3 on Parabola in Rectangle Method",
+            description:
+              "Problem 3 on Construction of Parabola in Rectangle Method",
+            link: "https://youtu.be/g9YnfkMrR-w?si=uG3seShoeVsQRB4V",
+          },
+          {
+            key: 31,
+            heading: "Conic Sections | Part 11 | Problem 4 on Parabola in Tangent Method",
+            description:
+              "Problem 4 on Construction of Parabola in Tangent Method",
+            link: "https://youtu.be/FMClHjnXk7Y?si=YhlWv13NWLHbMt1G",
+          },
+          {
+            key: 32,
+            heading: "Conic Sections | Part 12 | Hyperbola in General Method",
+            description:
+              "Construction of Hyperbola in General Method",
+            link: "https://youtu.be/fWOJIxpTVa8?si=gOfm4MyC0Fo5i5t4",
+          },
+          {
+            key: 33,
+            heading: "Conic Sections | Part 14 | Problems on Hyperbola ",
+            description:
+              "Problems and Solutions on Construction of Hyperbola",
+            link: "https://youtu.be/V5qsFot9dMQ?si=OTIzp3gd1KsjZtsE",
+          },
+          {
+            key: 34,
+            heading: "Conic Sections | Part 15 | Hyperbola in Arcs of Circles Method ",
+            description:
+              "Construction of Hyperbola in Arcs of Circles Method ",
+            link: "https://youtu.be/_CeQjBs5AT8?si=omlj6HEwRo0ErUIv",
+          },
+          {
+            key: 35,
+            heading: "Conic Sections | Part 16 | Tangent and Normal to Different Conic Sections ",
+            description:
+              "Construction of Tangent to Ellipse, Parabola, Hyperbola ",
+            link: "https://youtu.be/OnXeBDJbEe8?si=znpXlBnYd6GrsWZi",
+          },
+          {
+            key: 36,
+            heading: "Isometric Projection | Part 1 |",
+            description:
+              "Iso-view and Iso-Projection",
+            link: "https://youtu.be/9aFDVSIcdvI?si=A-y3pE1ba56mvRxt",
+          },
+          {
+            key: 37,
+            heading: "Isometric Projection | Part 2 |",
+            description:
+              "Orthographic Projection and Isometric View",
+            link: "https://youtu.be/tLFjCS3h9MY?si=k8_eGi2WdN2_eyem",
+          },
+          {
+            key: 38,
+            heading: "Isometric Projection | Part 5 |",
+            description:
+              "Problem 4 on Isometric View",
+            link: "https://youtu.be/TqrID4SeFTo?si=cX0QE-aicjyM_lLA",
+          },
+          {
+            key: 39,
+            heading: "Isometric Projection | Part 6 |",
+            description:
+              "Problem 5 on Isometric View",
+            link: "https://youtu.be/ilWFZOfmvI8?si=OVwRHWSkwdoDqC15",
           },
         ],
         pyq: [
