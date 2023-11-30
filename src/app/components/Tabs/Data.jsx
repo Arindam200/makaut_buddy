@@ -598,6 +598,76 @@ const Data = () => {
               "an area that can keep being divided and divided infinitely; no individual particles",
             link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
           },
+          {
+            key: 27,
+            heading: "Periodic Properties-Electron affinity",
+            description:
+              "Demystifying Electron Affinity: Understanding the Attraction of Atoms",
+            link: "https://youtu.be/IkjA0xs11Sk?si=MLg2Y2nv0h_SzL6u",
+          },
+          {
+            key: 28,
+            heading: "Periodic Properties-Electronegativity",
+            description:
+              "Decoding Electronegativity: The Power Struggle of Atoms",
+            link: "https://youtu.be/IkjA0xs11Sk?si=XXZdW3AsTbn9aI8k",
+          },
+          {
+            key: 31,
+            heading: "Stereochemistry-Introduction",
+            description:
+              "basic introduvtion on Isomerism and Isomers",
+            link: "https://youtu.be/2Ou5cPT58MA?si=cPYroBtA_xfEIxZv",
+          },
+          {
+            key: 32,
+            heading: "Stereochemistry-Terms used in Optical Activity, Optically Active Compound, Enantiomers",
+            description:
+              "the ability of a chiral molecule to rotate the plane of plane-polairsed light, measured using a polarimeter",
+            link: "https://youtu.be/yVhL3pK4vmc?si=fN-S9ET0IMFIcF86",
+          },
+          {
+            key: 33,
+            heading: "Stereochemistry-Diastereomers, Racemic",
+            description:
+              "stereoisomers that are not related as object and mirror image and are not enantiomers",
+            link: "https://youtu.be/k6Ym6XRp0gY?si=8oRKDCJjuPcHCSR9",
+          },
+          {
+            key: 34,
+            heading: "Stereochemistry-Without, With Chiral C-Atom, Biphenyl, Allenes",
+            description:
+              "about Optically Active compounds without or with Chiral Carbon atom",
+            link: "https://youtu.be/mYDwwNosIOU?si=P-x79lLhpXaVmnqX",
+          },
+          {
+            key: 35,
+            heading: "Stereochemistry-R S Nomenclature, CIP Rule",
+            description:
+              "Tricks to find R/S Nomenclature of chiral molecule with example",
+            link: "https://youtu.be/pYefUVk6OWU?si=e3QEXSWGNBZB1xFq",
+          },
+          {
+            key: 36,
+            heading: "Stereochemistry-Geometrical, Cis-Trans",
+            description:
+              "exhibit a type of stereoisomerism where the atoms have different spatial arrangements in three-dimensional space",
+            link: "https://youtu.be/WFQwwTr5SVs?si=rfVtioe8G84BdWHX",
+          },
+          {
+            key: 37,
+            heading: "Stereochemistry-E Z, Nomenclature Of Geometrical Isomers ",
+            description:
+              "the orientation of a functional group in a compound",
+            link: "https://youtu.be/DftQyhm_FA4?si=NAuQDHpEFhuaBSPt",
+          },
+          {
+            key: 38,
+            heading: "Stereochemistry-chiral drugs  ",
+            description:
+              "importance of chiral drugs",
+            link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
+          },
           ],
         pyq: [
           {
