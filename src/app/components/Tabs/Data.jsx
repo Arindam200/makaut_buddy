@@ -599,6 +599,55 @@ const Data = () => {
             link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
           },
           {
+            key: 18,
+            heading: "Spectroscopy Introduction",
+            description:
+              "Basic introduction of spectroscopy",
+            link: "https://youtu.be/B2tPeoKgDKQ?si=uKOMHa6aOHkKirt8",
+          },
+          {
+            key: 19,
+            heading: "UV visible Spectroscopy",
+            description:
+              "Describing the secrets of molecules with UV-Visible Spectroscopy",
+            link: "https://youtu.be/KkrTrTdfiBM?si=cMXMXmao5YxhqhBW",
+          },
+          {
+            key: 20,
+            heading: "Instrumentation and application of UV visible spectroscopy",
+            description:
+              "Instrumentation and practical applications of UV-Visible Spectroscopy",
+            link: "https://youtu.be/-w0GytWMvms?si=cDTUEiDtCOp7juZj",
+          },
+          {
+            key: 21,
+            heading: "Principle of IR spectroscopy",
+            description:
+              "Exploring the fundamental principles behind infrared spectroscopy",
+            link: "https://youtu.be/gqzR8-Vlmgc?si=g581viVAYi7C97zk",
+          },
+          {
+            key: 22,
+            heading: "Instrumentation & application of IR spectroscopy",
+            description:
+              "Exploring the fundamentals and diverse applications of Infrared Spectroscopy",
+            link: "https://youtu.be/DhDhVbTT9sQ?si=2eruMZ2zsiocytZH",
+          },
+          {
+            key: 25,
+            heading: "Electronic configuration",
+            description:
+              "Exploring the arrangement of electrons in an atom",
+            link: "https://youtu.be/e7ei-gAkH_8?si=T4qMTmd16Awo7K0I",
+          },
+          {
+            key: 26,
+            heading: "Atomic and ionic sizes",
+            description:
+              "Exploring the fundamental concepts behind the sizes of atoms and ions",
+            link: "https://youtu.be/PNSGx3OLIlk?si=3dQTdAMMoNH74KyH",
+          },
+          {
             key: 27,
             heading: "Periodic Properties-Electron affinity",
             description:
