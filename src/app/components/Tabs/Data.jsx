@@ -561,7 +561,6 @@ const Data = () => {
               "some basic concepts related to thermodynamic properties and thermodynamic processes.",
             link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
           },
-          
           {
             key: 4,
             heading: "Different Types Of Thermodynamic Process",
@@ -633,6 +632,20 @@ const Data = () => {
               "Exploring the fundamentals and diverse applications of Infrared Spectroscopy",
             link: "https://youtu.be/DhDhVbTT9sQ?si=2eruMZ2zsiocytZH",
           },
+          {
+            key: 23,
+            heading: " periodic properties (effective nuclear charge)",
+            description:
+             "The occurrence of the elements with similar properties after certain regular intervals when they are arranged in increasing order of atomic number",
+            link: "https://youtu.be/uhRs0REbDhA?si=hY5St_OPrlcE7t03",
+          },  
+          {
+            key: 24,
+            heading: "periodic properties (variation in s p d f orbitals energies)",
+            description:
+            "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
+            link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
+          }, 
           {
             key: 25,
             heading: "Electronic configuration",
@@ -716,6 +729,83 @@ const Data = () => {
             description:
               "importance of chiral drugs",
             link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
+          },
+          { 
+            key: 39,
+            heading: " organic reactions",
+            description:
+             "chemical reactions involving organic compounds",
+            link: "https://youtu.be/61jaFrlLT0M?si=AjCa4Odz7S1Rw_ZN",
+          },
+          {
+            key: 40,
+            heading: "Nucleophilic Substitution Reaction ",
+            description:
+              "a class of organic reactions where one nucleophile replaces another",
+            link: "https://youtu.be/2U1xKSEMNkY?si=NFfzztoCppLfASvi",
+          },
+          {
+            key: 41,
+            heading: "substitution reaction",
+            description:
+              "a chemical reaction during which one functional group is replaced by another functional group in a chemical compound",
+            link: "https://youtu.be/h8D3KxHkEyI?si=AQmwpuSjqvrTafZd",
+          },
+          {
+            key: 42,
+            heading: "Addition Reaction",
+            description: 
+             " In the simplest of terms of organic chemistry, we can say that an addition reaction is a chemical reaction wherein two or more reactants come together to form a larger single product",
+            link: "https://youtu.be/GvrM-0gN_Co?si=RHIvcyaeZi3Pnq5D",
+          },
+          {
+            key: 43,
+            heading: "Free Radical Addition Reaction",
+            description: 
+             "a chemical reaction wherein two or more reactants come together to form a larger single product",
+            link: "https://youtu.be/flO_UsDd0yY?si=xRQTr0OyNwYyGZjF",
+          },
+          {
+            key: 44,
+            heading: "Elimination Reaction",
+            description: 
+             "a type of reaction that is mainly used to transform saturated compounds to unsaturated compounds",
+            link: "https://youtu.be/Gv4ri_3Oyak?si=FRU0phVCgx4qTgcN",
+          },
+          {
+            key: 45,
+            heading: "Oxidation and Reduction",
+            description: 
+             "a process which involves the addition of oxygen or any electronegative element or the removal of hydrogen or any electropositive element",
+            link: "https://youtu.be/OT8EdHHqpnM?si=tTu6ONcS24IcYwiV",
+          },
+          {
+            key: 46,
+            heading: "cyclization",
+            description:
+              "is the formation of a ring in a chemical compound, such as cyclize. It is a noun and a verb with the same meaning",
+            link: "https://youtu.be/Z5G94J0-FBk?si=OnV2uRnFCTY7LyWA",
+          },
+          {
+            key: 47,
+            heading: "Ring Opening Reaction",
+            description: 
+             "important transformations that afford a 1,2-halohydrin system with two successive chiral carbon centers",
+            link: "https://youtu.be/nQxwkIPDYzg?si=bWKWPWl9iw6MQdjo",
+          },
+          {
+              key: 48,
+            heading: "Synthesis ",
+            description:
+              "the composition or combination of parts or elements so as to form a whole ",
+            link:  "https://youtu.be/8oQkJpuCsIQ?si=lcMerrsFWO-6ZsXM ",
+          },
+          {
+            key: 49,
+            heading: "Aromaticity",
+            description:
+               "a property of the conjugated cycloalkenes which enhances the stability of a molecule due to the delocalization of electrons present in the π-π orbitals",
+            link: "https://youtu.be/bq1PZcKY50o?si=0OgJu2lakHRPy6Jw",
           },
           ],
         pyq: [
