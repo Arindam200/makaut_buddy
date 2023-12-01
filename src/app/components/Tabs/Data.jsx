@@ -213,9 +213,8 @@ const Data = () => {
             description:
             "A transistor can act as a switch or gate for electronic signals, opening and closing an electronic gate many times per second",
             link:
-            "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",},
-   
-          
+            "https://youtu.be/tPE26DO3cDw?si=a9ar5g1s0UOvxu8g",
+          },
           {
             key:13,
             heading:
@@ -598,6 +597,69 @@ const Data = () => {
             link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
           },
           {
+            key: 9,
+            heading: "Atomic and Molecular Structure|Dalton's and Rutherford Atomic Model",
+            description:
+              "Dalton hypothesized that atoms were solid spheres. Rutherford's nuclear model showed atoms with a nuclear center and other particles randomly orbiting at a distance.",
+            link: "https://youtu.be/NMN1zm_X9bk?si=8kktSlGexUsW6eJA",
+          },
+          {
+            key: 10,
+            heading: "Atomic and Molecular Structure|BOHR'S Atomic Model",
+            description: 
+              "The Bohr model postulates that electrons orbit the nucleus at fixed energy levels.",
+            link: "https://youtu.be/ULarF8oaBYc?si=nLzFlhoKFV52LVX1",
+          },
+          {
+            key: 11,
+            heading: "Atomic and Molecular Structure|QUANTUM MECHANICAL MODEL",
+            description:
+              "The Quantum Mechanical Model of the Atom views electrons within an atom as waves, not as particles as previously believed.",
+            link: "https://youtu.be/Jo2OjH7DF6A?si=OYcwixVquoyv603G",
+          },
+          {
+            key: 12,
+            heading:"Atomic and Molecular Structure|Shape of Orbitals and Hydrogen Energy",
+            description:
+              "The orbital energies obtained for hydrogen using quantum mechanics are exactly the same as the allowed energies calculated by Bohr.",
+            link: "https://youtu.be/0eHCtql4QVc?si=V4Xki6BTW9zXNr3O",
+          },
+          {
+            key: 13,
+            heading: "Atomic and Molecular Structure|Electronic Configuration",
+            description: 
+              "Electron configurations describe where electrons are located around the nucleus of an atom.",
+            link: "https://youtu.be/QvznEhd-8Ts?si=4-3ui46QkBsWYpE4",
+          },
+          {
+            key: 14,
+            heading: "Atomic and Molecular Structure|Molecular Orbital Theory",
+            description:
+              " The molecular orbital theory states that each atom tends to combine together and form molecular orbitals.",
+            link: "https://youtu.be/e0hyIUS7PfA?si=cNBDwB_geXZv7elg",
+          },
+          {
+            key: 15,
+            heading: "Atomic and Molecular Structure|Sigma Bond & Pi Bond",
+            description:
+              "Sigma bonds are formed by the axial overlap of half- filled atomic orbitals. Pi bonds are formed through the lateral overlap of the half - filled atomic orbitals.",
+            link: "https://youtu.be/YvUs43mTSnY?si=z7R0H7lKnA5e9ZRV",
+          },
+          {
+            key: 16,
+            heading: "Atomic and Molecular Structure|Molecular Orbital Energy Level For Homonuclear Diatomic Molecules",
+            description:
+              "Homonuclear diatomic molecules are made up of two chemically bonded atoms of the same element.",
+            link: "https://youtu.be/bT-1hiZAWJM?si=31kyFu_kdRidAY69",
+          },
+          {
+            key: 17,
+            heading: "Atomic and Molecular Structure|Molecular Orbital Energy Level For Heteronuclear Diatomic Molecules",
+            description:
+              "Diatomic molecules with two different atoms are called heteronuclear diatomic molecules.",
+            link: "https://youtu.be/QKKGvnf6cv8?si=hvw-ofC9a1lO9Gsl",
+          },
+          {
             key: 18,
             heading: "Spectroscopy Introduction",
             description:
@@ -673,6 +735,20 @@ const Data = () => {
             description:
               "Decoding Electronegativity: The Power Struggle of Atoms",
             link: "https://youtu.be/IkjA0xs11Sk?si=XXZdW3AsTbn9aI8k",
+          },
+          {
+            key: 29,
+            heading: "Periodic Properties-Polarizability and Polarising Power",
+            description:
+              "The ability of a cation to distort an anion is known as its polarization power and the tendency of the anion to become polarized by the cation is known as its polarizability.",
+            link: "https://youtu.be/M33GzJSQMYQ?si=vVISrEICgo29F4e4",
+          },
+          {
+            key: 30,
+            heading: " periodic properties-Oxidation State and oxidation number",
+            description: 
+              "The oxidation number or state of an atom/ion is the number of electrons an atom/ion that the molecule has either gained or lost compared to the neutral atom.",
+            link: "https://youtu.be/VVs66CwHFuc?si=WSdM1GddDiSgA2B9",
           },
           {
             key: 31,
