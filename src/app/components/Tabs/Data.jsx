@@ -246,8 +246,7 @@ const Data = () => {
               "In a PNP transistor, the base current which enters into the collector is amplified",
               link:
               "https://youtu.be/Lx3ApgmyQlc?si=-1jDfPCanifda9LN",},
-   
-          
+
           {
             key:17,
             heading:
@@ -594,7 +593,6 @@ const Data = () => {
               "some basic concepts related to thermodynamic properties and thermodynamic processes.",
             link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
           },
-          
           {
             key: 4,
             heading: "Different Types Of Thermodynamic Process",
@@ -630,6 +628,293 @@ const Data = () => {
             description:
               "an area that can keep being divided and divided infinitely; no individual particles",
             link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
+          },
+          {
+            key: 9,
+            heading: "Atomic and Molecular Structure|Dalton's and Rutherford Atomic Model",
+            description:
+              "Dalton hypothesized that atoms were solid spheres. Rutherford's nuclear model showed atoms with a nuclear center and other particles randomly orbiting at a distance.",
+            link: "https://youtu.be/NMN1zm_X9bk?si=8kktSlGexUsW6eJA",
+          },
+          {
+            key: 10,
+            heading: "Atomic and Molecular Structure|BOHR'S Atomic Model",
+            description: 
+              "The Bohr model postulates that electrons orbit the nucleus at fixed energy levels.",
+            link: "https://youtu.be/ULarF8oaBYc?si=nLzFlhoKFV52LVX1",
+          },
+          {
+            key: 11,
+            heading: "Atomic and Molecular Structure|QUANTUM MECHANICAL MODEL",
+            description:
+              "The Quantum Mechanical Model of the Atom views electrons within an atom as waves, not as particles as previously believed.",
+            link: "https://youtu.be/Jo2OjH7DF6A?si=OYcwixVquoyv603G",
+          },
+          {
+            key: 12,
+            heading:"Atomic and Molecular Structure|Shape of Orbitals and Hydrogen Energy",
+            description:
+              "The orbital energies obtained for hydrogen using quantum mechanics are exactly the same as the allowed energies calculated by Bohr.",
+            link: "https://youtu.be/0eHCtql4QVc?si=V4Xki6BTW9zXNr3O",
+          },
+          {
+            key: 13,
+            heading: "Atomic and Molecular Structure|Electronic Configuration",
+            description: 
+              "Electron configurations describe where electrons are located around the nucleus of an atom.",
+            link: "https://youtu.be/QvznEhd-8Ts?si=4-3ui46QkBsWYpE4",
+          },
+          {
+            key: 14,
+            heading: "Atomic and Molecular Structure|Molecular Orbital Theory",
+            description:
+              " The molecular orbital theory states that each atom tends to combine together and form molecular orbitals.",
+            link: "https://youtu.be/e0hyIUS7PfA?si=cNBDwB_geXZv7elg",
+          },
+          {
+            key: 15,
+            heading: "Atomic and Molecular Structure|Sigma Bond & Pi Bond",
+            description:
+              "Sigma bonds are formed by the axial overlap of half- filled atomic orbitals. Pi bonds are formed through the lateral overlap of the half - filled atomic orbitals.",
+            link: "https://youtu.be/YvUs43mTSnY?si=z7R0H7lKnA5e9ZRV",
+          },
+          {
+            key: 16,
+            heading: "Atomic and Molecular Structure|Molecular Orbital Energy Level For Homonuclear Diatomic Molecules",
+            description:
+              "Homonuclear diatomic molecules are made up of two chemically bonded atoms of the same element.",
+            link: "https://youtu.be/bT-1hiZAWJM?si=31kyFu_kdRidAY69",
+          },
+          {
+            key: 17,
+            heading: "Atomic and Molecular Structure|Molecular Orbital Energy Level For Heteronuclear Diatomic Molecules",
+            description:
+              "Diatomic molecules with two different atoms are called heteronuclear diatomic molecules.",
+            link: "https://youtu.be/QKKGvnf6cv8?si=hvw-ofC9a1lO9Gsl",
+          },
+          {
+            key: 18,
+            heading: "Spectroscopy Introduction",
+            description:
+              "Basic introduction of spectroscopy",
+            link: "https://youtu.be/B2tPeoKgDKQ?si=uKOMHa6aOHkKirt8",
+          },
+          {
+            key: 19,
+            heading: "UV visible Spectroscopy",
+            description:
+              "Describing the secrets of molecules with UV-Visible Spectroscopy",
+            link: "https://youtu.be/KkrTrTdfiBM?si=cMXMXmao5YxhqhBW",
+          },
+          {
+            key: 20,
+            heading: "Instrumentation and application of UV visible spectroscopy",
+            description:
+              "Instrumentation and practical applications of UV-Visible Spectroscopy",
+            link: "https://youtu.be/-w0GytWMvms?si=cDTUEiDtCOp7juZj",
+          },
+          {
+            key: 21,
+            heading: "Principle of IR spectroscopy",
+            description:
+              "Exploring the fundamental principles behind infrared spectroscopy",
+            link: "https://youtu.be/gqzR8-Vlmgc?si=g581viVAYi7C97zk",
+          },
+          {
+            key: 22,
+            heading: "Instrumentation & application of IR spectroscopy",
+            description:
+              "Exploring the fundamentals and diverse applications of Infrared Spectroscopy",
+            link: "https://youtu.be/DhDhVbTT9sQ?si=2eruMZ2zsiocytZH",
+          },
+          {
+            key: 23,
+            heading: " periodic properties (effective nuclear charge)",
+            description:
+             "The occurrence of the elements with similar properties after certain regular intervals when they are arranged in increasing order of atomic number",
+            link: "https://youtu.be/uhRs0REbDhA?si=hY5St_OPrlcE7t03",
+          },  
+          {
+            key: 24,
+            heading: "periodic properties (variation in s p d f orbitals energies)",
+            description:
+            "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
+            link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
+          }, 
+          {
+            key: 25,
+            heading: "Electronic configuration",
+            description:
+              "Exploring the arrangement of electrons in an atom",
+            link: "https://youtu.be/e7ei-gAkH_8?si=T4qMTmd16Awo7K0I",
+          },
+          {
+            key: 26,
+            heading: "Atomic and ionic sizes",
+            description:
+              "Exploring the fundamental concepts behind the sizes of atoms and ions",
+            link: "https://youtu.be/PNSGx3OLIlk?si=3dQTdAMMoNH74KyH",
+          },
+          {
+            key: 27,
+            heading: "Periodic Properties-Electron affinity",
+            description:
+              "Demystifying Electron Affinity: Understanding the Attraction of Atoms",
+            link: "https://youtu.be/IkjA0xs11Sk?si=MLg2Y2nv0h_SzL6u",
+          },
+          {
+            key: 28,
+            heading: "Periodic Properties-Electronegativity",
+            description:
+              "Decoding Electronegativity: The Power Struggle of Atoms",
+            link: "https://youtu.be/IkjA0xs11Sk?si=XXZdW3AsTbn9aI8k",
+          },
+          {
+            key: 29,
+            heading: "Periodic Properties-Polarizability and Polarising Power",
+            description:
+              "The ability of a cation to distort an anion is known as its polarization power and the tendency of the anion to become polarized by the cation is known as its polarizability.",
+            link: "https://youtu.be/M33GzJSQMYQ?si=vVISrEICgo29F4e4",
+          },
+          {
+            key: 30,
+            heading: " periodic properties-Oxidation State and oxidation number",
+            description: 
+              "The oxidation number or state of an atom/ion is the number of electrons an atom/ion that the molecule has either gained or lost compared to the neutral atom.",
+            link: "https://youtu.be/VVs66CwHFuc?si=WSdM1GddDiSgA2B9",
+          },
+          {
+            key: 31,
+            heading: "Stereochemistry-Introduction",
+            description:
+              "basic introduvtion on Isomerism and Isomers",
+            link: "https://youtu.be/2Ou5cPT58MA?si=cPYroBtA_xfEIxZv",
+          },
+          {
+            key: 32,
+            heading: "Stereochemistry-Terms used in Optical Activity, Optically Active Compound, Enantiomers",
+            description:
+              "the ability of a chiral molecule to rotate the plane of plane-polairsed light, measured using a polarimeter",
+            link: "https://youtu.be/yVhL3pK4vmc?si=fN-S9ET0IMFIcF86",
+          },
+          {
+            key: 33,
+            heading: "Stereochemistry-Diastereomers, Racemic",
+            description:
+              "stereoisomers that are not related as object and mirror image and are not enantiomers",
+            link: "https://youtu.be/k6Ym6XRp0gY?si=8oRKDCJjuPcHCSR9",
+          },
+          {
+            key: 34,
+            heading: "Stereochemistry-Without, With Chiral C-Atom, Biphenyl, Allenes",
+            description:
+              "about Optically Active compounds without or with Chiral Carbon atom",
+            link: "https://youtu.be/mYDwwNosIOU?si=P-x79lLhpXaVmnqX",
+          },
+          {
+            key: 35,
+            heading: "Stereochemistry-R S Nomenclature, CIP Rule",
+            description:
+              "Tricks to find R/S Nomenclature of chiral molecule with example",
+            link: "https://youtu.be/pYefUVk6OWU?si=e3QEXSWGNBZB1xFq",
+          },
+          {
+            key: 36,
+            heading: "Stereochemistry-Geometrical, Cis-Trans",
+            description:
+              "exhibit a type of stereoisomerism where the atoms have different spatial arrangements in three-dimensional space",
+            link: "https://youtu.be/WFQwwTr5SVs?si=rfVtioe8G84BdWHX",
+          },
+          {
+            key: 37,
+            heading: "Stereochemistry-E Z, Nomenclature Of Geometrical Isomers ",
+            description:
+              "the orientation of a functional group in a compound",
+            link: "https://youtu.be/DftQyhm_FA4?si=NAuQDHpEFhuaBSPt",
+          },
+          {
+            key: 38,
+            heading: "Stereochemistry-chiral drugs  ",
+            description:
+              "importance of chiral drugs",
+            link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
+          },
+          { 
+            key: 39,
+            heading: " organic reactions",
+            description:
+             "chemical reactions involving organic compounds",
+            link: "https://youtu.be/61jaFrlLT0M?si=AjCa4Odz7S1Rw_ZN",
+          },
+          {
+            key: 40,
+            heading: "Nucleophilic Substitution Reaction ",
+            description:
+              "a class of organic reactions where one nucleophile replaces another",
+            link: "https://youtu.be/2U1xKSEMNkY?si=NFfzztoCppLfASvi",
+          },
+          {
+            key: 41,
+            heading: "substitution reaction",
+            description:
+              "a chemical reaction during which one functional group is replaced by another functional group in a chemical compound",
+            link: "https://youtu.be/h8D3KxHkEyI?si=AQmwpuSjqvrTafZd",
+          },
+          {
+            key: 42,
+            heading: "Addition Reaction",
+            description: 
+             " In the simplest of terms of organic chemistry, we can say that an addition reaction is a chemical reaction wherein two or more reactants come together to form a larger single product",
+            link: "https://youtu.be/GvrM-0gN_Co?si=RHIvcyaeZi3Pnq5D",
+          },
+          {
+            key: 43,
+            heading: "Free Radical Addition Reaction",
+            description: 
+             "a chemical reaction wherein two or more reactants come together to form a larger single product",
+            link: "https://youtu.be/flO_UsDd0yY?si=xRQTr0OyNwYyGZjF",
+          },
+          {
+            key: 44,
+            heading: "Elimination Reaction",
+            description: 
+             "a type of reaction that is mainly used to transform saturated compounds to unsaturated compounds",
+            link: "https://youtu.be/Gv4ri_3Oyak?si=FRU0phVCgx4qTgcN",
+          },
+          {
+            key: 45,
+            heading: "Oxidation and Reduction",
+            description: 
+             "a process which involves the addition of oxygen or any electronegative element or the removal of hydrogen or any electropositive element",
+            link: "https://youtu.be/OT8EdHHqpnM?si=tTu6ONcS24IcYwiV",
+          },
+          {
+            key: 46,
+            heading: "cyclization",
+            description:
+              "is the formation of a ring in a chemical compound, such as cyclize. It is a noun and a verb with the same meaning",
+            link: "https://youtu.be/Z5G94J0-FBk?si=OnV2uRnFCTY7LyWA",
+          },
+          {
+            key: 47,
+            heading: "Ring Opening Reaction",
+            description: 
+             "important transformations that afford a 1,2-halohydrin system with two successive chiral carbon centers",
+            link: "https://youtu.be/nQxwkIPDYzg?si=bWKWPWl9iw6MQdjo",
+          },
+          {
+              key: 48,
+            heading: "Synthesis ",
+            description:
+              "the composition or combination of parts or elements so as to form a whole ",
+            link:  "https://youtu.be/8oQkJpuCsIQ?si=lcMerrsFWO-6ZsXM ",
+          },
+          {
+            key: 49,
+            heading: "Aromaticity",
+            description:
+               "a property of the conjugated cycloalkenes which enhances the stability of a molecule due to the delocalization of electrons present in the π-π orbitals",
+            link: "https://youtu.be/bq1PZcKY50o?si=0OgJu2lakHRPy6Jw",
           },
           ],
         pyq: [
