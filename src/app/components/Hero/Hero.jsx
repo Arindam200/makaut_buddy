@@ -46,11 +46,11 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="sm:w-2/5 sm:mt-[63px]">
+        <div className="sm:w-2/5 sm:mt-[63px] md:-mt-20">
           <img
             alt="makaut buddy company logo"
             src={logo.src}
-            className="2xl:mt-[120px] "
+            className="2xl:mt-[120px]  "
           />
         </div>
       </div>

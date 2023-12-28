@@ -21,11 +21,23 @@ export default function Footer() {
                 <h1 className="font-medium text-lg pb-2 text-white">
                   Swapnoneel Saha
                 </h1>
-                <li className="text-md max-sm:hidden"><a href="https://swapnoneel.vercel.app">Website</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://github.com/Swpn0neel">GitHub</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://swapnoneel.hashnode.dev">Blogs</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://x.com/swapnoneel123">Twitter</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://www.linkedin.com/in/swapnoneel-saha-14a3161b6/">LinkedIn</a></li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://swapnoneel.vercel.app">Website</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://github.com/Swpn0neel">GitHub</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://swapnoneel.hashnode.dev">Blogs</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://x.com/swapnoneel123">Twitter</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://www.linkedin.com/in/swapnoneel-saha-14a3161b6/">
+                    LinkedIn
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="">
@@ -33,11 +45,23 @@ export default function Footer() {
                 <h1 className="font-medium text-lg pb-2 text-white">
                   Arindam Majumder
                 </h1>
-                <li className="text-md max-sm:hidden"><a href="">Website</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://github.com/Arindam200">GitHub</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://arindam1729.hashnode.dev">Blogs</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://x.com/Arindam_1729">Twitter</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://www.linkedin.com/in/arindam-majumder-021bb623b/">LinkedIn</a></li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://arindam-majumder.vercel.app">Website</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://github.com/Arindam200">GitHub</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://arindam1729.hashnode.dev">Blogs</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://x.com/Arindam_1729">Twitter</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://www.linkedin.com/in/arindam-majumder-021bb623b/">
+                    LinkedIn
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="">
@@ -45,20 +69,40 @@ export default function Footer() {
                 <h1 className="font-medium text-lg pb-2 text-white">
                   Samyabrata Maji
                 </h1>
-                <li className="text-md max-sm:hidden"><a href="https://sammaji.pages.dev">Website</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://github.com/samyabrata-maji">GitHub</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://sammaji.hashnode.dev">Blogs</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://twitter.com/sammaji15">Twitter</a></li>
-                <li className="text-md max-sm:hidden"><a href="https://www.linkedin.com/in/samyabrata-maji/">LinkedIn</a></li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://sammaji.pages.dev">Website</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://github.com/samyabrata-maji">GitHub</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://sammaji.hashnode.dev">Blogs</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://twitter.com/sammaji15">Twitter</a>
+                </li>
+                <li className="text-md max-sm:hidden">
+                  <a href="https://www.linkedin.com/in/samyabrata-maji/">
+                    LinkedIn
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
         <p className="text-center text-[FFFFFF90] max-sm:text-xs">
           Created with love ❤️ by
-          <a className="text-white ml-2" href="https://swapnoneel.vercel.app">Swapnoneel Saha</a> ,
-          <a className="text-white ml-2" href="">Arindam Majumder</a> and 
-          <a className="text-white ml-2" href="https://sammaji.pages.dev">Samyabrata Maji</a>
+          <a className="text-white ml-2" href="https://swapnoneel.vercel.app">
+            Swapnoneel Saha
+          </a>{" "}
+          ,
+          <a className="text-white ml-2" href="">
+            Arindam Majumder
+          </a>{" "}
+          and
+          <a className="text-white ml-2" href="https://sammaji.pages.dev">
+            Samyabrata Maji
+          </a>
         </p>
       </div>
     </>
