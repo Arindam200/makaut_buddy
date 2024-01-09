@@ -4,6 +4,7 @@ import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import logo from "../../../../public/Logo_Hero.png";
+import { Spotlight } from "../../ui/Spotlight";
 
 export default function Hero() {
   return (
@@ -13,6 +14,10 @@ export default function Hero() {
         className="font-grenze sm:flex sm:h-[calc(100vh-40px)] sm:justify-between px-10 sm:px-32 gap-16 sm:min-h-[calc(100vh-40px)]"
       >
         {/* sm:pt-20  */}
+        <Spotlight
+          className="-top-40 left-0 md:left-60 md:-top-20"
+          fill="white"
+        />
         <div className="w-3/5 max-sm:pt-10 flex flex-col items-start justify-center gap-4 max-sm:w-full">
           {/* <h2 className="text-6xl max-sm:text-2xl max-sm:text-center font-bold text-white text-start ">
               <span className="sm:text-8xl text-4xl">All </span> the resources
