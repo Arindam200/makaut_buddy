@@ -58,8 +58,8 @@ const Features = () => {
           <Image
             src={logo_s.src}
             className="-z-50 w-[490px] 2xl:ml-[105px]"
-            width={500}
-            height={500}
+            width={500} // might need to change this
+            height={500} // might need to change this
             alt="Makaut Buddy Hero Image"
           />
         </div>
