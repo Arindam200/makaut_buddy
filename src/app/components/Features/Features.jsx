@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import React, { forwardRef } from "react";
 import logo_s from "../../../../public/fixed_image_180.png";
 import "./index.css";
@@ -55,7 +55,11 @@ const Features = () => {
           </div>
         </div>
         <div className="hidden sm:block relative mr-5">
-          <img src={logo_s.src} className="-z-50 w-[490px] 2xl:ml-[105px]" />
+          <Image
+            src={logo_s.src}
+            className="-z-50 w-[490px] 2xl:ml-[105px]"
+            alt="Makaut Buddy Hero Image"
+          />
         </div>
       </div>
     </>

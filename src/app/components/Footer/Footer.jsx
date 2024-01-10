@@ -96,7 +96,10 @@ export default function Footer() {
             Swapnoneel Saha
           </a>{" "}
           ,
-          <a className="text-white ml-2" href="">
+          <a
+            className="text-white ml-2"
+            href="https://arindam-majumder.vercel.app"
+          >
             Arindam Majumder
           </a>{" "}
           and
