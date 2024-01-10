@@ -19,19 +19,19 @@ const Features = () => {
                 <h1 className="text-7xl text-start font-grenze font-bold">
                   1.
                 </h1>
-                <h3 className="text-lg text-[#171717]">
+                <h2 className="text-lg text-[#171717]">
                   All the previous year questions compiled in a bundle so that
                   practice becomes easy and ever, and chances of getting commons
                   are extremely high.
-                </h3>
+                </h2>
               </div>
             </div>
             <div className=" box w-64 h-96 text-black ">
               <div className="tri"></div>
               <div className="pl-8 pt-1 pr-6 space-y-5 ">
-                <h1 className="text-7xl text-start font-grenze font-bold">
+                <h2 className="text-7xl text-start font-grenze font-bold">
                   2.
-                </h1>
+                </h2>
                 <h3 className="text-lg text-[#171717]">
                   The best YouTube tutorials that can help you one-shot each and
                   every concepts with ultimate ease, and make the last-night
@@ -45,11 +45,11 @@ const Features = () => {
                 <h1 className="text-7xl text-start font-grenze font-bold">
                   3.
                 </h1>
-                <h3 className="text-lg text-[#171717]">
+                <h2 className="text-lg text-[#171717]">
                   Classified Handwritten notes just for you guys, straight from
                   the toppers which will give you the ultimate edge at excelling
                   the semester exam.
-                </h3>
+                </h2>
               </div>
             </div>
           </div>
@@ -58,6 +58,8 @@ const Features = () => {
           <Image
             src={logo_s.src}
             className="-z-50 w-[490px] 2xl:ml-[105px]"
+            width={500}
+            height={500}
             alt="Makaut Buddy Hero Image"
           />
         </div>

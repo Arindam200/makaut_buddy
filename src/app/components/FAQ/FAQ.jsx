@@ -25,9 +25,9 @@ export default function FAQ() {
             <h1 className="sm:text-7xl text-5xl max-sm:text-center font-bold">
               FAQ
             </h1>
-            <h3 className="font-sans text-[#FFFFFF70] sm:text-xl text-md max-sm:text-center">
+            <h2 className="font-sans text-[#FFFFFF70] sm:text-xl text-md max-sm:text-center">
               Frequently Asked Questions
-            </h3>
+            </h2>
           </div>
         </div>
 

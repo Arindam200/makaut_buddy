@@ -16,7 +16,7 @@ export default function Stat() {
             <h1 className="sm:text-8xl -mt-7 align-middle items-center self-center font-grenze text-4xl text-center font-bold">
               {stat.value}
             </h1>
-            <h3 className="sm:text-xl text-md text-center">{stat.label}</h3>
+            <h2 className="sm:text-xl text-md text-center">{stat.label}</h2>
           </div>
         ))}
       </div>

@@ -27,10 +27,10 @@ export default function Hero() {
             <span className="sm:text-9xl font-bold text-4xl">All </span>the
             resources you want, at your fingertips.
           </motion.h1>
-          <h3 className="font-sans text-start text-2xl font-light max-sm:text-sm max-sm:text-center leading-loose text bg bg-gradient-to-r from-[rgba(225,225,225,0.80)] to-[rgba(225,225,225,0.40)] bg-clip-text text-transparent">
+          <h2 className="font-sans text-start text-2xl font-light max-sm:text-sm max-sm:text-center leading-loose text bg bg-gradient-to-r from-[rgba(225,225,225,0.80)] to-[rgba(225,225,225,0.40)] bg-clip-text text-transparent">
             MAKAUT Buddy is the one-stop academic solution for every students of
             the University.
-          </h3>
+          </h2>
           <div className="font-sans sm:space-x-5 mt-4 space-x-2 max-sm:flex">
             <Button
               radius="sm"
