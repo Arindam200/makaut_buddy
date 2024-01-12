@@ -68,18 +68,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 # Reference Images
 
 1.
+![image](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/e112ed6f-460f-44fc-8230-33ad7176b8c7)
 
-![image of sign in page](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/bec2f5f1-9eda-4055-a48f-0157983da724)
+
 
 
 2.
+![image](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/549d3c98-4b0e-49ba-8014-6fb080b1c710)
 
-![image of add application interface](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/b47b4fa6-7dca-44a0-952e-db5a43838361)
+
 
 
 3.
 
-![Screenshot from 2024-01-11 09-44-44](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/03d4098d-2a6c-479c-a97c-7384eb8dd120)
+![image](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/4a7bf04a-fdd2-4280-9e32-da0ce1a2216d)
+
 
 
 
