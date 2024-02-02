@@ -1,10 +1,9 @@
-"use client";
-
 import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import logo from "../../../../public/Logo_Hero.png";
 import { Spotlight } from "../../ui/Spotlight";
+import Globe from "./Globe";
 
 export default function Hero() {
   return (
@@ -51,12 +50,14 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="sm:w-2/5 sm:mt-[63px] md:-mt-20">
-          <img
+        {/* <Globe /> */}
+        <div className="sm:w-2/5 ">
+          {/* <img
             alt="makaut buddy company logo"
             src={logo.src}
             className="2xl:mt-[120px]  "
-          />
+          /> */}
+          <Globe />
         </div>
       </div>
     </>
