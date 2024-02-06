@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Tabs from "../components/Tabs/Tabs.jsx";
 import Dropdown from "../components/Dropdown/Dropdown.jsx";

@@ -1,4 +1,4 @@
-"use client";
+
 import Image from "next/image";
 import React, { forwardRef } from "react";
 import logo_s from "../../../../public/fixed_image_180.png";
