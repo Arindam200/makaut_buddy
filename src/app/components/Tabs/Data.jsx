@@ -290,6 +290,32 @@ const Data = () => {
             link:
             "https://www.youtube.com/watch?v=8FAaLGxM98U&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=9",
            },
+          {key:22,
+            heading:
+            "KCL",
+            description:
+            "KCL law is used to describe how a charge enters and leaves a wire junction point or node on a wire",
+            link:
+            "https://youtu.be/TaqJ4OYqv3A?si=ba2vJmVuXYTsGoDG",
+           },
+          {key:23,
+            heading:
+            "KVL",
+            description:
+            "Kirchhoff's Voltage Law (KVL) can be used to calculate the potential drop across a resistance.",
+            link:
+            "https://youtu.be/aZIizOWnuB8?si=nm3S-UiBDPj_DWxw",
+           },
+           {key:24,
+            heading:
+            "Thevenin's Theorem",
+            description:
+            "Thevenin's theorem is especially useful for analyzing circuits by removing the load resistance from the original circuit and simplifying.",
+            link:
+            "https://youtu.be/_h62NLQ33DA?si=qIyOP05uzxPZ3h3-",
+           },
+
+        
           {
             key:25,
             heading:
