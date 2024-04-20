@@ -255,7 +255,40 @@ const Data = () => {
             "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",
             link: 
            "https://youtu.be/X4_8dh-J4ik?si=YYRGX4crLGd-RV0_",},
-           
+           {
+            key:18,
+            heading:
+            "Clipper Circuits",
+            description:
+            "A clipper circuit is an electronic circuit that clips or cuts off a portion of the input waveform, used for limiting voltage levels or shaping waveforms in signal processing applications.",
+            link:
+            "https://www.youtube.com/watch?v=ZpTQAZbu-44&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=14",
+           },
+           {
+            key:19,
+            heading:
+            "Clamper Circuits",
+            description:
+            "Clamper circuits are electronic circuits that shift the DC level of a signal without affecting its shape, useful for tasks like DC restoration in communication systems.",
+            link:
+            "https://www.youtube.com/watch?v=wfc5PYw-IbM&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=15",
+           },
+           {key:20,
+            heading:
+            "Half wave rectifier",
+            description:
+            "A half-wave rectifier is an electronic circuit that converts AC input to pulsating DC output by allowing only one half of the input waveform to pass.",
+            link:
+            "https://www.youtube.com/watch?v=gYxH-D9Det8&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=8",
+           },
+           {key:21,
+            heading:
+            "Full Wave Rectifier",
+            description:
+            "A full-wave rectifier converts both halves of an alternating current (AC) input signal into direct current (DC), utilizing two diodes to ensure continuous flow in both polarities.",
+            link:
+            "https://www.youtube.com/watch?v=8FAaLGxM98U&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=9",
+           },
                 
         ],
 
