@@ -255,6 +255,30 @@ const Data = () => {
             "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",
             link: 
            "https://youtu.be/X4_8dh-J4ik?si=YYRGX4crLGd-RV0_",},
+           {
+            key:25,
+            heading:
+            "All about Norton's Theorm",
+            description:
+            "It states that any complex linear circuit can be simplified to an equivalent simple circuit with a single current source in parallel with a single resistor connected to a load.",
+            link: 
+           "https://youtu.be/T7MJpfhXGjs?si=gHQnaoByttYH814K",},
+           {
+            key:26,
+            heading:
+            "All about superposition theorm",
+            description:
+            "It states that in any linear, bilateral network where more than one source is present, the response across any element in the circuit is the sum of the responses obtained from each source considered separately.",
+            link: 
+           "https://youtu.be/1icXtW97tIo?si=OzOYPBIAh85zymP2",},
+           {
+            key:27,
+            heading:
+            "All about Maximum Power Transfer Theorm",
+            description:
+            "It explains that to generate maximum external power through a finite internal resistance (DC network), the resistance of the given load must be equal to the resistance of the available source.",
+            link: 
+           "https://youtu.be/U85eA3-suiQ?si=MA3dzftJRpr-pquE",},
            
                 
         ],
