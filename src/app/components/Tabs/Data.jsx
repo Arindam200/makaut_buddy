@@ -273,7 +273,8 @@ const Data = () => {
             link:
             "https://www.youtube.com/watch?v=wfc5PYw-IbM&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=15",
            },
-           {key:20,
+           {
+            key:20,
             heading:
             "Half wave rectifier",
             description:
@@ -289,7 +290,30 @@ const Data = () => {
             link:
             "https://www.youtube.com/watch?v=8FAaLGxM98U&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=9",
            },
-                
+          {
+            key:25,
+            heading:
+            "All about Norton's Theorm",
+            description:
+            "It states that any complex linear circuit can be simplified to an equivalent simple circuit with a single current source in parallel with a single resistor connected to a load.",
+            link: 
+           "https://youtu.be/T7MJpfhXGjs?si=gHQnaoByttYH814K",},
+           {
+            key:26,
+            heading:
+            "All about superposition theorm",
+            description:
+            "It states that in any linear, bilateral network where more than one source is present, the response across any element in the circuit is the sum of the responses obtained from each source considered separately.",
+            link: 
+           "https://youtu.be/1icXtW97tIo?si=OzOYPBIAh85zymP2",},
+           {
+            key:27,
+            heading:
+            "All about Maximum Power Transfer Theorm",
+            description:
+            "It explains that to generate maximum external power through a finite internal resistance (DC network), the resistance of the given load must be equal to the resistance of the available source.",
+            link: 
+           "https://youtu.be/U85eA3-suiQ?si=MA3dzftJRpr-pquE",},   
         ],
 
         pyq: [
