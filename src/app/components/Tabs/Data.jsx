@@ -182,7 +182,7 @@ const Data = () => {
                                 heading: "L'Hospital's rule",
                                 description:
                                   "L'Hospital's Rule, in calculus, aids in evaluating limits of indeterminate forms by taking derivatives. It's vital for handling ratios of functions that approach zero or infinity.",
-                                link: "https://www.youtube.com/watch?v=H-TZUMCWgo8&t=3s",},
+                                link: "https://www.youtube.com/watch?v=H-TZUMCWgo8&t=3s" ,},
                                 {key: 31,
                                   heading: "Maxima and minima",
                                   description:
