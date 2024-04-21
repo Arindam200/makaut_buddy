@@ -55,7 +55,7 @@ const Data = () => {
             heading: "Linear Form of Matrix",
             description:
               "Linear Form Basics: Understanding linear transformations and representations, Applications: Computer graphics, physics simulations, and engineering modeling.",
-            link: "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
+            link:  "https://www.youtube.com/live/D5V0NXtWGtQ?si=2H3LmawO1R_bhZgy",
           },
           {
             key: 8,
