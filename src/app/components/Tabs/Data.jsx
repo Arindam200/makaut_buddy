@@ -91,7 +91,110 @@ const Data = () => {
             description:
               "Concept of Eigen value and Eigen vector. Working rule to find Eigen value and Eigen vector. Examples",
             link: "https://www.youtube.com/watch?v=ZX5YnDMzwbs",
-          },         
+          },
+          {key: 13,
+            heading: "Gauss Elimination Method",
+            description:
+              "Gauss elimination method, a linear algebra technique, efficiently solves systems of linear equations by systematically eliminating variables. It's fundamental in numerical analysis and computational science for solving large systems.",
+            link: "https://www.youtube.com/watch?v=Gkit1hUTsX8",
+          },
+          {key: 14,
+            heading: "Gauss Jordan Method",
+            description:
+              "Gauss-Jordan elimination is a linear algebra method for solving systems of equations by transforming a matrix to reduced row-echelon form, allowing straightforward solution extraction.",
+            link: "https://www.youtube.com/watch?v=oPkTasoJngA",
+          },
+          {key: 15,
+            heading: "Gauss Jordan Method",
+            description:
+              "Gauss-Jordan elimination is a linear algebra method for solving systems of equations by transforming a matrix to reduced row-echelon form, allowing straightforward solution extraction.",
+            link: "https://www.youtube.com/watch?v=oPkTasoJngA",},
+            {key: 16,
+              heading: "Vector Space",
+              description:
+                "Vector space method is a mathematical framework used in natural language processing, representing words as vectors in multidimensional space to analyze relationships and semantics within textual data.",
+              link: "https://www.youtube.com/watch?v=1XlT3Y2oyAU&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am",},
+              {key: 17,
+                heading: "Linearly Independent Linearly Dependents Vectors",
+                description:
+                  "Linearly independent vectors form a set where no vector can be expressed as a linear combination of the others. Conversely, linearly dependent vectors allow such expressions.",
+                link: "https://www.youtube.com/watch?v=rDrQH9ma82o&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am&index=4",},
+                {key: 18,
+                  heading: "Basis & Dimension",
+                  description:
+                    "In linear algebra, a basis is a set of vectors that spans a vector space, and the dimension is the number of vectors in that basis.",
+                  link: "https://www.youtube.com/watch?v=Pc2dWW3aSrk&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am&index=5",},
+                  {key: 19,
+                    heading: "Linear Transformation",
+                    description:
+                      "Linear transformations in a vector space preserve addition and scalar multiplication. They map vectors to other vectors while maintaining linearity, crucial for various applications in mathematics.",
+                    link: "https://www.youtube.com/watch?v=1fLxcBJB_t8&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am&index=6",},
+                    {key: 20,
+                      heading: "Kernel and Range",
+                      description:
+                        "In a vector space, the kernel is the set of vectors mapped to zero by a linear transformation, while the range is the span of the transformed vectors.",
+                      link: "https://www.youtube.com/watch?v=r7ZsD95gcEE",},
+                      {key: 21,
+                        heading: "Rank Nullity Theorem",
+                        description:
+                          "The rank-nullity theorem states that for a linear transformation on a finite-dimensional vector space, the dimension of the kernel plus the dimension of the image equals the dimension of the space.",
+                        link: "https://www.youtube.com/watch?v=HnFFuXDi9p8&t=348s",},
+                        {key: 22,
+                          heading: "Diagonalization of Matrix",
+                          description:
+                            "Diagonalization in vector spaces transforms a matrix into a diagonal form, simplifying computations. It reveals eigenvalues as diagonal entries and facilitates analysis of linear transformations.",
+                          link: "https://www.youtube.com/watch?v=THONvuviGkc&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am&index=13",},
+                          {key: 23,
+                            heading: "Gram-Schmidt Orthogonalisation Process",
+                            description:
+                              "The Gram-Schmidt orthogonalization process transforms a set of linearly independent vectors into an orthonormal basis, crucial for solving problems in linear algebra, signal processing, and quantum mechanics.",
+                            link: "https://www.youtube.com/watch?v=UOZjINOGLog&list=PLU6SqdYcYsfI7Ebw_j-Vy8YKHdbHKP9am&index=20",},
+                            {key: 24,
+                              heading: "Inner Product Space",
+                              description:
+                                "An inner product space is a vector space equipped with an inner product, defining geometric notions like length and angle. It provides a framework for analyzing vectors through scalar products.",
+                              link: "https://www.youtube.com/watch?v=2e03K_056t0",},
+                              {key: 25,
+                                heading: "Evolutes and involutes",
+                                description:
+                                  "Evolutes and involutes are geometric curves related by their tangents. Evolutes trace the path of a point on a curve's normal, while involutes trace the path of its tangent.",
+                                link: "https://www.youtube.com/watch?v=H9xxLXYSrCw",},
+                        {key: 26,
+                          heading: "Gamma Function",
+                          description:
+                            "The Gamma function, denoted Γ(z), extends factorials to complex and real numbers. It's integral to diverse fields like number theory, statistics, and quantum mechanics, facilitating computations involving continuous sums.",
+                          link: "https://www.youtube.com/watch?v=SduCO-r_TOA",},
+                          {key: 27,
+                            heading: "Beta function",
+                            description:
+                              "The Beta function is a special function in mathematics, defined as an integral involving the Gamma function. It has applications in probability theory and statistics.",
+                            link: "https://www.youtube.com/watch?v=IaG-24IhULY&t=959s",},
+                        {key: 28,
+                          heading: "Evaluate surface areas and volumes of revolutions",
+                          description:
+                            "When evaluating surface areas and volumes of revolutions, integrate along the axis of revolution, accounting for rotation",
+                          link: "https://www.youtube.com/watch?v=x4U4n4DaxZ8&t=744s",},
+                          {key: 29,
+                            heading: "Rolle's Theorem",
+                            description:
+                              "Rolle's Theorem states that if a function is continuous on a closed interval, differentiable on the open interval, and its endpoints are equal, then there exists a point of tangency.",
+                            link: "https://www.youtube.com/watch?v=IFtjDDB8fzo&t=511s",},
+                            {key: 30,
+                              heading: "Lagrange's Mean Value Theorem",
+                              description:
+                                "Lagrange's Mean Value Theorem states that for a continuous function on a closed interval, there exists a point where the derivative equals the average rate of change.",
+                              link: "https://www.youtube.com/watch?v=_rLizW7giT4&list=PLU6SqdYcYsfJlpLH35MEWnKAQYFJoLCy9&index=3",},
+                              {key: 31,
+                                heading: "L'Hospital's rule",
+                                description:
+                                  "L'Hospital's Rule, in calculus, aids in evaluating limits of indeterminate forms by taking derivatives. It's vital for handling ratios of functions that approach zero or infinity.",
+                                link: "https://www.youtube.com/watch?v=H-TZUMCWgo8&t=3s",},
+                                {key: 32,
+                                  heading: "Maxima and minima",
+                                  description:
+                                    "Maxima and minima refer to the highest and lowest points, respectively, in a mathematical function or data set. They represent extremes.",
+                                  link: "https://www.youtube.com/watch?v=NpR91wexqHA&t=223s",},
+                                  
         ],
         pyq: [
           {
