@@ -701,147 +701,147 @@ const Data = () => {
         },
         {
           key: 18,
-          heading: "Spectroscopy Introduction",
+          heading: "Spectroscopy | Introduction",
           description:
             "Basic introduction of spectroscopy",
           link: "https://youtu.be/B2tPeoKgDKQ?si=uKOMHa6aOHkKirt8",
         },
         {
           key: 19,
-          heading: "UV visible Spectroscopy",
+          heading: "Spectroscopy | UV visible Spectroscopy",
           description:
             "Describing the secrets of molecules with UV-Visible Spectroscopy",
           link: "https://youtu.be/KkrTrTdfiBM?si=cMXMXmao5YxhqhBW",
         },
         {
           key: 20,
-          heading: "Instrumentation and application of UV visible spectroscopy",
+          heading: "Spectroscopy | Instrumentation and application of UV visible spectroscopy",
           description:
             "Instrumentation and practical applications of UV-Visible Spectroscopy",
           link: "https://youtu.be/-w0GytWMvms?si=cDTUEiDtCOp7juZj",
         },
         {
           key: 21,
-          heading: "Principle of IR spectroscopy",
+          heading: "Spectroscopy | Principle of IR spectroscopy",
           description:
             "Exploring the fundamental principles behind infrared spectroscopy",
           link: "https://youtu.be/gqzR8-Vlmgc?si=g581viVAYi7C97zk",
         },
         {
           key: 22,
-          heading: "Instrumentation & application of IR spectroscopy",
+          heading: "Spectroscopy | Instrumentation & application of IR spectroscopy",
           description:
             "Exploring the fundamentals and diverse applications of Infrared Spectroscopy",
           link: "https://youtu.be/DhDhVbTT9sQ?si=2eruMZ2zsiocytZH",
         },
         {
           key: 23,
-          heading: " periodic properties (effective nuclear charge)",
+          heading: " periodic properties | effective nuclear charge",
           description:
             "The occurrence of the elements with similar properties after certain regular intervals when they are arranged in increasing order of atomic number",
           link: "https://youtu.be/uhRs0REbDhA?si=hY5St_OPrlcE7t03",
         },
         {
           key: 24,
-          heading: "periodic properties (variation in s p d f orbitals energies)",
+          heading: "periodic properties | (variation in s p d f orbitals energies)",
           description:
             "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
           link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
         },
         {
           key: 25,
-          heading: "Electronic configuration",
+          heading: "Periodic Properties | Electronic configuration",
           description:
             "Exploring the arrangement of electrons in an atom",
           link: "https://youtu.be/e7ei-gAkH_8?si=T4qMTmd16Awo7K0I",
         },
         {
           key: 26,
-          heading: "Atomic and ionic sizes",
+          heading: "Periodic Properties | Atomic and ionic sizes",
           description:
             "Exploring the fundamental concepts behind the sizes of atoms and ions",
           link: "https://youtu.be/PNSGx3OLIlk?si=3dQTdAMMoNH74KyH",
         },
         {
           key: 27,
-          heading: "Periodic Properties-Electron affinity",
+          heading: "Periodic Properties | Electron affinity",
           description:
             "Demystifying Electron Affinity: Understanding the Attraction of Atoms",
           link: "https://youtu.be/IkjA0xs11Sk?si=MLg2Y2nv0h_SzL6u",
         },
         {
           key: 28,
-          heading: "Periodic Properties-Electronegativity",
+          heading: "Periodic Properties | Electronegativity",
           description:
             "Decoding Electronegativity: The Power Struggle of Atoms",
           link: "https://youtu.be/IkjA0xs11Sk?si=XXZdW3AsTbn9aI8k",
         },
         {
           key: 29,
-          heading: "Periodic Properties-Polarizability and Polarising Power",
+          heading: "Periodic Properties | Polarizability and Polarising Power",
           description:
             "The ability of a cation to distort an anion is known as its polarization power and the tendency of the anion to become polarized by the cation is known as its polarizability.",
           link: "https://youtu.be/M33GzJSQMYQ?si=vVISrEICgo29F4e4",
         },
         {
           key: 30,
-          heading: " periodic properties-Oxidation State and oxidation number",
+          heading: " periodic properties | Oxidation State and oxidation number",
           description:
             "The oxidation number or state of an atom/ion is the number of electrons an atom/ion that the molecule has either gained or lost compared to the neutral atom.",
           link: "https://youtu.be/VVs66CwHFuc?si=WSdM1GddDiSgA2B9",
         },
         {
           key: 31,
-          heading: "Stereochemistry-Introduction",
+          heading: "Stereochemistry | Introduction",
           description:
             "basic introduvtion on Isomerism and Isomers",
           link: "https://youtu.be/2Ou5cPT58MA?si=cPYroBtA_xfEIxZv",
         },
         {
           key: 32,
-          heading: "Stereochemistry-Terms used in Optical Activity, Optically Active Compound, Enantiomers",
+          heading: "Stereochemistry-Terms used in Optical Activity | Optically Active Compound | Enantiomers",
           description:
             "the ability of a chiral molecule to rotate the plane of plane-polairsed light, measured using a polarimeter",
           link: "https://youtu.be/yVhL3pK4vmc?si=fN-S9ET0IMFIcF86",
         },
         {
           key: 33,
-          heading: "Stereochemistry-Diastereomers, Racemic",
+          heading: "Stereochemistry-Diastereomers | Racemic",
           description:
             "stereoisomers that are not related as object and mirror image and are not enantiomers",
           link: "https://youtu.be/k6Ym6XRp0gY?si=8oRKDCJjuPcHCSR9",
         },
         {
           key: 34,
-          heading: "Stereochemistry-Without, With Chiral C-Atom, Biphenyl, Allenes",
+          heading: "Stereochemistry-Without | With Chiral C-Atom, Biphenyl | Allenes",
           description:
             "about Optically Active compounds without or with Chiral Carbon atom",
           link: "https://youtu.be/mYDwwNosIOU?si=P-x79lLhpXaVmnqX",
         },
         {
           key: 35,
-          heading: "Stereochemistry-R S Nomenclature, CIP Rule",
+          heading: "Stereochemistry-R S Nomenclature | CIP Rule",
           description:
             "Tricks to find R/S Nomenclature of chiral molecule with example",
           link: "https://youtu.be/pYefUVk6OWU?si=e3QEXSWGNBZB1xFq",
         },
         {
           key: 36,
-          heading: "Stereochemistry-Geometrical, Cis-Trans",
+          heading: "Stereochemistry-Geometrical | Cis-Trans",
           description:
             "exhibit a type of stereoisomerism where the atoms have different spatial arrangements in three-dimensional space",
           link: "https://youtu.be/WFQwwTr5SVs?si=rfVtioe8G84BdWHX",
         },
         {
           key: 37,
-          heading: "Stereochemistry-E Z, Nomenclature Of Geometrical Isomers ",
+          heading: "Stereochemistry-E Z | Nomenclature Of Geometrical Isomers ",
           description:
             "the orientation of a functional group in a compound",
           link: "https://youtu.be/DftQyhm_FA4?si=NAuQDHpEFhuaBSPt",
         },
         {
           key: 38,
-          heading: "Stereochemistry-chiral drugs  ",
+          heading: "Stereochemistry | chiral drugs ",
           description:
             "importance of chiral drugs",
           link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
@@ -1007,6 +1007,56 @@ const Data = () => {
             "Learn how lead storage accumulators work, their applications, and the science behind their operation.",
           link: "https://youtu.be/AR1zILguU2g?si=WGW8ujYgppz_E637",
         },
+        {
+          key: 62,
+          heading: "Spectroscopy | Raman Spectroscopy | Raman Effect | Raman Scattering I Vibrational rotational spectroscopy",
+          description:
+            "The principle involved in Raman Spectroscopy",
+          link: "https://youtu.be/B0Z6hTYseCE?si=X_YJ-qFtv4vCFgv_",
+        },
+        {
+          key: 63,
+          heading: "Spectroscopy | Selection rule for Raman Spectroscopy | Identification of IR & Raman active molecules",
+          description:
+            "To identify Raman active and Inactive molecules.",
+          link: "https://youtu.be/9wOL3lgOziw?si=ZP-94CDAEaNOT7rY",
+        },
+        {
+          key: 64,
+          heading: "Spectroscopy | Raman Active vibrations of CO2 | Raman active and inactive vibrations in CO2 | Vibrations in CO2",
+          description:
+            "explains the Raman active and inactive vibrations in CO2. it also explains the IR active and Inactive Vibrations in CO2.",
+          link: "https://youtu.be/fJjlI7p-n0U?si=1UuH4vrmcWs9oqeT",
+        },
+        {
+          key: 65,
+          heading: "Spectroscopy | Microwave Spectroscopy | Rotational Spectroscopy | Microwave spectroscopy in Chemistry ",
+          description:
+            "Why Microwave spectroscopy is known as Rotational spectroscopy",
+          link: "https://youtu.be/ciUYfHviZCs?si=f8TN26veSAj9_6LC",
+        },
+        {
+          key: 66,
+          heading: "Spectroscopy | NMR | Nuclear Magnetic Resonance Spectroscopy | Principle | Introduction",
+          description:
+            " principle of NMR spectroscopy and NMR active and Inactive nuclei",
+          link: "https://youtu.be/uYa19hpVYxU?si=bBK2cG6nEqFDZzrQC",
+        },
+        {
+          key: 67,
+          heading: "Spectroscopy | NMR Spectroscopy| Chemical shift | Shielding & Deshielding | Equivalent Non-Equivalent Protons | TMS",
+          description:
+            "  Chemical shift, Shielding and non-shielding effect Equivalent and non-equivalent protons del and tau scale TMS as a reference ",
+          link: "https://youtu.be/qnjW7zJ24Hk?si=jPmmL75EdSB2xFk6",
+        },
+        {
+          key: 68,
+          heading: "Spectroscopy | NMR Spectroscopy | Spin-spin coupling | Splitting of signals | Numbers of signals ",
+          description:
+            " chemical shift and spin-spin coupling",
+          link: "https://youtu.be/gGY52XWF0cM?si=PcPQjoknvKkEnBUJ",
+        },
+
       ],
       pyq: [
         {
