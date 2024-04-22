@@ -916,6 +916,28 @@ const Data = () => {
                "a property of the conjugated cycloalkenes which enhances the stability of a molecule due to the delocalization of electrons present in the π-π orbitals",
             link: "https://youtu.be/bq1PZcKY50o?si=0OgJu2lakHRPy6Jw",
           },
+          {
+            key: 70,
+            heading: "Atomic and Molecular Structure|CFT",
+            description: " a bonding model that explains many important properties of transition-metal complexes, including their colors, magnetism, structures, stability, and reactivity",
+            link: "https://youtu.be/H0lTUapkDo4?si=Jw5lnp1cZKtuMtPV ",
+          },
+          {
+            key: 71,
+            heading: "Atomic and Molecular Structure|Band theory of solid",
+            description: " electrons jump from valence band to conduction band even at ordinary temperature and if this happens then the solid conducts electricity",
+            link: "https://youtu.be/g82XpUsZsEI?si=QYKpcveSsf4GMSg-",
+  
+          },
+          {
+            key: 72,
+            heading: "Atomic and Molecular Structure|Band theory of metal",
+            description: "based on the valence band and the conduction band. It is also known as the band theory of solids or zone theory of solids",
+            link: "https://youtu.be/ow7HXwj4KIk?si=oHQmSH4wpacppWEu",
+   
+          },
+   
+  
           ],
         pyq: [
           {
