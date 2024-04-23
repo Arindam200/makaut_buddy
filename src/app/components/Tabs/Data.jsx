@@ -1038,7 +1038,7 @@ const Data = () => {
         },
         {
           key: 66,
-          heading: "Stereochemistry | chiral drugs ",
+          heading: "Stereochemistry | Chiral drugs ",
           description:
             "Importance of chiral drugs",
           link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
