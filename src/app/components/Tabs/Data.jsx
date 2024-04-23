@@ -581,504 +581,547 @@ const Data = () => {
       video: [
         {
           key: 1,
-          heading: "Thermodynamics|Introduction to Thermodynamics",
-          description:
-            "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
-          link: "https://youtu.be/72JId0JrNKU?si=0dg-9XcP_KkAG3K2",
-        },
-        {
-          key: 2,
-          heading: "Thermodynamics|Thermodynamic Systems",
-          description:
-            "A thermodynamic system is defined as a quantity of matter or a region in space that is of interest.",
-          link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t",
-        },
-        {
-          key: 3,
-          heading: "Thermodynamics|Thermodynamic Properties and Process",
-          description:
-            "some basic concepts related to thermodynamic properties and thermodynamic processes.",
-          link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
-        },
-        {
-          key: 4,
-          heading: "Thermodynamics|Different Types Of Thermodynamic Process",
-          description:
-            "different types of thermodynamic processes on the basis of pressure, temperature and volume.",
-          link: "https://youtu.be/llJd3XcboBo?si=hew8qTo8OXmSzY_N",
-        },
-        {
-          key: 5,
-          heading: "Thermodynamics|Quasistatic Process ",
-          description:
-            "some basic concepts related to quasistatic process.",
-          link: "https://youtu.be/GDI2bVji2DU?si=b1zf42vOnFxZB-UV",
-
-        },
-        {
-          key: 6,
-          heading: "Thermodynamics|Thermodynamic Equilibrium ",
-          description:
-            "the properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
-          link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
-        },
-        {
-          key: 7,
-          heading: "Thermodynamics|Pure Substance And State Postulate",
-          description:
-            "the state postulate for a simple, pure substance states that the equilibrium state can be determined by specifying any two independent intensive properties",
-          link: "https://youtu.be/eP9Fd2N2Jtc?si=BSo52O_xDmGrA",
-        },
-        {
-          key: 8,
-          heading: "Thermodynamics|Concept Of Continuum",
-          description:
-            "an area that can keep being divided and divided infinitely; no individual particles",
-          link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
-        },
-        {
-          key: 9,
-          heading: "Atomic and Molecular Structure|Dalton's and Rutherford Atomic Model",
+          heading: "Atomic and Molecular Structure | Dalton's and Rutherford Atomic Model",
           description:
             "Dalton hypothesized that atoms were solid spheres. Rutherford's nuclear model showed atoms with a nuclear center and other particles randomly orbiting at a distance.",
           link: "https://youtu.be/NMN1zm_X9bk?si=8kktSlGexUsW6eJA",
         },
         {
-          key: 10,
-          heading: "Atomic and Molecular Structure|BOHR'S Atomic Model",
+          key: 2,
+          heading: "Atomic and Molecular Structure | Bohr's Atomic Model",
           description:
             "The Bohr model postulates that electrons orbit the nucleus at fixed energy levels.",
           link: "https://youtu.be/ULarF8oaBYc?si=nLzFlhoKFV52LVX1",
         },
         {
-          key: 11,
-          heading: "Atomic and Molecular Structure|QUANTUM MECHANICAL MODEL",
+          key: 3,
+          heading: "Atomic and Molecular Structure | QUANTUM MECHANICAL MODEL",
           description:
             "The Quantum Mechanical Model of the Atom views electrons within an atom as waves, not as particles as previously believed.",
           link: "https://youtu.be/Jo2OjH7DF6A?si=OYcwixVquoyv603G",
         },
         {
-          key: 12,
-          heading: "Atomic and Molecular Structure|Shape of Orbitals and Hydrogen Energy",
+          key: 4,
+          heading: "Atomic and Molecular Structure | Shape of Orbitals and Hydrogen Energy",
           description:
             "The orbital energies obtained for hydrogen using quantum mechanics are exactly the same as the allowed energies calculated by Bohr.",
           link: "https://youtu.be/0eHCtql4QVc?si=V4Xki6BTW9zXNr3O",
         },
         {
-          key: 13,
-          heading: "Atomic and Molecular Structure|Electronic Configuration",
+          key: 5,
+          heading: "Atomic and Molecular Structure | Electronic Configuration",
           description:
             "Electron configurations describe where electrons are located around the nucleus of an atom.",
           link: "https://youtu.be/QvznEhd-8Ts?si=4-3ui46QkBsWYpE4",
         },
         {
-          key: 14,
-          heading: "Atomic and Molecular Structure|Molecular Orbital Theory",
+          key: 6,
+          heading: "Atomic and Molecular Structure | Molecular Orbital Theory",
           description:
             " The molecular orbital theory states that each atom tends to combine together and form molecular orbitals.",
           link: "https://youtu.be/e0hyIUS7PfA?si=cNBDwB_geXZv7elg",
         },
         {
-          key: 15,
-          heading: "Atomic and Molecular Structure|Sigma Bond & Pi Bond",
+          key: 7,
+          heading: "Atomic and Molecular Structure | Sigma Bond & Pi Bond",
           description:
             "Sigma bonds are formed by the axial overlap of half- filled atomic orbitals. Pi bonds are formed through the lateral overlap of the half - filled atomic orbitals.",
           link: "https://youtu.be/YvUs43mTSnY?si=z7R0H7lKnA5e9ZRV",
         },
         {
-          key: 16,
-          heading: "Atomic and Molecular Structure|Molecular Orbital Energy Level For Homonuclear Diatomic Molecules",
+          key: 8,
+          heading: "Atomic and Molecular Structure | Molecular Orbital Energy Level For Homonuclear Diatomic Molecules",
           description:
             "Homonuclear diatomic molecules are made up of two chemically bonded atoms of the same element.",
           link: "https://youtu.be/bT-1hiZAWJM?si=31kyFu_kdRidAY69",
         },
         {
-          key: 17,
-          heading: "Atomic and Molecular Structure|Molecular Orbital Energy Level For Heteronuclear Diatomic Molecules",
+          key: 9,
+          heading: "Atomic and Molecular Structure | Molecular Orbital Energy Level For Heteronuclear Diatomic Molecules",
           description:
             "Diatomic molecules with two different atoms are called heteronuclear diatomic molecules.",
           link: "https://youtu.be/QKKGvnf6cv8?si=hvw-ofC9a1lO9Gsl",
         },
         {
-          key: 18,
+          key: 10,
+          heading: "Atomic and Molecular Structure | CFT",
+          description: 
+            " A bonding model that explains many important properties of transition-metal complexes, including their colors, magnetism, structures, stability, and reactivity",
+          link: "https://youtu.be/H0lTUapkDo4?si=Jw5lnp1cZKtuMtPV ",
+        },
+        {
+          key: 11,
+          heading: "Atomic and Molecular Structure | Band theory of solid",
+          description: 
+            " Electrons jump from valence band to conduction band even at ordinary temperature and if this happens then the solid conducts electricity",
+          link: "https://youtu.be/g82XpUsZsEI?si=QYKpcveSsf4GMSg-",
+        
+        },
+        {
+          key: 12,
+          heading: "Atomic and Molecular Structure | Band theory of metal",
+          description: "Based on the valence band and the conduction band. It is also known as the band theory of solids or zone theory of solids",
+          link: "https://youtu.be/ow7HXwj4KIk?si=oHQmSH4wpacppWEu",
+        
+        },
+        {
+          key: 13,
           heading: "Spectroscopy | Introduction",
           description:
             "Basic introduction of spectroscopy",
           link: "https://youtu.be/B2tPeoKgDKQ?si=uKOMHa6aOHkKirt8",
         },
         {
-          key: 19,
+          key: 14,
           heading: "Spectroscopy | UV visible Spectroscopy",
           description:
             "Describing the secrets of molecules with UV-Visible Spectroscopy",
           link: "https://youtu.be/KkrTrTdfiBM?si=cMXMXmao5YxhqhBW",
         },
         {
-          key: 20,
+          key: 15,
           heading: "Spectroscopy | Instrumentation and application of UV visible spectroscopy",
           description:
             "Instrumentation and practical applications of UV-Visible Spectroscopy",
           link: "https://youtu.be/-w0GytWMvms?si=cDTUEiDtCOp7juZj",
         },
         {
-          key: 21,
+          key: 16,
           heading: "Spectroscopy | Principle of IR spectroscopy",
           description:
             "Exploring the fundamental principles behind infrared spectroscopy",
           link: "https://youtu.be/gqzR8-Vlmgc?si=g581viVAYi7C97zk",
         },
         {
-          key: 22,
+          key: 17,
           heading: "Spectroscopy | Instrumentation & application of IR spectroscopy",
           description:
             "Exploring the fundamentals and diverse applications of Infrared Spectroscopy",
           link: "https://youtu.be/DhDhVbTT9sQ?si=2eruMZ2zsiocytZH",
         },
         {
-          key: 23,
-          heading: " periodic properties | effective nuclear charge",
-          description:
-            "The occurrence of the elements with similar properties after certain regular intervals when they are arranged in increasing order of atomic number",
-          link: "https://youtu.be/uhRs0REbDhA?si=hY5St_OPrlcE7t03",
-        },
-        {
-          key: 24,
-          heading: "periodic properties | (variation in s p d f orbitals energies)",
-          description:
-            "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
-            link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
-          },
-        {
-          key: 25,
-          heading: "Periodic Properties | Electronic configuration",
-          description:
-            "Exploring the arrangement of electrons in an atom",
-          link: "https://youtu.be/e7ei-gAkH_8?si=T4qMTmd16Awo7K0I",
-        },
-        {
-          key: 26,
-          heading: "Periodic Properties | Atomic and ionic sizes",
-          description:
-            "Exploring the fundamental concepts behind the sizes of atoms and ions",
-          link: "https://youtu.be/PNSGx3OLIlk?si=3dQTdAMMoNH74KyH",
-        },
-        {
-          key: 27,
-          heading: "Periodic Properties | Electron affinity",
-          description:
-            "Demystifying Electron Affinity: Understanding the Attraction of Atoms",
-          link: "https://youtu.be/IkjA0xs11Sk?si=MLg2Y2nv0h_SzL6u",
-        },
-        {
-          key: 28,
-          heading: "Periodic Properties | Electronegativity",
-          description:
-            "Decoding Electronegativity: The Power Struggle of Atoms",
-          link: "https://youtu.be/IkjA0xs11Sk?si=XXZdW3AsTbn9aI8k",
-        },
-        {
-          key: 29,
-          heading: "Periodic Properties | Polarizability and Polarising Power",
-          description:
-            "The ability of a cation to distort an anion is known as its polarization power and the tendency of the anion to become polarized by the cation is known as its polarizability.",
-          link: "https://youtu.be/M33GzJSQMYQ?si=vVISrEICgo29F4e4",
-        },
-        {
-          key: 30,
-          heading: " periodic properties | Oxidation State and oxidation number",
-          description:
-            "The oxidation number or state of an atom/ion is the number of electrons an atom/ion that the molecule has either gained or lost compared to the neutral atom.",
-          link: "https://youtu.be/VVs66CwHFuc?si=WSdM1GddDiSgA2B9",
-        },
-        {
-          key: 31,
-          heading: "Stereochemistry | Introduction",
-          description:
-            "basic introduvtion on Isomerism and Isomers",
-          link: "https://youtu.be/2Ou5cPT58MA?si=cPYroBtA_xfEIxZv",
-        },
-        {
-          key: 32,
-          heading: "Stereochemistry-Terms used in Optical Activity | Optically Active Compound | Enantiomers",
-          description:
-            "the ability of a chiral molecule to rotate the plane of plane-polairsed light, measured using a polarimeter",
-          link: "https://youtu.be/yVhL3pK4vmc?si=fN-S9ET0IMFIcF86",
-        },
-        {
-          key: 33,
-          heading: "Stereochemistry-Diastereomers | Racemic",
-          description:
-            "stereoisomers that are not related as object and mirror image and are not enantiomers",
-          link: "https://youtu.be/k6Ym6XRp0gY?si=8oRKDCJjuPcHCSR9",
-        },
-        {
-          key: 34,
-          heading: "Stereochemistry-Without | With Chiral C-Atom, Biphenyl | Allenes",
-          description:
-            "about Optically Active compounds without or with Chiral Carbon atom",
-          link: "https://youtu.be/mYDwwNosIOU?si=P-x79lLhpXaVmnqX",
-        },
-        {
-          key: 35,
-          heading: "Stereochemistry-R S Nomenclature | CIP Rule",
-          description:
-            "Tricks to find R/S Nomenclature of chiral molecule with example",
-          link: "https://youtu.be/pYefUVk6OWU?si=e3QEXSWGNBZB1xFq",
-        },
-        {
-          key: 36,
-          heading: "Stereochemistry-Geometrical | Cis-Trans",
-          description:
-            "exhibit a type of stereoisomerism where the atoms have different spatial arrangements in three-dimensional space",
-          link: "https://youtu.be/WFQwwTr5SVs?si=rfVtioe8G84BdWHX",
-        },
-        {
-          key: 37,
-          heading: "Stereochemistry-E Z | Nomenclature Of Geometrical Isomers ",
-          description:
-            "the orientation of a functional group in a compound",
-          link: "https://youtu.be/DftQyhm_FA4?si=NAuQDHpEFhuaBSPt",
-        },
-        {
-          key: 38,
-          heading: "Stereochemistry | chiral drugs ",
-          description:
-            "importance of chiral drugs",
-          link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
-        },
-        {
-          key: 39,
-          heading: "Organic Chemistry|Organic reactions",
-          description:
-            "chemical reactions involving organic compounds",
-          link: "https://youtu.be/61jaFrlLT0M?si=AjCa4Odz7S1Rw_ZN",
-        },
-        {
-          key: 40,
-          heading: "Organic Chemistry|Nucleophilic Substitution Reaction ",
-          description:
-            "a class of organic reactions where one nucleophile replaces another",
-          link: "https://youtu.be/2U1xKSEMNkY?si=NFfzztoCppLfASvi",
-        },
-        {
-          key: 41,
-          heading: "Organic Chemistry|Substitution reaction",
-          description:
-            "a chemical reaction during which one functional group is replaced by another functional group in a chemical compound",
-          link: "https://youtu.be/h8D3KxHkEyI?si=AQmwpuSjqvrTafZd",
-        },
-        {
-          key: 42,
-          heading: "Organic Chemistry|Addition Reaction",
-          description:
-            " In the simplest of terms of organic chemistry, we can say that an addition reaction is a chemical reaction wherein two or more reactants come together to form a larger single product",
-          link: "https://youtu.be/GvrM-0gN_Co?si=RHIvcyaeZi3Pnq5D",
-        },
-        {
-          key: 43,
-          heading: "Organic Chemistry|Free Radical Addition Reaction",
-          description:
-            "a chemical reaction wherein two or more reactants come together to form a larger single product",
-          link: "https://youtu.be/flO_UsDd0yY?si=xRQTr0OyNwYyGZjF",
-        },
-        {
-          key: 44,
-          heading: "Organic Chemistry|Elimination Reaction",
-          description:
-            "a type of reaction that is mainly used to transform saturated compounds to unsaturated compounds",
-          link: "https://youtu.be/Gv4ri_3Oyak?si=FRU0phVCgx4qTgcN",
-        },
-        {
-          key: 45,
-          heading: "Organic Chemistry|Oxidation and Reduction",
-          description:
-            "a process which involves the addition of oxygen or any electronegative element or the removal of hydrogen or any electropositive element",
-          link: "https://youtu.be/OT8EdHHqpnM?si=tTu6ONcS24IcYwiV",
-        },
-        {
-          key: 46,
-          heading: "Organic Chemistry|Cyclization",
-          description:
-            "is the formation of a ring in a chemical compound, such as cyclize. It is a noun and a verb with the same meaning",
-          link: "https://youtu.be/Z5G94J0-FBk?si=OnV2uRnFCTY7LyWA",
-        },
-        {
-          key: 47,
-          heading: "Organic Chemistry|Ring Opening Reaction",
-          description:
-            "important transformations that afford a 1,2-halohydrin system with two successive chiral carbon centers",
-          link: "https://youtu.be/nQxwkIPDYzg?si=bWKWPWl9iw6MQdjo",
-        },
-        {
-          key: 48,
-          heading: "Organic Chemistry|Synthesis ",
-          description:
-            "the composition or combination of parts or elements so as to form a whole ",
-          link: "https://youtu.be/8oQkJpuCsIQ?si=lcMerrsFWO-6ZsXM ",
-        },
-        {
-          key: 49,
-          heading: "Organic Chemistry|Aromaticity",
-          description:
-            "a property of the conjugated cycloalkenes which enhances the stability of a molecule due to the delocalization of electrons present in the π-π orbitals",
-          link: "https://youtu.be/bq1PZcKY50o?si=0OgJu2lakHRPy6Jw",
-        },
-        {
-          key: 50,
-          heading: "Electrochemistry|Electrochemical cell/Galvanic Cell /Voltaic cell",
-          description:
-            "Exploring the mechanics of electrochemical cells, including Galvanic and Voltaic cells, and discovering how they convert chemical energy into electrical energy.",
-          link: "https://youtu.be/1BB0RKm-30A?si=yLi9st0MBtUP8HXK",
-        },
-        {
-          key: 51,
-          heading: "Electrochemistry|Electrode Potential|Standard Electrode Potential",
-          description:
-            "The concepts of electrode potential and standard electrode potential",
-          link: "https://youtu.be/qsoXoHvIbK8?si=_3_qJbIQa-0Vj2QR",
-        },
-        {
-          key: 52,
-          heading: "Electrochemistry|Nernst equation",
-          description:
-            "Nernst equation, the relationship between electrode potential and the concentration of electrolyte.",
-          link: "https://youtu.be/RK7EF7HdT1E?si=J1GU94yb8aovij05",
-        },
-        {
-          key: 53,
-          heading: "Electrochemistry|Nernst Equation Numerical|Electrochemical cell numerical",
-          description:
-            "Numerical problems based on Nernst Equation and Electrochemical cell.",
-          link: "https://youtu.be/uKyqmamg9EM?si=lxqerJKsPdrUxtnb",
-        },
-        {
-          key: 54,
-          heading: "Electrochemistry|Nernst equation application|How to find pH with the help of Nernst Equation",
-          description:
-            "Discover how to determine pH using the Nernst Equation.",
-          link: "https://youtu.be/lxiRaJwVKQ8?si=wR-cDOyfr-9eC_HF",
-        },
-        {
-          key: 55,
-          heading: "Electrochemistry|Nernst equation application|How to calculate equilibrium constant",
-          description:
-            "Nernst equation & its application to calculate equilibrium constants.",
-          link: "https://youtu.be/MNkgAMRWavY?si=6DGBWzknsNxviJVJ",
-        },
-        {
-          key: 56,
-          heading: "Electrochemistry|Nernst Equation Application|Electrochemistry Numerical|Nernst Equation Numerical",
-          description:
-            "The practical application of the Nernst Equation in electrochemistry through numerical examples.",
-          link: "https://youtu.be/5lT9aHchL-U?si=N1gvhMsioRJVg2l0",
-        },
-        {
-          key: 57,
-          heading: "Electrochemistry|Reaction Feasibility electrode potentials|Electrochemistry numerical",
-          description:
-            "Reaction feasibility and electrode potentials through numerical examples.",
-          link: "https://youtu.be/3-DDwV2zB0o?si=JLa8vkxkVSFPKRWz",
-        },
-        {
-          key: 58,
-          heading: "Electrochemistry|Reaction is feasible or not|Electrochemistry numerical",
-          description:
-            "Exploring electrochemical reactions and finding out if they are feasible or not.",
-          link: "https://youtu.be/PwdFFfH8YxM?si=0_zcnqoytoq4c41x",
-        },
-        {
-          key: 59,
-          heading: "Electrochemistry|Classification|Type Of Cell|Electrochemical|Electrolytic|Primary|Secondary Cell",
-          description:
-            "The classification and types of electrochemical cells, including electrolytic, primary, and secondary cells.",
-          link: "https://youtu.be/K3MJ3tRydXk?si=vI-FWaKVvjSKV11o",
-        },
-        {
-          key: 60,
-          heading: "Electrochemistry|Primary|Dry|Leclanche Cell|Batteries|Construction|Working IApplication|Disadvantages",
-          description:
-            "The primary dry Leclanché cell batteries, their construction, working principle, applications, and disadvantages to understand their role in the world of battery technology.",
-          link: "https://youtu.be/llEu6IcmkTc?si=JMYv3swwmP99Bxev",
-        },
-        {
-          key: 61,
-          heading: "Electrochemistry|Lead Storage battery|Lead Storage Accumulator",
-          description:
-            "Learn how lead storage accumulators work, their applications, and the science behind their operation.",
-          link: "https://youtu.be/AR1zILguU2g?si=WGW8ujYgppz_E637",
-        },
-        {
-          key: 62,
+          key: 18,
           heading: "Spectroscopy | Raman Spectroscopy | Raman Effect | Raman Scattering I Vibrational rotational spectroscopy",
           description:
             "The principle involved in Raman Spectroscopy",
           link: "https://youtu.be/B0Z6hTYseCE?si=X_YJ-qFtv4vCFgv_",
         },
         {
-          key: 63,
+          key: 19,
           heading: "Spectroscopy | Selection rule for Raman Spectroscopy | Identification of IR & Raman active molecules",
           description:
             "To identify Raman active and Inactive molecules.",
           link: "https://youtu.be/9wOL3lgOziw?si=ZP-94CDAEaNOT7rY",
         },
         {
-          key: 64,
+          key: 20,
           heading: "Spectroscopy | Raman Active vibrations of CO2 | Raman active and inactive vibrations in CO2 | Vibrations in CO2",
           description:
-            "explains the Raman active and inactive vibrations in CO2. it also explains the IR active and Inactive Vibrations in CO2.",
+            "Explains the Raman active and inactive vibrations in CO2. it also explains the IR active and Inactive Vibrations in CO2.",
           link: "https://youtu.be/fJjlI7p-n0U?si=1UuH4vrmcWs9oqeT",
         },
         {
-          key: 65,
+          key: 21,
           heading: "Spectroscopy | Microwave Spectroscopy | Rotational Spectroscopy | Microwave spectroscopy in Chemistry ",
           description:
             "Why Microwave spectroscopy is known as Rotational spectroscopy",
           link: "https://youtu.be/ciUYfHviZCs?si=f8TN26veSAj9_6LC",
         },
         {
-          key: 66,
+          key: 22,
           heading: "Spectroscopy | NMR | Nuclear Magnetic Resonance Spectroscopy | Principle | Introduction",
           description:
-            " principle of NMR spectroscopy and NMR active and Inactive nuclei",
+            " Principle of NMR spectroscopy and NMR active and Inactive nuclei",
           link: "https://youtu.be/uYa19hpVYxU?si=bBK2cG6nEqFDZzrQC",
         },
         {
-          key: 67,
-          heading: "Spectroscopy | NMR Spectroscopy| Chemical shift | Shielding & Deshielding | Equivalent Non-Equivalent Protons | TMS",
+          key: 23,
+          heading: "Spectroscopy | NMR Spectroscopy | Chemical shift | Shielding & Deshielding | Equivalent Non-Equivalent Protons | TMS",
           description:
             "  Chemical shift, Shielding and non-shielding effect Equivalent and non-equivalent protons del and tau scale TMS as a reference ",
           link: "https://youtu.be/qnjW7zJ24Hk?si=jPmmL75EdSB2xFk6",
         },
         {
-          key: 68,
+          key: 24,
           heading: "Spectroscopy | NMR Spectroscopy | Spin-spin coupling | Splitting of signals | Numbers of signals ",
           description:
-            " chemical shift and spin-spin coupling",
+            " Chemical shift and spin-spin coupling",
           link: "https://youtu.be/gGY52XWF0cM?si=PcPQjoknvKkEnBUJ",
         },
-         {
-            key: 10,
-            heading: "Atomic and Molecular Structure|CFT",
-            description: " a bonding model that explains many important properties of transition-metal complexes, including their colors, magnetism, structures, stability, and reactivity",
-            link: "https://youtu.be/H0lTUapkDo4?si=Jw5lnp1cZKtuMtPV ",
-          },
-          {
-            key: 11,
-            heading: "Atomic and Molecular Structure|Band theory of solid",
-            description: " electrons jump from valence band to conduction band even at ordinary temperature and if this happens then the solid conducts electricity",
-            link: "https://youtu.be/g82XpUsZsEI?si=QYKpcveSsf4GMSg-",
-  
-          },
-          {
-            key: 12,
-            heading: "Atomic and Molecular Structure|Band theory of metal",
-            description: "based on the valence band and the conduction band. It is also known as the band theory of solids or zone theory of solids",
-            link: "https://youtu.be/ow7HXwj4KIk?si=oHQmSH4wpacppWEu",
-   
-          },
+        {
+          key: 25,
+          heading: "Intermolecular Forces & Critical Phenomena | Introduction",
+          description:
+            " Intermolecular forces are forces of attraction or repulsion which act between neighboring particles (atoms, molecules or ions)",
+          link: "https://youtu.be/B1loRheEJoA?si=M5Lmm9Qte4s3mozW",
         },
-
+        {
+          key: 26,
+          heading: "Intermolecular Forces & Critical Phenomena | Gas Laws & Ideal Gas Equation",
+          description:
+            "The fundamental gas laws are the following: Boyle's Law, Charles' Law, and Avogadro's Law.",
+          link: "https://youtu.be/FokA8jZX0NU?si=QkEURQMCEdL-PSs8",
+        },
+        {
+          key: 27,
+          heading: "Intermolecular Forces & Critical Phenomena | Kinetic Molecular Theory of Gases",
+          description:
+            "The kinetic theory describes a gas as a large number of submicroscopic particles (atoms or molecules), all of which are in constant, random motion.",
+          link: "https://youtu.be/wvpat4dNOjc?si=o5qshDI4r37sKXen",
+        },
+        {
+          key: 28,
+          heading: "Intermolecular Forces & Critical Phenomena | Ideal Gas Equation",
+          description: 
+            "Ideal gas equation, PV = nRT, where P = Pressure, V = volume, n = number of moles, R = Universal gas constant, T = Temperature.",
+          link: "https://youtu.be/H4vXyUo-fL8?si=VFE5XiCepiDLy7s2",
+        },
+        {
+          key: 29,
+          heading: "Intermolecular Forces & Critical Phenomena | Vander Waals Equation of States for Real Gas",
+          description:
+            "The van der Waals equation is written like this: (P + an2 /V2 )(V-nb) = nRT",
+          link: "https://youtu.be/tm7L-HeP6TI?si=TOjIF3BbPjUPjg1j",
+        },
+        {
+          key: 30,
+          heading: "Intermolecular Forces & Critical Phenomena | Joule Thomson Effect",
+          description:
+            "Joule-Thomson effect, the change in temperature that accompanies expansion of a gas without production of work or transfer of heat.",
+          link: "https://youtu.be/YOsziZkaDOE?si=EM7Waf3pF6Fsrc3R",
+        },
+        {
+          key: 31,
+          heading: "Thermodynamics | Introduction to Thermodynamics",
+          description:
+            "Thermodynamics is the science of the relationship between heat, work, temperature, and energy.",
+          link: "https://youtu.be/72JId0JrNKU?si=0dg-9XcP_KkAG3K2",
+        },
+        {
+          key: 32,
+          heading: "Thermodynamics | Thermodynamic Systems",
+          description:
+            "A thermodynamic system is defined as a quantity of matter or a region in space that is of interest.",
+          link: "https://youtu.be/H3dCYqw-Y4o?si=TnwnHGTOdOsgZi-t",
+        },
+        {
+          key: 33,
+          heading: "Thermodynamics | Thermodynamic Properties and Process",
+          description:
+            "Some basic concepts related to thermodynamic properties and thermodynamic processes.",
+          link: "https://youtu.be/ke1Qfc5SnnE?si=hjeYNlBX4XNUkjID",
+        },
+        {
+          key: 34,
+          heading: "Thermodynamics | Different Types Of Thermodynamic Process",
+          description:
+            "Different types of thermodynamic processes on the basis of pressure, temperature and volume.",
+          link: "https://youtu.be/llJd3XcboBo?si=hew8qTo8OXmSzY_N",
+        },
+        {
+          key: 35,
+          heading: "Thermodynamics | Quasistatic Process ",
+          description:
+            "Some basic concepts related to quasistatic process.",
+          link: "https://youtu.be/GDI2bVji2DU?si=b1zf42vOnFxZB-UV",
+        
+        },
+        {
+          key: 36,
+          heading: "Thermodynamics | Thermodynamic Equilibrium ",
+          description:
+            "The properties of which do not change with time and that can be changed to another condition only at the expense of effects on other systems",
+          link: "https://youtu.be/LH40zR2EPmQ?si=TPNRRm9LZkIZYITA",
+        },
+        {
+          key: 37,
+          heading: "Thermodynamics | Pure Substance And State Postulate",
+          description:
+            "The state postulate for a simple, pure substance states that the equilibrium state can be determined by specifying any two independent intensive properties",
+          link: "https://youtu.be/eP9Fd2N2Jtc?si=BSo52O_xDmGrA",
+        },
+        {
+          key: 38,
+          heading: "Thermodynamics | Concept Of Continuum",
+          description:
+            "An area that can keep being divided and divided infinitely; no individual particles",
+          link: "https://youtu.be/tlQzJoJfTlA?si=dv5u_LIGcp9wBw94",
+        },
+        {
+          key: 39,
+          heading: "Electrochemistry | Electrochemical cell/Galvanic Cell /Voltaic cell",
+          description:
+            "Exploring the mechanics of electrochemical cells, including Galvanic and Voltaic cells, and discovering how they convert chemical energy into electrical energy.",
+          link: "https://youtu.be/1BB0RKm-30A?si=yLi9st0MBtUP8HXK",
+        },
+        {
+          key: 40,
+          heading: "Electrochemistry | Electrode Potential | Standard Electrode Potential",
+          description:
+            "The concepts of electrode potential and standard electrode potential",
+          link: "https://youtu.be/qsoXoHvIbK8?si=_3_qJbIQa-0Vj2QR",
+        },
+        {
+          key: 41,
+          heading: "Electrochemistry | Nernst equation",
+          description:
+            "Nernst equation, the relationship between electrode potential and the concentration of electrolyte.",
+          link: "https://youtu.be/RK7EF7HdT1E?si=J1GU94yb8aovij05",
+        },
+        {
+          key: 42,
+          heading: "Electrochemistry | Nernst Equation Numerical | Electrochemical cell numerical",
+          description:
+            "Numerical problems based on Nernst Equation and Electrochemical cell.",
+          link: "https://youtu.be/uKyqmamg9EM?si=lxqerJKsPdrUxtnb",
+        },
+        {
+          key: 43,
+          heading: "Electrochemistry | Nernst equation application | How to find pH with the help of Nernst Equation",
+          description:
+            "Discover how to determine pH using the Nernst Equation.",
+          link: "https://youtu.be/lxiRaJwVKQ8?si=wR-cDOyfr-9eC_HF",
+        },
+        {
+          key: 44,
+          heading: "Electrochemistry | Nernst equation application | How to calculate equilibrium constant",
+          description:
+            "Nernst equation & its application to calculate equilibrium constants.",
+          link: "https://youtu.be/MNkgAMRWavY?si=6DGBWzknsNxviJVJ",
+        },
+        {
+          key: 45, 
+          heading: "Electrochemistry | Nernst Equation Application | Electrochemistry Numerical | Nernst Equation Numerical",
+          description:
+            "The practical application of the Nernst Equation in electrochemistry through numerical examples.",
+          link: "https://youtu.be/5lT9aHchL-U?si=N1gvhMsioRJVg2l0",
+        },
+        {
+          key: 46,
+          heading: "Electrochemistry | Reaction Feasibility electrode potentials | Electrochemistry numerical",
+          description:
+            "Reaction feasibility and electrode potentials through numerical examples.",
+          link: "https://youtu.be/3-DDwV2zB0o?si=JLa8vkxkVSFPKRWz",
+        },
+        {
+          key: 47,
+          heading: "Electrochemistry | Reaction is feasible or not | Electrochemistry numerical",
+          description:
+            "Exploring electrochemical reactions and finding out if they are feasible or not.",
+          link: "https://youtu.be/PwdFFfH8YxM?si=0_zcnqoytoq4c41x",
+        },
+        {
+          key: 48,
+          heading: "Electrochemistry | Classification | Type Of Cell | Electrochemical | Electrolytic | Primary &  Secondary Cell",
+          description:
+            "The classification and types of electrochemical cells, including electrolytic, primary, and secondary cells.",
+          link: "https://youtu.be/K3MJ3tRydXk?si=vI-FWaKVvjSKV11o",
+        },
+        {
+          key: 49,
+          heading: "Electrochemistry | Primary | Dry | Leclanche Cell | Batteries | Construction | Working Application | Disadvantages",
+          description:
+            "The primary dry Leclanché cell batteries, their construction, working principle, applications, and disadvantages to understand their role in the world of battery technology.",
+          link: "https://youtu.be/llEu6IcmkTc?si=JMYv3swwmP99Bxev",
+        },
+        {
+          key: 50,
+          heading: "Electrochemistry | Lead Storage battery | Lead Storage Accumulator",
+          description:
+            "Learn how lead storage accumulators work, their applications, and the science behind their operation.",
+          link: "https://youtu.be/AR1zILguU2g?si=WGW8ujYgppz_E637",
+        },
+        {
+          key: 51,
+          heading: " Periodic Properties | Effective Nuclear Charge",
+          description:
+            "The occurrence of the elements with similar properties after certain regular intervals when they are arranged in increasing order of atomic number",
+          link: "https://youtu.be/uhRs0REbDhA?si=hY5St_OPrlcE7t03",
+        },
+        {
+          key: 52,
+          heading: "Periodic Properties | Variation in s,p,d,f Orbital Energies)",
+          description:
+            "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
+          link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
+        },
+        {
+          key: 53,
+          heading: "Periodic Properties | Electronic configuration",
+          description:
+            "Exploring the arrangement of electrons in an atom",
+          link: "https://youtu.be/e7ei-gAkH_8?si=T4qMTmd16Awo7K0I",
+        },
+        {
+          key: 54,
+          heading: "Periodic Properties | Atomic and ionic sizes",
+          description:
+            "Exploring the fundamental concepts behind the sizes of atoms and ions",
+          link: "https://youtu.be/PNSGx3OLIlk?si=3dQTdAMMoNH74KyH",
+        },
+        {
+          key: 55,
+          heading: "Periodic Properties | Electron Affinity",
+          description:
+            "Demystifying Electron Affinity: Understanding the Attraction of Atoms",
+          link: "https://youtu.be/IkjA0xs11Sk?si=MLg2Y2nv0h_SzL6u",
+        },
+        {
+          key: 56,
+          heading: "Periodic Properties | Electronegativity",
+          description:
+            "Decoding Electronegativity: The Power Struggle of Atoms",
+          link: "https://youtu.be/IkjA0xs11Sk?si=XXZdW3AsTbn9aI8k",
+        },
+        {
+          key: 57,
+          heading: "Periodic Properties | Polarizability and Polarising Power",
+          description:
+            "The ability of a cation to distort an anion is known as its polarization power and the tendency of the anion to become polarized by the cation is known as its polarizability.",
+          link: "https://youtu.be/M33GzJSQMYQ?si=vVISrEICgo29F4e4",
+        },
+        {
+          key: 58,
+          heading: " Periodic Properties | Oxidation State and oxidation number",
+          description:
+            "The oxidation number or state of an atom/ion is the number of electrons an atom/ion that the molecule has either gained or lost compared to the neutral atom.",
+          link: "https://youtu.be/VVs66CwHFuc?si=WSdM1GddDiSgA2B9",
+        },
+        {
+          key: 59,
+          heading: "Stereochemistry | Introduction",
+          description:
+            "Basic introduction on Isomerism and Isomers",
+          link: "https://youtu.be/2Ou5cPT58MA?si=cPYroBtA_xfEIxZv",
+        },
+        {
+          key: 60,
+          heading: "Stereochemistry-Terms used in Optical Activity | Optically Active Compound | Enantiomers",
+          description:
+            "The ability of a chiral molecule to rotate the plane of plane-polairsed light, measured using a polarimeter",
+          link: "https://youtu.be/yVhL3pK4vmc?si=fN-S9ET0IMFIcF86",
+        },
+        {
+          key: 61,
+          heading: "Stereochemistry-Diastereomers | Racemic",
+          description:
+            "Stereoisomers that are not related as object and mirror image and are not enantiomers",
+          link: "https://youtu.be/k6Ym6XRp0gY?si=8oRKDCJjuPcHCSR9",
+        },
+        {
+          key: 62,
+          heading: "Stereochemistry-Without | With Chiral C-Atom, Biphenyl | Allenes",
+          description:
+            "About Optically Active compounds without or with Chiral Carbon atom",
+          link: "https://youtu.be/mYDwwNosIOU?si=P-x79lLhpXaVmnqX",
+        },
+        {
+          key: 63,
+          heading: "Stereochemistry-R S Nomenclature | CIP Rule",
+          description:
+            "Tricks to find R/S Nomenclature of chiral molecule with example",
+          link: "https://youtu.be/pYefUVk6OWU?si=e3QEXSWGNBZB1xFq",
+        },
+        {
+          key: 64,
+          heading: "Stereochemistry-Geometrical | Cis-Trans",
+          description:
+            "Exhibit a type of stereoisomerism where the atoms have different spatial arrangements in three-dimensional space",
+          link: "https://youtu.be/WFQwwTr5SVs?si=rfVtioe8G84BdWHX",
+        },
+        {
+          key: 65,
+          heading: "Stereochemistry-E Z | Nomenclature Of Geometrical Isomers ",
+          description:
+            "The orientation of a functional group in a compound",
+          link: "https://youtu.be/DftQyhm_FA4?si=NAuQDHpEFhuaBSPt",
+        },
+        {
+          key: 66,
+          heading: "Stereochemistry | chiral drugs ",
+          description:
+            "Importance of chiral drugs",
+          link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
+        },
+        {
+          key: 67,
+          heading: "Organic Chemistry | Organic reactions",
+          description:
+            "Chemical reactions involving organic compounds",
+          link: "https://youtu.be/61jaFrlLT0M?si=AjCa4Odz7S1Rw_ZN",
+        },
+        {
+          key: 68,
+          heading: "Organic Chemistry | Nucleophilic Substitution Reaction ",
+          description:
+            "A class of organic reactions where one nucleophile replaces another",
+          link: "https://youtu.be/2U1xKSEMNkY?si=NFfzztoCppLfASvi",
+        },
+        {
+          key: 69,
+          heading: "Organic Chemistry | Substitution reaction",
+          description:
+            "A chemical reaction during which one functional group is replaced by another functional group in a chemical compound",
+          link: "https://youtu.be/h8D3KxHkEyI?si=AQmwpuSjqvrTafZd",
+        },
+        {
+          key: 70,
+          heading: "Organic Chemistry | Addition Reaction",
+          description:
+            " In the simplest of terms of organic chemistry, we can say that an addition reaction is a chemical reaction wherein two or more reactants come together to form a larger single product",
+          link: "https://youtu.be/GvrM-0gN_Co?si=RHIvcyaeZi3Pnq5D",
+        },
+        {
+          key: 71,
+          heading: "Organic Chemistry | Free Radical Addition Reaction",
+          description:
+            "A chemical reaction wherein two or more reactants come together to form a larger single product",
+          link: "https://youtu.be/flO_UsDd0yY?si=xRQTr0OyNwYyGZjF",
+        },
+        {
+          key: 72,
+          heading: "Organic Chemistry | Elimination Reaction",
+          description:
+            "A type of reaction that is mainly used to transform saturated compounds to unsaturated compounds",
+          link: "https://youtu.be/Gv4ri_3Oyak?si=FRU0phVCgx4qTgcN",
+        },
+        {
+          key: 73,
+          heading: "Organic Chemistry | Oxidation and Reduction",
+          description:
+            "A process which involves the addition of oxygen or any electronegative element or the removal of hydrogen or any electropositive element",
+          link: "https://youtu.be/OT8EdHHqpnM?si=tTu6ONcS24IcYwiV",
+        },
+        {
+          key: 74,
+          heading: "Organic Chemistry | Cyclization",
+          description:
+            "Is the formation of a ring in a chemical compound, such as cyclize. It is a noun and a verb with the same meaning",
+          link: "https://youtu.be/Z5G94J0-FBk?si=OnV2uRnFCTY7LyWA",
+        },
+        {
+          key: 75,
+          heading: "Organic Chemistry | Ring Opening Reaction",
+          description:
+            "Important transformations that afford a 1,2-halohydrin system with two successive chiral carbon centers",
+          link: "https://youtu.be/nQxwkIPDYzg?si=bWKWPWl9iw6MQdjo",
+        },
+        {
+          key: 76,
+          heading: "Organic Chemistry | Synthesis ",
+          description:
+            "The composition or combination of parts or elements so as to form a whole ",
+          link: "https://youtu.be/8oQkJpuCsIQ?si=lcMerrsFWO-6ZsXM ",
+        },
+        {
+          key: 77,
+          heading: "Organic Chemistry | Aromaticity",
+          description:
+            "A property of the conjugated cycloalkenes which enhances the stability of a molecule due to the delocalization of electrons present in the π-π orbitals",
+          link: "https://youtu.be/bq1PZcKY50o?si=0OgJu2lakHRPy6Jw",
+        },
       ],
+      
       pyq: [
         {
           key: 1,
