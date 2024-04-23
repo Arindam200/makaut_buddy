@@ -746,8 +746,8 @@ const Data = () => {
           heading: "periodic properties | (variation in s p d f orbitals energies)",
           description:
             "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
-          link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
-        },
+            link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
+          },
         {
           key: 25,
           heading: "Periodic Properties | Electronic configuration",
@@ -1055,6 +1055,27 @@ const Data = () => {
           description:
             " chemical shift and spin-spin coupling",
           link: "https://youtu.be/gGY52XWF0cM?si=PcPQjoknvKkEnBUJ",
+        },
+         {
+            key: 10,
+            heading: "Atomic and Molecular Structure|CFT",
+            description: " a bonding model that explains many important properties of transition-metal complexes, including their colors, magnetism, structures, stability, and reactivity",
+            link: "https://youtu.be/H0lTUapkDo4?si=Jw5lnp1cZKtuMtPV ",
+          },
+          {
+            key: 11,
+            heading: "Atomic and Molecular Structure|Band theory of solid",
+            description: " electrons jump from valence band to conduction band even at ordinary temperature and if this happens then the solid conducts electricity",
+            link: "https://youtu.be/g82XpUsZsEI?si=QYKpcveSsf4GMSg-",
+  
+          },
+          {
+            key: 12,
+            heading: "Atomic and Molecular Structure|Band theory of metal",
+            description: "based on the valence band and the conduction band. It is also known as the band theory of solids or zone theory of solids",
+            link: "https://youtu.be/ow7HXwj4KIk?si=oHQmSH4wpacppWEu",
+   
+          },
         },
 
       ],
