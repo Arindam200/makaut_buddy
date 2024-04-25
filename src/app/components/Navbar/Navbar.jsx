@@ -12,7 +12,7 @@ import {
 } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 
-const menuItems = ["Home", "Features", "Dashboard", "FAQ"];
+const menuItems = ["Home", "Features", "FAQ"];
 
 export default function App() {
   const [activeMenu, setActiveMenu] = useState("");
@@ -51,10 +51,10 @@ export default function App() {
         />
       </NavbarContent>
 
-      <NavbarContent
+      {/* <NavbarContent
         className="sm:hidden pr-3"
         justify="center"
-      ></NavbarContent>
+      ></NavbarContent> */}
 
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
         {menuItems.map((menu) => {
@@ -82,7 +82,7 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent justify="end">
-      <NavbarItem>
+        <NavbarItem>
           <Button
             radius="sm"
             size="lg"
@@ -90,7 +90,7 @@ export default function App() {
             color="white"
             variant="bordered"
             as={Link}
-            href="/join"
+            href="https://github.com/Arindam200/makaut_buddy"
           >
             Give us a star ⭐️
           </Button>
@@ -124,7 +124,8 @@ export default function App() {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu className="">
+      <NavbarMenu className="flex justify-between">
+        <div className="">
         {menuItems.map((item, index) => {
           const isHome = item.toLowerCase() === "home";
           const isActive = isHome
@@ -133,7 +134,7 @@ export default function App() {
           return (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                className={`w-full ${isActive && "font-bold"}`}
+                className={`w-full pb-2 ${isActive && "font-bold"}`}
                 color="foreground"
                 href={isHome ? "#" : `#${item.toLowerCase().trim()}`}
                 onClick={() => setIsMenuOpen(false)}
@@ -144,6 +145,23 @@ export default function App() {
             </NavbarMenuItem>
           );
         })}
+        </div>
+        
+        <div className="flex justify-center pb-10">
+          <NavbarItem>
+          <Button
+            radius="sm"
+            size="lg"
+            className=" text-white sm:hidden text-lg"
+            color="white"
+            variant="bordered"
+            as={Link}
+            href="https://github.com/Arindam200/makaut_buddy"
+          >
+            Give us a star ⭐️
+          </Button>
+        </NavbarItem></div>
+        
       </NavbarMenu>
     </Navbar>
   );

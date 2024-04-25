@@ -3,7 +3,7 @@
 import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import logo from "../../../../public/Logo_Hero.png";
+// import logo from "../../../../public/Logo_Hero.png";
 import { Spotlight } from "../../ui/Spotlight";
 import Globe from "./Globe";
 
@@ -48,7 +48,6 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        {/* <Globe /> */}
         <div className="sm:w-2/5 max-sm:w-full max-sm:pl-12">
           {/* <img
             alt="makaut buddy company logo"

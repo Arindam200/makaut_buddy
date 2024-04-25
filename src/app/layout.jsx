@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
             <Providers>
               {children}
               <Analytics />
-              </Providers>
+            </Providers>
           </DataState>
         </ClerkProvider>
       </body>
