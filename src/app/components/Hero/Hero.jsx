@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
 import Link from "next/link";

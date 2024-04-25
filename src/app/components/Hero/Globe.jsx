@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import React from "react";
 import { useEffect, useRef } from "react";
 import createGlobe from "cobe";
