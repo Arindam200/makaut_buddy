@@ -12,6 +12,7 @@
     "dependencies": {
         "@clerk/nextjs": "^4.24.1",
         "@nextui-org/react": "^2.1.13",
+        "@vercel/analytics": "^1.2.2",
         "autoprefixer": "10.4.16",
         "clsx": "^2.1.0",
         "cobe": "^0.6.3",
