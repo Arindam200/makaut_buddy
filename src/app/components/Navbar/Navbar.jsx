@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <Navbar
-      className="text-white"
+      className="text-white max-2xl:px-10 max-sm:px-0 2xl:px-32"
       height="5rem"
       isBordered
       isBlurred
@@ -86,7 +86,7 @@ export default function App() {
           <Button
             radius="sm"
             size="lg"
-            className=" text-white max-sm:hidden sm:text-lg text-sm"
+            className="text-white max-sm:hidden sm:text-lg text-sm"
             color="white"
             variant="bordered"
             as={Link}
@@ -99,7 +99,7 @@ export default function App() {
           <Button
             radius="sm"
             size="lg"
-            className=" text-black bg-white max-sm:hidden sm:text-lg text-sm"
+            className="text-black bg-white max-sm:hidden sm:text-lg text-sm"
             color="white"
             variant="bordered"
             as={Link}
@@ -147,7 +147,7 @@ export default function App() {
         })}
         </div>
         
-        <div className="flex justify-center pb-10">
+        <div className="flex justify-center pb-16">
           <NavbarItem>
           <Button
             radius="sm"
