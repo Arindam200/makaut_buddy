@@ -1,5 +1,3 @@
-"use client";
-
 import FAQ from "./components/FAQ/FAQ";
 import Features from "./components/Features/Features";
 import Footer from "./components/Footer/Footer";
