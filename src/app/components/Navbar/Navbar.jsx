@@ -82,7 +82,7 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <NavbarItem>
+      <NavbarItem>
           <Button
             radius="sm"
             size="lg"
@@ -92,14 +92,28 @@ export default function App() {
             as={Link}
             href="/join"
           >
-            Sign up
+            Give us a star ⭐️
           </Button>
         </NavbarItem>
         <NavbarItem>
           <Button
             radius="sm"
+            size="lg"
+            className=" text-black bg-white max-sm:hidden sm:text-lg text-sm"
+            color="white"
+            variant="bordered"
+            as={Link}
+            href="/join"
+          >
+            Sign up
+          </Button>
+        </NavbarItem>
+
+        <NavbarItem>
+          <Button
+            radius="sm"
             size="sm"
-            className="text-white sm:hidden text-sm"
+            className="text-white sm:hidden text-sm font-grenze"
             color="white"
             variant="bordered"
             as={Link}
