@@ -1,100 +1,83 @@
-# Makaut_buddy
 
+![image](/public/Readme.png)
+
+<h1 align="center"> Makaut Buddy </h1>
+<p align="center">
+<a href="https://github.com/Arindam200/makaut_buddy" alt="GitHub contributors">
+<img src="https://img.shields.io/github/contributors/Arindam200/makaut_buddy.svg" /><a>
+<a href="https://github.com/Arindam200/makaut_buddy" alt="GitHub issues by-label">
+<img src="https://img.shields.io/github/issues/Arindam200/makaut_buddy" /></a>
+<a href="https://twitter.com/Arindam_1729" alt="Twitter Follow">
+<img src="https://img.shields.io/twitter/follow/Arindam_1729.svg?label=Follow" /></a>
+<a href="https://github.com/Arindam200/makaut_buddy" alt="License">
+<img src="https://img.shields.io/github/license/Arindam200/makaut_buddy.svg" /></a>
+
+</p>
+
+<p align="center">
 This project provides study material for college students. Where they can get videos, notes, and PYQ in one place for their semester exams.
+</p>
 
-![image](https://github.com/Arindam200/makaut_buddy/assets/109217591/5872b26b-6005-4c99-b37f-7f5de997d8e1)
 
-## Quick start
+## Prerequisites
+
+
+
+1. Node.Js installed on your local machine.
+2. Clerk Account for authentication.
+
+## Local Setup
+
+`NOTE: Commands are to be executed on Linux, Mac, and Windows(using Powershell)`
 
 1. Clone this repo using:
 
-```
+```sh
 git clone https://github.com/Arindam200/makaut_buddy.git
 ```
 
 2. To install dependencies and clean the git repo run:
 
-```
+```sh
 npm install
 ```
 
 ###### or
 
-```
+```sh
 yarn install
 ```
 
-## Environment Variables
+3. Create a `.env` file in the root directory of the project. Add the following environment variables:
 
-To run this project, you will need to add the `.env` file as we use some `keys` for the Clerk. and add following environment variables
+```sh
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= YOUR_PUBLISHABLE_KEY
+CLERK_SECRET_KEY= YOUR_CLERK_SECRET_KEY
+```
 
-`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+You can get these keys here: [Clerk](https://clerk.com/)
 
-`CLERK_SECRET_KEY`
+For reference, you can check the `.env.example` file.
 
-You can get this by going to the clerk:`https://clerk.com/`
+4. Run the development server:
 
-You need to `Sign in` to Clerk and then `add the application` by giving any name of the application(`in clerk website`
-)
-
-Then you will get both keys and paste them into the `.env` file which you will have to create in your local cloned repository.
-
-# Running the project
-
-```bash
+```sh
 npm run dev
 ```
 
-or
+###### or
 
-```
+```sh
 yarn dev
 ```
 
-or
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-pnpm dev
-```
+## Contributing
 
-or
+We welcome your contributions! All changes (even with commit access) need a pull request & thumbs-up from a core dev
 
-```
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-# Reference Images
-
-1.
-![image](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/e112ed6f-460f-44fc-8230-33ad7176b8c7)
-
-
-
-
-2.
-![image](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/549d3c98-4b0e-49ba-8014-6fb080b1c710)
-
-
-
-
-3.
-
-![image](https://github.com/subhadeepbanerjee2003/makaut_buddy/assets/116381157/4a7bf04a-fdd2-4280-9e32-da0ce1a2216d)
-
-
-
-
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We love ❤️ pull requests! Learn how to contribute in our guide: [contribution guide](/CONTRIBUTING.md).
 
 ## Thanks to all Contributors 💪
 
