@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useContext } from 'react';
 import { Select, SelectItem } from '@nextui-org/react';
 import { stream, subject } from './data';

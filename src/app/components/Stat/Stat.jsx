@@ -1,10 +1,11 @@
 import React from "react";
+import Counter from "@/app/utils/counter";
 
 export default function Stat() {
   const stats = [
-    { label: "Previous Year Questions", value: "25+" },
-    { label: "Quality Video Tutorials", value: "90+" },
-    { label: "Handwritten Notes", value: "15+" },
+    { label: "Previous Year Questions", value: "25" },
+    { label: "Quality Video Tutorials", value: "90" },
+    { label: "Handwritten Notes", value: "15" },
   ];
 
   return (
@@ -13,7 +14,8 @@ export default function Stat() {
         {stats.map((stat, index) => (
           <div key={index}>
             <h1 className="sm:text-8xl -mt-7 align-middle items-center self-center font-grenze text-4xl text-center font-bold">
-              {stat.value}
+              {/* {stat.value} */}
+              <Counter number={parseInt(stat.value)} title="" />
             </h1>
             <h2 className="sm:text-xl text-md text-center">{stat.label}</h2>
           </div>
