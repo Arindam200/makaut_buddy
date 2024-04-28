@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter, Grenze_Gotisch } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
 import { Providers } from "./providers";
 import { ClerkProvider } from "@clerk/nextjs";
 import DataState from "../app/Context/DataState";
@@ -32,7 +33,10 @@ export default function RootLayout({ children }) {
           publishablekey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
         >
           <DataState>
-            <Providers>{children}</Providers>
+            <Providers>
+              {children}
+              <Analytics />
+            </Providers>
           </DataState>
         </ClerkProvider>
       </body>

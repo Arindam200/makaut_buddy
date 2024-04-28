@@ -352,8 +352,92 @@ const Data = () => {
             "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",
             link: 
            "https://youtu.be/X4_8dh-J4ik?si=YYRGX4crLGd-RV0_",},
-           
-                
+
+           {
+            key:18,
+            heading:
+            "Clipper Circuits",
+            description:
+            "A clipper circuit is an electronic circuit that clips or cuts off a portion of the input waveform, used for limiting voltage levels or shaping waveforms in signal processing applications.",
+            link:
+            "https://www.youtube.com/watch?v=ZpTQAZbu-44&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=14",
+           },
+           {
+            key:19,
+            heading:
+            "Clamper Circuits",
+            description:
+            "Clamper circuits are electronic circuits that shift the DC level of a signal without affecting its shape, useful for tasks like DC restoration in communication systems.",
+            link:
+            "https://www.youtube.com/watch?v=wfc5PYw-IbM&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=15",
+           },
+           {
+            key:20,
+            heading:
+            "Half wave rectifier",
+            description:
+            "A half-wave rectifier is an electronic circuit that converts AC input to pulsating DC output by allowing only one half of the input waveform to pass.",
+            link:
+            "https://www.youtube.com/watch?v=gYxH-D9Det8&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=8",
+           },
+           {key:21,
+            heading:
+            "Full Wave Rectifier",
+            description:
+            "A full-wave rectifier converts both halves of an alternating current (AC) input signal into direct current (DC), utilizing two diodes to ensure continuous flow in both polarities.",
+            link:
+            "https://www.youtube.com/watch?v=8FAaLGxM98U&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=9",
+           },
+          {key:22,
+            heading:
+            "KCL",
+            description:
+            "KCL law is used to describe how a charge enters and leaves a wire junction point or node on a wire",
+            link:
+            "https://youtu.be/TaqJ4OYqv3A?si=ba2vJmVuXYTsGoDG",
+           },
+          {key:23,
+            heading:
+            "KVL",
+            description:
+            "Kirchhoff's Voltage Law (KVL) can be used to calculate the potential drop across a resistance.",
+            link:
+            "https://youtu.be/aZIizOWnuB8?si=nm3S-UiBDPj_DWxw",
+           },
+           {key:24,
+            heading:
+            "Thevenin's Theorem",
+            description:
+            "Thevenin's theorem is especially useful for analyzing circuits by removing the load resistance from the original circuit and simplifying.",
+            link:
+            "https://youtu.be/_h62NLQ33DA?si=qIyOP05uzxPZ3h3-",
+           },
+
+        
+          {
+            key:25,
+            heading:
+            "All about Norton's Theorm",
+            description:
+            "It states that any complex linear circuit can be simplified to an equivalent simple circuit with a single current source in parallel with a single resistor connected to a load.",
+            link: 
+           "https://youtu.be/T7MJpfhXGjs?si=gHQnaoByttYH814K",},
+           {
+            key:26,
+            heading:
+            "All about superposition theorm",
+            description:
+            "It states that in any linear, bilateral network where more than one source is present, the response across any element in the circuit is the sum of the responses obtained from each source considered separately.",
+            link: 
+           "https://youtu.be/1icXtW97tIo?si=OzOYPBIAh85zymP2",},
+           {
+            key:27,
+            heading:
+            "All about Maximum Power Transfer Theorm",
+            description:
+            "It explains that to generate maximum external power through a finite internal resistance (DC network), the resistance of the given load must be equal to the resistance of the available source.",
+            link: 
+           "https://youtu.be/U85eA3-suiQ?si=MA3dzftJRpr-pquE",},   
         ],
 
         pyq: [
@@ -381,274 +465,276 @@ const Data = () => {
         video: [
          {
             key: 1,
-            heading: "Introduction to Orthographic Projection",
-            description:
-              "In this video you will get a detailed understanding about orthographic projection",
-            link: "https://www.youtube.com/watch?v=SB83cUaAiCM&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=1",
-          },
-          {
-            key: 2,
-            heading: "Projection of Point",
-            description:
-              "What is Projection of Point?",
-            link: "https://www.youtube.com/watch?v=aZ3gnOQIFHI&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=2",
-          },
-          {
-            key: 3,
-            heading: "Introduction to Projection of Lines Part1",
-            description:
-              "3D projections of lines",
-            link: "https://youtube.com/watch?v=MSg7DpKgaK8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=3",
-          },
-          {
-            key: 4,
-            heading: "Introduction to Projection of Lines Part2",
-            description:
-              "Introduction to Projection of Lines",
-            link: "https://www.youtube.com/watch?v=wzxAFXejjw8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=4",
-          },
-          {
-            key: 5,
-            heading: "Projection of Point | Problem Series ",
-            description:
-              "Problems on Projection of point ",
-            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=5",
-          },
-          {
-            key: 6,
-            heading: "Projection of Lines | Problem Series | Part 1 ",
-            description:
-              "Problems on Projection of lines",
-            link: "https://www.youtube.com/watch?v=BaaxLHH1d-Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=6",
-          },
-          {
-            key: 7,
-            heading: "Projection of Lines | Problem Series | Part 2 ",
-            description:
-              "Projection of Lines | Problem Series | Part 2 ",
-            link: "https://www.youtube.com/watch?v=f9e2xq3yKQ0&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=7",
-          },
-          {
-            key: 8,
-            heading: "Projection of Lines | Problem Series | Part 3 ",
-            description:
-              "Projection of Lines | Problem Series | Part 3 ",
-            link: "https://www.youtube.com/watch?v=RR6k8Djbvh8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=8",
-          },
-          {
-            key: 9,
             heading: "Plain and Diagonal Scales | Complete Concept & Problems ",
             description:
               "What is Representative fraction, Scale? How to construct a Plain Scale and Diagonal Scale? ",
             link: "https://www.youtube.com/watch?v=yneCL-mXeH8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=9",
           },
           {
-            key: 10,
-            heading: "Projection of Planes Idea & Standard Procedure",
-            description:
-              "Projection of Planes Idea & Standard Procedure",
-            link: "https://www.youtube.com/watch?v=SNWhs81ho0Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
-          },
-          {
-            key: 11,
-            heading: "Projection of Planes | Problem Series | Part 1",
-            description:
-              "Problems of Projection of Planes",
-            link: "https://youtu.be/anG2oGzGgF8?si=gWV64YHaVoPXCT2-",
-          },
-          {
-            key: 12,
-            heading: "Projection of Planes | Problem Series | Part 2",
-            description:
-              "Problems of Projection of Planes",
-            link: "https://youtu.be/qQsdiV9PPWI?si=2gB9O9p1eFaE5nYP",
-          },
-          {
-            key: 13,
-            heading: "Projection of Planes | Problem Series | Part 3",
-            description:
-              "Problems of Projection of Planes",
-            link: "https://youtu.be/r7O9SU9w_Eg?si=RGnjXus0GNwWbO3R",
-          },
-          {
-            key: 14,
-            heading: "Projection of Solids Idea & Standard Procedure",
-            description:
-              "How solids are classified and learn to draw the projection of solids when it is inclined to HP, VP and even both??",
-            link: "https://youtu.be/S3ma-LKVJdI?si=NbtAjiWNTGgSfnpz",
-          },
-          {
-            key: 15,
-            heading: "Projection of Solids | Problem Series | Part 1",
-            description:
-              "Problems of Projection of Solids ",
-            link: "https://youtu.be/gb3OCnkr5Ts?si=q29rB0IT7vc21DM6",
-          },
-          {
-            key: 16,
-            heading: "Projection of Solids | Problem Series | Part 2",
-            description:
-              "Problems of Projection of Solids ",
-            link: "https://youtu.be/HQa3GwmGfEY?si=RNWN63NFokE03swV",
-          },
-          {
-            key: 17,
-            heading: "Section of Solids | Concept & Problem Series | Part 1",
-            description:
-              "Concepts & Problems of Section of Solids",
-            link: "https://youtu.be/tm3Ty2yimbc?si=wDPDqes3yz2vHJB4",
-          },
-          {
-            key: 18,
-            heading: "Section of Solids | Concept & Problem Series | Part 2",
-            description:
-              "Concepts & Problems of Section of Solids",
-            link: "https://youtu.be/2HA5eTpO6ec?si=gXBdx-cn0Ut-9Mec",
-          },
-          {
-            key: 19,
-            heading: "Development of Surfaces | Part 1",
-            description:
-              "Devlopment of surfaces of Prism and Pyramid",
-            link: "https://youtu.be/8qpTtaTSdBA?si=THJdUA088KiEUl0L",
-          },
-          {
-            key: 20,
-            heading: "Development of Surfaces | Part 2",
-            description:
-              "Devlopment of surfaces of Cone and Cylinder",
-            link: "https://youtu.be/8yWsVAeeB78?si=WsFnVxY1TKpx-vXv",
-          },
-          {
-            key: 21,
+            key: 2,
             heading: "Conic Sections | Part 1 | Introduction and Concept",
             description:
               "Introduction and Concept of Conic Sections",
             link: "https://youtu.be/3V_k9u3Uny8?si=soqM3Q4yHAF7ieVz",
-          },{
-            key: 22,
+          },
+          {
+            key: 3,
             heading: "Conic Sections | Part 2 | Ellipse in General Method",
             description:
               "Construction of Ellipse in general method ",
             link: "https://youtu.be/OM6FB3DWFTI?si=COmeg_Ke0z-5groH",
           },{
-            key: 23,
+            key: 4,
             heading: "Conic Sections | Part 3 | Ellipse in Oblong Method",
             description:
               "Construction of Ellipse in oblong method ",
             link: "https://youtu.be/t5szsD_4kG4?si=J1Tj3mroLTsKipbr",
           },
           {
-            key: 24,
+            key: 5,
             heading: "Conic Sections | Part 4 | Ellipse in Concentric Circles Method",
             description:
               "Construction of Ellipse in Concentric Circles Method",
             link: "https://youtu.be/UFpKFyLt8Iw?si=A51C_fxZFEvQOUHS",
           },
           {
-            key: 25,
+            key: 6,
             heading: "Conic Sections | Part 5 | Ellipse in Arcs of Circles Method",
             description:
               "Construction of Ellipse in Arcs of Circles Method",
             link: "https://youtu.be/f2itGi4u3nE?si=KRPi7FF2qHrZ3959",
           },
           {
-            key: 26,
+            key: 7,
             heading: "Conic Sections | Part 6 | Best Problems on Ellipse",
             description:
               "Problems and solutions on Construction of Ellipse",
             link: "https://youtu.be/Y-bR4ChEslY?si=TRmGouS7vU4ZU_rR",
           },
           {
-            key: 27,
+            key: 8,
             heading: "Conic Sections | Part 7 | Parabola in General Method",
             description:
               "Construction of Parabola in General Method",
             link: "https://youtu.be/EEAjjP-Phe4?si=_ps9ap2SYZO4tlKN",
           },
           {
-            key: 28,
+            key: 9,
             heading: "Conic Sections | Part 8 | Problem 1 on Parabola in Rectangle Method",
             description:
               "Problem 1 on Construction of Parabola in Rectangle Method",
             link: "https://youtu.be/XqB4MEzFkJ4?si=V3IwAR5kDjaLNJEc",
           },
           {
-            key: 29,
+            key: 10,
             heading: "Conic Sections | Part 9 | Problem 2 on Parabola in Rectangle Method",
             description:
               "Problem 2 on Construction of Parabola in Rectangle Method",
             link: "https://youtu.be/O7ZcrsioRBE?si=A8fk46dqQnHNPdFy",
           },
           {
-            key: 30,
+            key: 11,
             heading: "Conic Sections | Part 10 | Problem 3 on Parabola in Rectangle Method",
             description:
               "Problem 3 on Construction of Parabola in Rectangle Method",
             link: "https://youtu.be/g9YnfkMrR-w?si=uG3seShoeVsQRB4V",
           },
           {
-            key: 31,
+            key: 12,
             heading: "Conic Sections | Part 11 | Problem 4 on Parabola in Tangent Method",
             description:
               "Problem 4 on Construction of Parabola in Tangent Method",
             link: "https://youtu.be/FMClHjnXk7Y?si=YhlWv13NWLHbMt1G",
           },
           {
-            key: 32,
+            key: 13,
             heading: "Conic Sections | Part 12 | Hyperbola in General Method",
             description:
               "Construction of Hyperbola in General Method",
             link: "https://youtu.be/fWOJIxpTVa8?si=gOfm4MyC0Fo5i5t4",
           },
           {
-            key: 33,
-            heading: "Conic Sections | Part 14 | Problems on Hyperbola ",
+            key: 14,
+            heading: "Conic Sections | Part 13 | Problems on Hyperbola ",
             description:
               "Problems and Solutions on Construction of Hyperbola",
             link: "https://youtu.be/V5qsFot9dMQ?si=OTIzp3gd1KsjZtsE",
           },
           {
-            key: 34,
-            heading: "Conic Sections | Part 15 | Hyperbola in Arcs of Circles Method ",
+            key: 15,
+            heading: "Conic Sections | Part 16 | Hyperbola in Arcs of Circles Method ",
             description:
               "Construction of Hyperbola in Arcs of Circles Method ",
             link: "https://youtu.be/_CeQjBs5AT8?si=omlj6HEwRo0ErUIv",
           },
           {
-            key: 35,
-            heading: "Conic Sections | Part 16 | Tangent and Normal to Different Conic Sections ",
+            key: 16,
+            heading: "Conic Sections | Part 17 | Tangent and Normal to Different Conic Sections ",
             description:
               "Construction of Tangent to Ellipse, Parabola, Hyperbola ",
             link: "https://youtu.be/OnXeBDJbEe8?si=znpXlBnYd6GrsWZi",
           },
           {
-            key: 36,
+            key: 17,
+            heading: "Introduction to Orthographic Projection",
+            description:
+              "In this video you will get a detailed understanding about orthographic projection",
+            link: "https://www.youtube.com/watch?v=SB83cUaAiCM&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=1",
+
+          },
+          {
+            key: 18,
+            heading: "Projection of Point",
+            description:
+              "What is Projection of Point?",
+            link: "https://www.youtube.com/watch?v=aZ3gnOQIFHI&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=2",
+          },
+          {
+            key: 19,
+            heading: "Projection of Point | Problem Series ",
+            description:
+              "Problems on Projection of point ",
+            link: "https://youtube.com/watch?v=MzbxVLFKN9g&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=5",
+          },
+          {
+            key: 20,
+            heading: "Introduction to Projection of Lines Part1",
+            description:
+              "3D projections of lines",
+            link: "https://youtube.com/watch?v=MSg7DpKgaK8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=3",
+          },
+          {
+            key: 21,
+            heading: "Introduction to Projection of Lines Part2",
+            description:
+              "Introduction to Projection of Lines",
+            link: "https://www.youtube.com/watch?v=wzxAFXejjw8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=4",
+          },
+          {
+            key: 22,
+            heading: "Projection of Lines | Problem Series | Part 1 ",
+            description:
+              "Problems on Projection of lines",
+            link: "https://www.youtube.com/watch?v=BaaxLHH1d-Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=6",
+          },
+          {
+            key: 23,
+            heading: "Projection of Lines | Problem Series | Part 2 ",
+            description:
+              "Projection of Lines | Problem Series | Part 2 ",
+            link: "https://www.youtube.com/watch?v=f9e2xq3yKQ0&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=7",
+          },
+          {
+            key: 24,
+            heading: "Projection of Lines | Problem Series | Part 3 ",
+            description:
+              "Projection of Lines | Problem Series | Part 3 ",
+            link: "https://www.youtube.com/watch?v=RR6k8Djbvh8&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=8",
+          },
+          {
+            key: 25,
+            heading: "Projection of Planes Idea & Standard Procedure",
+            description:
+              "Projection of Planes Idea & Standard Procedure",
+            link: "https://www.youtube.com/watch?v=SNWhs81ho0Q&list=PLIhUrsYr8yHx0C3ebAW-FQxTP8ig8-QxU&index=10",
+          },
+          {
+            key: 26,
+            heading: "Projection of Planes | Problem Series | Part 1",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/anG2oGzGgF8?si=gWV64YHaVoPXCT2-",
+          },
+          {
+            key: 27,
+            heading: "Projection of Planes | Problem Series | Part 2",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/qQsdiV9PPWI?si=2gB9O9p1eFaE5nYP",
+          },
+          {
+            key: 28,
+            heading: "Projection of Planes | Problem Series | Part 3",
+            description:
+              "Problems of Projection of Planes",
+            link: "https://youtu.be/r7O9SU9w_Eg?si=RGnjXus0GNwWbO3R",
+          },
+          {
+            key: 29,
+            heading: "Projection of Solids Idea & Standard Procedure",
+            description:
+              "How solids are classified and learn to draw the projection of solids when it is inclined to HP, VP and even both??",
+            link: "https://youtu.be/S3ma-LKVJdI?si=NbtAjiWNTGgSfnpz",
+          },
+          {
+            key: 30,
+            heading: "Projection of Solids | Problem Series | Part 1",
+            description:
+              "Problems of Projection of Solids ",
+            link: "https://youtu.be/gb3OCnkr5Ts?si=q29rB0IT7vc21DM6",
+          },
+          {
+            key: 31,
+            heading: "Projection of Solids | Problem Series | Part 2",
+            description:
+              "Problems of Projection of Solids ",
+            link: "https://youtu.be/HQa3GwmGfEY?si=RNWN63NFokE03swV",
+          },
+          {
+            key: 32,
             heading: "Isometric Projection | Part 1 |",
             description:
               "Iso-view and Iso-Projection",
             link: "https://youtu.be/9aFDVSIcdvI?si=A-y3pE1ba56mvRxt",
           },
           {
-            key: 37,
+            key: 33,
             heading: "Isometric Projection | Part 2 |",
             description:
               "Orthographic Projection and Isometric View",
             link: "https://youtu.be/tLFjCS3h9MY?si=k8_eGi2WdN2_eyem",
           },
           {
-            key: 38,
+            key: 34,
             heading: "Isometric Projection | Part 5 |",
             description:
               "Problem 4 on Isometric View",
             link: "https://youtu.be/TqrID4SeFTo?si=cX0QE-aicjyM_lLA",
           },
           {
-            key: 39,
+            key: 35,
             heading: "Isometric Projection | Part 6 |",
             description:
               "Problem 5 on Isometric View",
             link: "https://youtu.be/ilWFZOfmvI8?si=OVwRHWSkwdoDqC15",
+          },
+          {
+            key: 36,
+            heading: "Section of Solids | Concept & Problem Series | Part 1",
+            description:
+              "Concepts & Problems of Section of Solids",
+            link: "https://youtu.be/tm3Ty2yimbc?si=wDPDqes3yz2vHJB4",
+          },
+          {
+            key: 37,
+            heading: "Section of Solids | Concept & Problem Series | Part 2",
+            description:
+              "Concepts & Problems of Section of Solids",
+            link: "https://youtu.be/2HA5eTpO6ec?si=gXBdx-cn0Ut-9Mec",
+          },
+          {
+            key: 38,
+            heading: "Development of Surfaces | Part 1",
+            description:
+              "Devlopment of surfaces of Prism and Pyramid",
+            link: "https://youtu.be/8qpTtaTSdBA?si=THJdUA088KiEUl0L",
+          },
+          {
+            key: 39,
+            heading: "Development of Surfaces | Part 2",
+            description:
+              "Devlopment of surfaces of Cone and Cylinder",
+            link: "https://youtu.be/8yWsVAeeB78?si=WsFnVxY1TKpx-vXv",
           },
         ],
         pyq: [
