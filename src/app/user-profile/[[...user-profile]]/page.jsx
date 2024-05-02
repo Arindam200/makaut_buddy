@@ -1,12 +1,18 @@
 import { UserProfile } from "@clerk/nextjs";
+import { auth } from '@clerk/nextjs/server';
+import { redirect } from "next/navigation";
 
-const UserProfilePage = () => (
-  <>
+export default function UserProfilePage() {
+  const { userId } = auth();
+  
+  if (!userId) {
+    redirect("/join");
+  }
+  return (
+    <>
   <div className="flex justify-center pt-3">
-  <UserProfile path="/user-profile" />
+    <UserProfile path="/user-profile" />
   </div>
   </>
-  
-);
-
-export default UserProfilePage;
+  );
+}
