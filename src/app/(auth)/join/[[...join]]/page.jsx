@@ -13,7 +13,7 @@ export default function PageJoin() {
             colorPrimary: "#171717",
           },
         }}
-        forceRedirectUrl="/dashboard"
+        // forceRedirectUrl="/dashboard"
         signInUrl="/login"
       />
     </div>
