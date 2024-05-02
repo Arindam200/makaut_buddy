@@ -15,9 +15,11 @@
 # production
 /build
 
+
 # misc
 .DS_Store
 *.pem
+wrangler.toml
 
 # debug
 npm-debug.log*
@@ -33,3 +35,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+wrangler.toml

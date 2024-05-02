@@ -1,4 +1,9 @@
 "use client";
+import {
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 
 import {
   Button,
@@ -95,32 +100,26 @@ export default function App() {
             Give us a star ⭐️
           </Button>
         </NavbarItem>
-        <NavbarItem>
-          <Button
-            radius="sm"
-            size="lg"
-            className="text-black bg-white max-sm:hidden sm:text-lg text-sm"
-            color="white"
-            variant="bordered"
-            as={Link}
-            href="/join"
-          >
-            Sign up
-          </Button>
-        </NavbarItem>
 
         <NavbarItem>
-          <Button
-            radius="sm"
-            size="sm"
-            className="text-white sm:hidden text-sm font-grenze"
-            color="white"
-            variant="bordered"
-            as={Link}
-            href="/join"
-          >
-            Sign Up
-          </Button>
+          
+            <SignedIn>
+                <UserButton />
+            </SignedIn>
+            <SignedOut>
+              <Button
+                  radius="sm"
+                  size="sm"
+                  className="text-white px-[22px] py-[22px]  text-sm font-grenze"
+                  color="white"
+                  variant="bordered"
+                  as={Link}
+                  href="/join"
+                >
+                  Sign Up
+                </Button>
+            </SignedOut>
+          
         </NavbarItem>
       </NavbarContent>
 
