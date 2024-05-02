@@ -129,7 +129,7 @@ export default function App() {
                   color="white"
                   variant="bordered"
                   as={Link}
-                  href="/join"
+                  href="/login"
                 >
                   Sign Up
                 </Button>

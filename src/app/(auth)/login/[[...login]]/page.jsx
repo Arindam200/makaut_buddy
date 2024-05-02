@@ -14,9 +14,6 @@ export default function PageJoin() {
           },
         }}
         signUpUrl="/join"
-        fallbackRedirectUrl="/dashboard"
-        signUpFallbackRedirectUrl="/welcome"
-        // forceRedirectUrl="/dashboard"
       />
     </div>
   );

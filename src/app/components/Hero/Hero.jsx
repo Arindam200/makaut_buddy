@@ -34,7 +34,7 @@ export default function Hero() {
               className="bg-white text-black hover:bg-white/90 sm:text-lg text-sm px-4 py-2 rounded-md"
               variant="solid"
             >
-              <Link href="/join">Join Now</Link>
+              <Link href="/login">Join Now</Link>
             </Button>
             <Button
               className="sm:text-lg text-sm hover:bg-[rgba(225,225,225,0.12)] px-4 py-2 rounded-md"
