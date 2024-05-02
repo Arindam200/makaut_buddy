@@ -4,9 +4,15 @@ import Dropdown from "../components/Dropdown/Dropdown.jsx";
 import Image from "next/image.js";
 import Arrow from "../../../public/Arrow.svg";
 import "../components/Features/index.css";
-// import { Tabs, Tab } from "@nextui-org/react";
+import { auth } from '@clerk/nextjs/server'
+import { redirect } from "next/navigation";
 
 export default function page() {
+  const { userId } = auth();
+  
+  if (!userId) {
+    redirect("/join");
+  }
   return (
     <>
       <div className="trilarge max-sm:hidden bg-white rotate-180 z-40"></div>

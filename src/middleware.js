@@ -18,13 +18,9 @@ import { clerkMiddleware } from "@clerk/nextjs/server";
 
 // This Middleware does not protect any routes by default.
 // See https://clerk.com/docs/references/nextjs/clerk-middleware for more information about configuring your Middleware
-export default clerkMiddleware({
-	publicRoutes: ["/(github|twitter|linkedin)"],
-	ignoredRoutes: ["/", "/(api|trpc)(.*)"],
-	clockSkewInMs: 100_000,
-	clockSkewInSeconds: 100,
-});
+export default clerkMiddleware();
 
 export const config = {
-  matcher: ["/((?!.*\\..*|_next).*)", "/(dashboard)(.*)"],
+  matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)", "/(dashboard)(.*)"],
 };
+
