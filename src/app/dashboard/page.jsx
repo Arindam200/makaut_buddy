@@ -18,16 +18,11 @@ export default function page() {
 
   const isAdmin = sessionClaims?.metadata?.role === "admin";
 
-  // console.log(userId , "userId");
-  // if (!userId) {
-  //   redirect("/join");
-  // }
 
   return (
     
     <>
 
-      <SignedIn>
         <div className="trilarge max-sm:hidden bg-white rotate-180 z-40"></div>
         <div className="tridown sm:hidden bg-white rotate-180 z-40"></div>
         <a href="/">
@@ -54,10 +49,6 @@ export default function page() {
             </div>
           </div>
         </div>
-      </SignedIn>
-      <SignedOut>
-        <RedirectToSignIn />
-      </SignedOut>
       
     </>
   );
