@@ -14,6 +14,8 @@ export default function PageJoin() {
           },
         }}
         // forceRedirectUrl="/dashboard"
+        fallbackRedirectUrl="/welcome"
+        signInFallbackRedirectUrl="/dashboard"
         signInUrl="/login"
       />
     </div>
