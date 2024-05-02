@@ -1,6 +1,8 @@
 import { PrismaClient } from '@prisma/client/edge'
 import { withAccelerate } from '@prisma/extension-accelerate'
 import { Hono } from 'hono'
+
+import { handle } from 'hono/vercel'
 import { decode, sign, verify } from 'hono/jwt'
 
 const app = new Hono<{
@@ -11,7 +13,10 @@ const app = new Hono<{
 }>();
 
 
-//key : fda88714-81cc-4adb-8c54-7425cc510275
+export const runtime = "edge"
+
+// EVERY ENDPOINT REQUIRES AN AUTHORIZATION HEADER
+
 
 //endpoint : /getResource
 //accepts : query - {sub : subject} 
@@ -180,4 +185,10 @@ app.delete('/deleteResource/:id' , async(c) => {
 
 })
 
-export default app
+
+export default app as never
+export const GET = handle(app)
+export const POST = handle(app)
+export const PUT = handle(app)
+export const DELETE = handle(app)
+

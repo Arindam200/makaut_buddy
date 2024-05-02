@@ -4,9 +4,17 @@ import Dropdown from "../components/Dropdown/Dropdown.jsx";
 import Image from "next/image.js";
 import Arrow from "../../../public/Arrow.svg";
 import "../components/Features/index.css";
-// import { Tabs, Tab } from "@nextui-org/react";
+import { auth } from '@clerk/nextjs/server'
+import { redirect } from "next/navigation";
 
 export default function page() {
+  const { userId , sessionClaims } = auth();
+
+  const isAdmin = sessionClaims?.metadata?.role === "admin";
+  
+  if (!userId) {
+    redirect("/join");
+  }
   return (
     <>
       <div className="trilarge max-sm:hidden bg-white rotate-180 z-40"></div>
@@ -25,6 +33,8 @@ export default function page() {
               <h2 className="text-6xl font-grenze max-sm:text-center pb-12 font-bold text-center sm:text-start">
                 Dashboard
               </h2>
+              {/* add the specials buttons below we want to show with admin access */}
+              {isAdmin && <><div className=""></div></>} 
               <Dropdown />
             </div>
             <div className="sm:w-1/2">
