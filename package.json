@@ -13,6 +13,7 @@
     },
     "dependencies": {
         "@clerk/nextjs": "^5.0.1",
+
         "@nextui-org/input": "^2.1.21",
         "@nextui-org/react": "^2.1.13",
         "@prisma/client": "^5.13.0",
