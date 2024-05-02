@@ -14,7 +14,7 @@ export default function PageJoin() {
           },
         }}
         signUpUrl="/join"
-        routing="/welcome"
+        forceRedirectUrl="/dashboard"
       />
     </div>
   );

@@ -103,14 +103,28 @@ export default function App() {
 
         <NavbarItem>
           
-            <SignedIn>
-                <UserButton />
+            <SignedIn> 
+                  <UserButton 
+                    appearance={{
+                      layout: { shimmer: true },
+                      variables: {
+                        borderRadius: "0.5",
+                        colorBackground: "#d9d9d9",
+                        colorInputBackground: "#d9d9d9",
+                        colorPrimary: "#171717",
+                      },
+                      elements:{
+                        avatarBox:"h-12 w-12 ",
+                        userButtonPopoverFooter:"hidden"
+                      }
+                    }}
+                  />            
             </SignedIn>
             <SignedOut>
               <Button
                   radius="sm"
                   size="sm"
-                  className="text-white px-[22px] py-[22px]  text-sm font-grenze"
+                  className="text-white px-[22px] py-[22px] text-sm"
                   color="white"
                   variant="bordered"
                   as={Link}
