@@ -146,9 +146,9 @@ export default function App() {
               <Button
                 radius="sm"
                 size="sm"
-                className="text-white px-[22px] py-[22px] text-sm"
+                className="bg-white text-black hover:bg-white/90 px-[22px] py-[22px] text-sm"
                 color="white"
-                variant="bordered"
+                variant="solid"
                 as={Link}
                 href="/login"
               >
@@ -172,9 +172,9 @@ export default function App() {
                 <Button
                     radius="sm"
                     size="sm"
-                    className="text-white px-[22px] py-[22px] text-sm"
+                    className="bg-white text-black hover:bg-white/90 px-[22px] py-[22px] text-sm"
                     color="white"
-                    variant="bordered"
+                    variant="solid"
                     as={Link}
                     href="/join"
                   >
