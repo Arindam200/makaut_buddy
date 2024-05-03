@@ -6,6 +6,9 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 
+
+import { useAuth } from "@clerk/nextjs";
+
 import {
   Button,
   Link,
@@ -21,8 +24,10 @@ import { useEffect, useState } from "react";
 const menuItems = ["Home", "Features", "FAQ"];
 
 export default function App() {
+  const [userExists , setUserExists] = useState(false);
   const [activeMenu, setActiveMenu] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const {  userId } = useAuth();
 
   const handleActiveMenu = () => {
     if (window.location.hash) {
@@ -32,6 +37,23 @@ export default function App() {
       setActiveMenu("");
     }
   };
+
+    
+  useEffect(() => {
+
+    console.log(userId , "userId");
+    if (userId ) {
+        localStorage.setItem('userExists', true);
+    }
+  
+  } , [])
+
+  useEffect(() => {
+    
+    const userExists = localStorage.getItem("userExists")
+    setUserExists(userExists);
+
+  } , [])
 
   useEffect(() => {
     window.addEventListener("hashchange", handleActiveMenu, false);
@@ -122,7 +144,22 @@ export default function App() {
                   />            
             </SignedIn>
             <SignedOut>
+            {userExists ? 
               <Button
+                radius="sm"
+                size="sm"
+                className="text-white px-[22px] py-[22px] text-sm"
+                color="white"
+                variant="bordered"
+                as={Link}
+                href="/login"
+              >
+              
+                Sign In
+              </Button>
+              : 
+              <section className="flex flex-row gap-2">
+                  <Button
                   radius="sm"
                   size="sm"
                   className="text-white px-[22px] py-[22px] text-sm"
@@ -131,8 +168,25 @@ export default function App() {
                   as={Link}
                   href="/login"
                 >
-                  Sign Up
+                
+                  Sign In
                 </Button>
+                <Button
+                    radius="sm"
+                    size="sm"
+                    className="text-white px-[22px] py-[22px] text-sm"
+                    color="white"
+                    variant="bordered"
+                    as={Link}
+                    href="/join"
+                  >
+                  
+                    Sign Up
+                </Button>
+                  
+              </section>
+            
+              }
             </SignedOut>
           
         </NavbarItem>
