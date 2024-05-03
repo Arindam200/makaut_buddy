@@ -40,8 +40,6 @@ export default function App() {
 
     
   useEffect(() => {
-
-    console.log(userId , "userId");
     if (userId ) {
         localStorage.setItem('userExists', true);
     }
@@ -159,7 +157,7 @@ export default function App() {
               </Button>
               : 
               <section className="flex flex-row gap-2">
-                  <Button
+                  {/* <Button
                   radius="sm"
                   size="sm"
                   className="text-white px-[22px] py-[22px] text-sm"
@@ -170,7 +168,7 @@ export default function App() {
                 >
                 
                   Sign In
-                </Button>
+                </Button> */}
                 <Button
                     radius="sm"
                     size="sm"

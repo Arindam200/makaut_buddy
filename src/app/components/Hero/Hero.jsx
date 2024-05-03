@@ -5,8 +5,19 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Spotlight } from "../../ui/Spotlight";
 import Globe from "./Globe";
+import { useEffect,useState } from "react";
+import {
+  SignedIn,
+  SignedOut,
+} from "@clerk/nextjs";
 
 export default function Hero() {
+  const [userExists , setUserExists] = useState(false);
+
+  useEffect(() => {
+    const userExists = localStorage.getItem("userExists")
+    setUserExists(userExists);
+  } , [])
   return (
     <>
       <div
@@ -28,14 +39,39 @@ export default function Hero() {
             the University.
           </h2>
           <div className="font-sans sm:space-x-5 mt-4 space-x-2 max-sm:flex max-sm:px-10">
-            <Button
+
+          <SignedOut>
+            {userExists ? 
+              <Button
+                radius="sm"
+                size="lg"
+                className="bg-white text-black hover:bg-white/90 sm:text-lg text-sm px-4 py-2 rounded-md"
+                variant="solid"
+              >
+                <Link href="/login">Join Now</Link>
+              </Button> 
+              : <Button
               radius="sm"
               size="lg"
               className="bg-white text-black hover:bg-white/90 sm:text-lg text-sm px-4 py-2 rounded-md"
               variant="solid"
             >
-              <Link href="/login">Join Now</Link>
-            </Button>
+              <Link href="/join">Join Now</Link>
+            </Button> 
+            }
+          </SignedOut>
+
+            <SignedIn>
+              <Button
+                  radius="sm"
+                  size="lg"
+                  className="bg-white text-black hover:bg-white/90 sm:text-lg text-sm px-4 py-2 rounded-md"
+                  variant="solid"
+                >
+                  <Link href="/login">Join Now</Link>
+                </Button> 
+            </SignedIn>
+            
             <Button
               className="sm:text-lg text-sm hover:bg-[rgba(225,225,225,0.12)] px-4 py-2 rounded-md"
               radius="sm"
