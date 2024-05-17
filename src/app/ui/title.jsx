@@ -1,10 +1,4 @@
-"use client";
-
 import React from "react";
-
-// interface TitleProps {
-//   title: string;
-// }
 
 export default function Title(props) {
   return (

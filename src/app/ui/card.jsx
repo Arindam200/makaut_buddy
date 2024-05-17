@@ -1,15 +1,13 @@
-"use client";
-
+// "use client";
+import { auth } from '@clerk/nextjs/server'
 import Title from "./title";
 import { MdModeEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
 
-// interface CardProps {
-//   title: string;
-//   description: string;
-// }
-
 export default function Card(props) {
+  const { userId , sessionClaims } = auth();
+
+  const isAdmin = sessionClaims?.metadata?.role === "admin";
   return (
     <div className="flex flex-col border-2 border-[#FFFFFF20] rounded-lg m-1">
       <div className="basis-9/12">
@@ -23,12 +21,17 @@ export default function Card(props) {
           <div className="text-[#FFFFFF50] text-sm">{props.description}</div>
         </div>
         <div className="flex justify-center items-center gap-2">
-          <div className="bg-[#D9D9D9] p-2 rounded-full" id="edit">
-            <MdModeEdit />
-          </div>
-          <div className="bg-[#D9D9D9] p-2 rounded-full" id="delete">
-            <MdDelete />
-          </div>
+          {isAdmin && (
+            <>
+              <div className="bg-[#D9D9D9] p-2 rounded-full" id="edit">
+                <MdModeEdit />
+              </div>
+              <div className="bg-[#D9D9D9] p-2 rounded-full" id="delete">
+                <MdDelete />
+              </div>
+            </>
+          )}
+          
         </div>
       </div>
     </div>
