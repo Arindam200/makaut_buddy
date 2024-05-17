@@ -1,8 +1,4 @@
 import React from "react";
-// import Tabs from "../components/Tabs/Tabs.jsx";
-// import Dropdown from "../components/Dropdown/Dropdown.jsx";
-import Image from "next/image.js";
-// import Arrow from "../../../public/Arrow.svg";
 import SearchIcon from "../ui/searchicon";
 import Tabs from "../ui/tabs";
 import Card from "../ui/card";

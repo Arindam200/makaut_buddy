@@ -26,6 +26,7 @@
         "framer-motion": "^10.17.12",
         "gsap": "^3.12.2",
         "hono": "^4.2.8",
+        "mini-svg-data-uri": "^1.4.4",
         "next": "^13.5.4",
         "postcss": "8.4.30",
         "prisma": "^5.13.0",
