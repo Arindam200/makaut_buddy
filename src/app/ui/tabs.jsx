@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function tabs() {
+export default function Tabs() {
   const[activetab, setActivetab] = useState("tab1")
   const handleclick=(tab)=>{
     setActivetab(tab)
