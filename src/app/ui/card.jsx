@@ -1,11 +1,11 @@
 // "use client";
-import { auth } from '@clerk/nextjs/server'
+import { auth } from "@clerk/nextjs/server";
 import Title from "./title";
 import { MdModeEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
 
 export default function Card(props) {
-  const { userId , sessionClaims } = auth();
+  const { userId, sessionClaims } = auth();
 
   const isAdmin = sessionClaims?.metadata?.role === "admin";
   return (
@@ -24,14 +24,13 @@ export default function Card(props) {
           {isAdmin && (
             <>
               <div className="bg-[#D9D9D9] p-2 rounded-full" id="edit">
-                <MdModeEdit />
+                <MdModeEdit style={{ color: "black" }} />
               </div>
               <div className="bg-[#D9D9D9] p-2 rounded-full" id="delete">
-                <MdDelete />
+                <MdDelete style={{ color: "black" }} />
               </div>
             </>
           )}
-          
         </div>
       </div>
     </div>
