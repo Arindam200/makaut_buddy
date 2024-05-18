@@ -2,12 +2,13 @@
 import { useState } from "react";
 
 export default function Tabs() {
+
   const [activetab, setActivetab] = useState("tab1");
   const handleclick = (tab) => {
     setActivetab(tab);
   };
-  const style =
-    "text-black bg-[#D9D9D9] rounded-md basis-1/2 py-2 text-center transition-all duration-500 ease-in-out";
+  const style = "text-black bg-[#D9D9D9] rounded-md basis-1/2 py-2 text-center transition-all duration-500 ease-in-out";
+
   return (
     <div className="flex w-full p-2 border-2 border-[#FFFFFF20] rounded-lg">
       <div
