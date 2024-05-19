@@ -1,8 +1,6 @@
 import React from "react";
 import Tabs from "../ui/tabs";
 import Card from "../ui/card";
-import SearchBar from "./searchbar";
-import Options from "./options";
 import { auth } from "@clerk/nextjs/server";
 import Checkbox from "@mui/material/Checkbox";
 import FormGroup from "@mui/material/FormGroup";
@@ -64,8 +62,6 @@ export default function page() {
           </div>
         </div>
         <Tabs />
-        <SearchBar />
-        <Options />
         <div className="h-full flex border-2 border-[#FFFFFF20] rounded-lg">
           <div className="flex flex-col basis-1/3 justify-between py-8 pl-10">
             <div className="">
