@@ -35,11 +35,11 @@ export default function Tabs() {
           Search by stream
         </div>
       </div>
-      <div>
-        {activetab==="tab1"&& <Search/>}
+      <div className={activetab==="tab1"?"visible": "hidden"}>
+        <Search/>
       </div>
-      <div>
-        {activetab==="tab2"&& <Options/>}
+      <div className={activetab==="tab2"?"visible": "hidden"}>
+        <Options/>
       </div>
     </>
   );
