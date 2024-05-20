@@ -7,6 +7,8 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import AddIcon from "@mui/icons-material/Add";
 import { redirect } from "next/navigation";
+import Link from "next/link";
+import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
 
 import { SignedIn, UserButton } from "@clerk/nextjs";
 
@@ -18,27 +20,16 @@ export default function page() {
     <>
     <div className="h-full flex max-lg:flex-col max-lg:border-b-2">
       <div className=" max-lg:border-b-2 flex flex-col justify-between lg:basis-1/12 pt-28 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
-        <div className="flex justify-center items-center"></div>
-        <div className="flex justify-center items-center">
-          {/* <SignedIn>
-            <UserButton
-              appearance={{
-                layout: { shimmer: true },
-                variables: {
-                  borderRadius: "0.5",
-                  colorBackground: "#d9d9d9",
-                  colorInputBackground: "#d9d9d9",
-                  colorPrimary: "#171717",
-                },
-                elements: {
-                  avatarBox: "h-12 w-12 ",
-                  userButtonPopoverFooter: "hidden",
-                },
-              }}
-            />
-          </SignedIn> */}
+        <Link href="/" className="mx-auto">
+          <ArrowBackIosNewRoundedIcon 
+             sx={
+              { fontSize: 60,
+                color: "white"
+              }
+            }
+          />
+         </Link>
         </div>
-      </div>
       <div className="lg:basis-11/12 flex flex-col px-4 lg:px-12 pt-8 lg:pt-28 pb-5 gap-2">
         <div className="flex items-center justify-between pb-2">
           <div className="text-3xl lg:text-6xl text-[#D9D9D9] font-medium">Dashboard</div>
