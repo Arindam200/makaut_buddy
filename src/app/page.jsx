@@ -1,19 +1,23 @@
-import FAQ from "./components/FAQ/FAQ";
-import Features from "./components/Features/Features";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/Hero";
+import React, { Suspense, lazy } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Stat from "./components/Stat/Stat";
+import Hero from "./components/Hero/Hero";
+
+const Stat = lazy(() => import("./components/Stat/Stat"));
+const Features = lazy(() => import("./components/Features/Features"));
+const FAQ = lazy(() => import("./components/FAQ/FAQ"));
+const Footer = lazy(() => import("./components/Footer/Footer"));
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Stat />
-      <Features />
-      <FAQ />
-      <Footer />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Stat />
+        <Features />
+        <FAQ />
+        <Footer />
+      </Suspense>
     </>
   );
 }
