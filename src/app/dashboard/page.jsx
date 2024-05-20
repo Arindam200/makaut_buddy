@@ -6,7 +6,6 @@ import Checkbox from "@mui/material/Checkbox";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import AddIcon from "@mui/icons-material/Add";
-import { redirect } from "next/navigation";
 import Link from "next/link";
 import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
 
@@ -16,6 +15,11 @@ export default function page() {
   const { userId, sessionClaims } = auth();
 
   const isAdmin = sessionClaims?.metadata?.role === "admin";
+
+  if (!userId || !sessionClaims) {
+    console.error("User authentication data is missing");
+    return null;
+  }
   return (
     <>
     <div className="h-full flex max-lg:flex-col max-lg:border-b-2">
@@ -118,22 +122,13 @@ export default function page() {
             </div>
           </div>
           <div className="lg:basis-2/3 grid grid-cols-1 lg:grid-cols-2 p-1">
-            <Card
-              title="Engineering Drawing"
-              description="Chipi chipi, chapa chapa dubi dubi, daba daba magico mi dubi dubi boom, boom, boom"
-            />
-            <Card
-              title="Engineering Drawing"
-              description="Chipi chipi, chapa chapa dubi dubi, daba daba magico mi dubi dubi boom, boom, boom"
-            />
-            <Card
-              title="Engineering Drawing"
-              description="Chipi chipi, chapa chapa dubi dubi, daba daba magico mi dubi dubi boom, boom, boom"
-            />
-            <Card
-              title="Engineering Drawing"
-              description="Chipi chipi, chapa chapa dubi dubi, daba daba magico mi dubi dubi boom, boom, boom"
-            />
+            {Array(4).fill().map((_, index) => (
+              <Card
+                key={index}
+                title="Engineering Drawing"
+                description="Chipi chipi, chapa chapa dubi dubi, daba daba magico mi dubi dubi boom, boom, boom"
+              />
+            ))}
           </div>
         </div>
       </div>
