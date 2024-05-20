@@ -46,7 +46,7 @@ export default function SelectLabels() {
   };
 
   return (
-    <div className="flex w-full gap-4">
+    <div className="flex flex-col lg:flex-row w-full gap-2 lg:gap-4 ">
       <div className="basis-1/2">
         <FormControl fullWidth sx={formControlStyles}>
           <InputLabel id="stream-selector" sx={{ color: "#FFFFFF" }}>
