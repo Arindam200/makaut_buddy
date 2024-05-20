@@ -7,6 +7,8 @@ import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import AddIcon from "@mui/icons-material/Add";
 import { redirect } from "next/navigation";
+import Link from "next/link";
+import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
 
 import { SignedIn, UserButton } from "@clerk/nextjs";
 
@@ -17,6 +19,15 @@ export default function page() {
   return (
     <div className="h-full flex">
       <div className="flex flex-col justify-between basis-1/12 pt-28 bg-[#FFFFFF05] border-r-2 border-[#FFFFFF20]">
+      <Link href="/" className="mx-auto">
+      <ArrowBackIosNewRoundedIcon 
+       sx={
+        { fontSize: 60,
+          color: "white"
+        }
+      }
+      />
+      </Link>
         <div className="flex justify-center items-center"></div>
         <div className="flex justify-center items-center">
           {/* <SignedIn>
