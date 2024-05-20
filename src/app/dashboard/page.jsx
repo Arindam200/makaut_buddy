@@ -23,9 +23,9 @@ export default function page() {
   return (
     <>
     <div className="h-full flex max-lg:flex-col max-lg:border-b-2">
-      <div className=" max-lg:border-b-2 flex flex-col justify-between lg:basis-1/12 py-8 lg:pt-28 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
-        <Link href="/" className="hidden lg:block absolute left-10 h-12">
-          <ArrowBackIosNewRoundedIcon 
+      <div className="max-lg:border-b-2 justify-between lg:basis-1/12 py-3 lg:pt-28 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
+        <Link href="/" className="hidden lg:flex justify-center">
+          <ArrowBackIosNewRoundedIcon
              sx={
               { fontSize: 60,
                 color: "white"
@@ -33,20 +33,41 @@ export default function page() {
             }
           />
          </Link>
-         <Link href="/" className="lg:hidden absolute top-3 left-3 h-12">
-          <ArrowBackIosNewRoundedIcon 
-             sx={
-              { fontSize: 40,
-                color: "white"
+         <div className="flex justify-center items-center  lg:hidden">
+          <Link href="/" className="flex items-center justify-start px-4 w-1/2">
+            <ArrowBackIosNewRoundedIcon 
+              sx={
+                { fontSize: 40,
+                  color: "white"
+                }
               }
-            }
-          />
-         </Link>
-        </div>
+            />
+          </Link>
+          <div className="flex justify-end w-1/2 px-4">
+              <SignedIn>
+                <UserButton
+                  appearance={{
+                    layout: { shimmer: true },
+                    variables: {
+                      borderRadius: "0.5",
+                      colorBackground: "#d9d9d9",
+                      colorInputBackground: "#d9d9d9",
+                      colorPrimary: "#171717",
+                    },
+                    elements: {
+                      avatarBox: "h-12 w-12 ",
+                      userButtonPopoverFooter: "hidden",
+                    },
+                  }}
+                />
+              </SignedIn>
+            </div>
+         </div>       
+      </div>
       <div className="lg:basis-11/12 flex flex-col px-4 lg:px-12 pt-6 lg:pt-28 pb-5 gap-2">
         <div className="flex items-center justify-between pb-2">
           <div className="text-3xl lg:text-6xl text-[#D9D9D9] font-medium">Dashboard</div>
-          <div className="flex justify-center items-center">
+          <div className="hidden lg:flex justify-center items-center">
             <SignedIn>
               <UserButton
                 appearance={{
@@ -58,7 +79,7 @@ export default function page() {
                     colorPrimary: "#171717",
                   },
                   elements: {
-                    avatarBox: "h-12 w-12 ",
+                    avatarBox: "h-14 w-14 ",
                     userButtonPopoverFooter: "hidden",
                   },
                 }}
