@@ -12,4 +12,6 @@ const Counter = React.memo(({ number, title }) =>{
   );
 });
 
+Counter.displayName = "Counter";
+
 export default Counter;

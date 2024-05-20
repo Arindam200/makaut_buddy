@@ -42,4 +42,6 @@ const Card = React.memo(({ title, description }) => {
   );
 });
 
+Card.displayName = "Card";
+
 export default Card;

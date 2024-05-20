@@ -11,4 +11,6 @@ const Title = React.memo(({ title }) => {
   );
 });
 
+Title.displayName = "Title";
+
 export default Title;
