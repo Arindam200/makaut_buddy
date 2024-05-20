@@ -1,6 +1,5 @@
 "use client";
-
-import * as React from "react";
+import React from "react";
 import { Autocomplete, TextField } from "@mui/material";
 
 const subjects = [
@@ -10,7 +9,7 @@ const subjects = [
   "Digital Electronics and Electrical",
 ];
 
-export default function Search() {
+const Search = React.memo(() => {
   return (
     <Autocomplete
       disablePortal
@@ -40,10 +39,12 @@ export default function Search() {
           {...params}
           label="Search subjects"
           InputLabelProps={{
-            style: { color: "#FFFFFF" }, // hide label
+            style: { color: "#FFFFFF" }, // label color
           }}
         />
       )}
     />
   );
-}
+});
+
+export default Search;
