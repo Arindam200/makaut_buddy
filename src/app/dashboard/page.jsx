@@ -19,8 +19,8 @@ export default function page() {
   return (
     <>
     <div className="h-full flex max-lg:flex-col max-lg:border-b-2">
-      <div className=" max-lg:border-b-2 flex flex-col justify-between lg:basis-1/12 pt-28 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
-        <Link href="/" className="mx-auto">
+      <div className=" max-lg:border-b-2 flex flex-col justify-between lg:basis-1/12 py-8 lg:pt-28 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
+        <Link href="/" className="hidden lg:block absolute left-10 h-12">
           <ArrowBackIosNewRoundedIcon 
              sx={
               { fontSize: 60,
@@ -29,8 +29,17 @@ export default function page() {
             }
           />
          </Link>
+         <Link href="/" className="lg:hidden absolute top-3 left-3 h-12">
+          <ArrowBackIosNewRoundedIcon 
+             sx={
+              { fontSize: 40,
+                color: "white"
+              }
+            }
+          />
+         </Link>
         </div>
-      <div className="lg:basis-11/12 flex flex-col px-4 lg:px-12 pt-8 lg:pt-28 pb-5 gap-2">
+      <div className="lg:basis-11/12 flex flex-col px-4 lg:px-12 pt-6 lg:pt-28 pb-5 gap-2">
         <div className="flex items-center justify-between pb-2">
           <div className="text-3xl lg:text-6xl text-[#D9D9D9] font-medium">Dashboard</div>
           <div className="flex justify-center items-center">
