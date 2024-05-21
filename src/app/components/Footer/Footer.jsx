@@ -4,8 +4,8 @@ import React from "react";
 
 const PersonLinks = React.memo(({ name, links }) => (
   <div>
+    <h1 className="font-medium text-lg pb-2 text-white">{name}</h1>
     <ul className="space-y-2">
-      <h1 className="font-medium text-lg pb-2 text-white">{name}</h1>
       {links.map(({ href, label }) => (
         <li key={href} className="text-md max-sm:hidden">
           <a href={href}>{label}</a>
