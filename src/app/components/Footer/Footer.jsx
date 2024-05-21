@@ -15,6 +15,9 @@ const PersonLinks = React.memo(({ name, links }) => (
   </div>
 ));
 
+PersonLinks.displayName = "PersonLinks";
+
+
 const Footer = React.memo(() => {
   const people = [
     {
