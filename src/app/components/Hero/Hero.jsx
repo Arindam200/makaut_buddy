@@ -34,7 +34,7 @@ export default function Hero() {
         </h2>
         <div className="font-sans sm:space-x-5 mt-4 space-x-2 max-sm:flex max-sm:px-10">
           <SignedOut>
-            <Link href={userExists ? "/login" : "/join"} passHref>
+            <Link href={userExists ? "/login" : "/join"} passHref tabIndex={-1}>
               <Button
                 radius="sm"
                 size="lg"
@@ -47,7 +47,7 @@ export default function Hero() {
           </SignedOut>
 
           <SignedIn>
-            <Link href="/login" passHref>
+            <Link href="/login" passHref tabIndex={-1}>
               <Button
                 radius="sm"
                 size="lg"
@@ -59,7 +59,7 @@ export default function Hero() {
             </Link>
           </SignedIn>
 
-          <Link href="/dashboard" passHref>
+          <Link href="/dashboard" passHref tabIndex={-1}>
             <Button
               className="sm:text-lg text-sm hover:bg-[rgba(225,225,225,0.12)] px-4 py-2 rounded-md"
               radius="sm"

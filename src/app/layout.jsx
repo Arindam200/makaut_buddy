@@ -31,12 +31,12 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.variable} ${grenze.variable} dark text-foreground  `}
     >
-      <Head>
+      {/* <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
 
-      </Head>
+      </Head> */}
       <body className={inter.className}>
         <ClerkProvider
           publishablekey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
