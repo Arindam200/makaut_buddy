@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import createGlobe from "cobe";
-import LoadingSpinner from "../../ui/loadingSpinner";
+import LoadingSign from '../../ui/loadingSign';
 
 function Globe() {
   const canvasRef = useRef();
@@ -43,7 +43,7 @@ function Globe() {
   return (
     <div>
       {isLoading && (
-        <LoadingSpinner />
+        <LoadingSign />
       )}
       <canvas
         ref={canvasRef}
