@@ -2,8 +2,10 @@
 
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { useState, useCallback, useMemo } from "react";
+import { useTheme } from "../../Context/ThemeContext";
 
 const FAQ = () => {
+  const { theme } = useTheme();
   const [selectedKeys, setSelectedKeys] = useState(new Set(["1"]));
 
   const handleSelectionChange = useCallback((keys) => {
@@ -32,7 +34,12 @@ const FAQ = () => {
   );
 
   return (
-    <div id="faq" className="sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
+    <div
+      id="faq"
+      className={`sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10 ${
+        theme === "default" ? "bg-[#D9D9D9]" : "bg-[#000000b3] text-white"
+      }`}
+    >
       <div className="sm:w-1/2 flex items-center justify-start">
         <div className="space-y-5 max-sm:px-10 font-grenze">
           <h1 className="sm:text-7xl text-5xl max-sm:text-center font-bold">
@@ -45,7 +52,10 @@ const FAQ = () => {
       </div>
 
       <div className="sm:w-1/2 w-full text-[#FFFFFF70]">
-        <Accordion selectedKeys={selectedKeys} onSelectionChange={handleSelectionChange}>
+        <Accordion
+          selectedKeys={selectedKeys}
+          onSelectionChange={handleSelectionChange}
+        >
           <AccordionItem
             className="text-[#FFFFFF70]"
             key="1"

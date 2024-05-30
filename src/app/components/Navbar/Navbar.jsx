@@ -1,6 +1,9 @@
 "use client";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { useAuth } from "@clerk/nextjs";
+import ThemeToggleButton from "../Navbar/ThemeToggleButton";
+import { useTheme } from "../../Context/ThemeContext";
+
 import {
   Button,
   Link,
@@ -23,7 +26,7 @@ export default function App() {
 
   useEffect(() => {
     if (userId) {
-      localStorage.setItem('userExists', true);
+      localStorage.setItem("userExists", true);
     }
     const storedUserExists = localStorage.getItem("userExists");
     setUserExists(storedUserExists === "true");
@@ -41,9 +44,13 @@ export default function App() {
     };
   }, [userId]);
 
+  const { theme } = useTheme();
+
   return (
     <Navbar
-      className="text-white max-2xl:px-10 max-sm:px-0 2xl:px-32"
+      className={`text-white max-2xl:px-10 max-sm:px-0 2xl:px-32 ${
+        theme === "default" ? "bg-[#000000b3]" : "bg-[#675e5e]"
+      }`}
       height="5rem"
       isBordered
       isBlurred
@@ -52,7 +59,9 @@ export default function App() {
       onMenuOpenChange={setIsMenuOpen}
     >
       <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        />
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-10" justify="center">
         {menuItems.map((menu) => {
@@ -60,7 +69,11 @@ export default function App() {
           return (
             <NavbarItem
               key={menu}
-              isActive={isHome ? activeMenu === "" : activeMenu === menu.trim().toLowerCase()}
+              isActive={
+                isHome
+                  ? activeMenu === ""
+                  : activeMenu === menu.trim().toLowerCase()
+              }
               className="text-white"
             >
               <Link
@@ -106,6 +119,7 @@ export default function App() {
               }}
             />
           </SignedIn>
+
           <SignedOut>
             {userExists ? (
               <Button
@@ -136,12 +150,17 @@ export default function App() {
             )}
           </SignedOut>
         </NavbarItem>
+        <NavbarItem>
+          <ThemeToggleButton />
+        </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="flex justify-between">
         <div>
           {menuItems.map((item, index) => {
             const isHome = item.toLowerCase() === "home";
-            const isActive = isHome ? activeMenu === "" : activeMenu === item.trim().toLowerCase();
+            const isActive = isHome
+              ? activeMenu === ""
+              : activeMenu === item.trim().toLowerCase();
             return (
               <NavbarMenuItem key={`${item}-${index}`}>
                 <Link

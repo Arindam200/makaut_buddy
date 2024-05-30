@@ -10,7 +10,6 @@ const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
-
 function addVariablesForColors({ addBase, theme }) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(
@@ -74,7 +73,8 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [nextui(),
+  plugins: [
+    nextui(),
     addVariablesForColors,
     function ({ matchUtilities, theme }) {
       matchUtilities(

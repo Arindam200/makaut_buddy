@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTheme } from "../../Context/ThemeContext";
 import { Button } from "@nextui-org/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -10,6 +11,7 @@ import { SignedIn, SignedOut } from "@clerk/nextjs";
 
 export default function Hero() {
   const [userExists, setUserExists] = useState(false);
+  const { theme } = useTheme();
 
   useEffect(() => {
     const userExists = localStorage.getItem("userExists");
@@ -19,9 +21,14 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="font-grenze sm:flex sm:h-[calc(100vh-40px)] sm:justify-between max-sm:px-0 max-2xl:px-10 2xl:px-32 max-2xl:gap-0 2xl:gap-16 sm:min-h-[calc(100vh-40px)]"
+      className={`theme-container ${
+        theme === "default" ? "default-theme" : "dark-theme"
+      } font-grenze sm:flex sm:h-[calc(100vh-40px)] sm:justify-between max-sm:px-0 max-2xl:px-10 2xl:px-32 max-2xl:gap-0 2xl:gap-16 sm:min-h-[calc(100vh-40px)]`}
     >
-      <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
 
       <div className="w-3/5 max-sm:pt-10 flex flex-col max-2xl:px-5 2xl:px-10 items-start justify-center gap-4 max-sm:w-full">
         <motion.h1 className="2xl:text-7xl text-6xl max-sm:text-2xl max-sm:text-center font-semibold leading-snug tracking-normal text bg-gradient-to-r from-white to-[rgba(225,225,225,0.12)] bg-clip-text text-transparent">

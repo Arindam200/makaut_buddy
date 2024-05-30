@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { useTheme } from "../../Context/ThemeContext";
 import logo_s from "../../../../public/fixed_image_180.png";
 import "./index.css";
 
-const FeatureBox = ({ number, text }) => (
+const FeatureBox = ({ number, text, theme }) => (
   <div
     className="box w-64 h-96 text-black"
     role="region"
@@ -12,7 +14,10 @@ const FeatureBox = ({ number, text }) => (
   >
     <div className="tri"></div>
     <div className="pl-8 pt-1 pr-6 space-y-5">
-      <h1 id={`feature-${number}`} className="text-7xl text-start font-grenze font-bold">
+      <h1
+        id={`feature-${number}`}
+        className="text-7xl text-start font-grenze font-bold"
+      >
         {number}.
       </h1>
       <h2 className="text-lg text-[#171717]">{text}</h2>
@@ -21,6 +26,7 @@ const FeatureBox = ({ number, text }) => (
 );
 
 const Features = () => {
+  const { theme } = useTheme();
   const featureData = [
     {
       number: 1,
@@ -37,18 +43,29 @@ const Features = () => {
   ];
 
   return (
-    <div id="features" className="sm:px-32 flex relative px-16">
+    <div
+      id="features"
+      className={`sm:px-32 flex relative px-16 ${
+        theme === "dark" ? "bg-[#675e5e] text-white" : "text-black"
+      }`}
+    >
       <div className="space-y-10 sm:py-20 pt-16">
-        <h1 className="text-7xl max-sm:text-center font-bold font-grenze">Features</h1>
+        <h1 className="text-7xl max-sm:text-center font-bold font-grenze">
+          Features
+        </h1>
         <div className="flex max-sm:flex-col justify-start gap-10">
           {featureData.map((feature, index) => (
-            <FeatureBox key={index} number={feature.number} text={feature.text} />
+            <FeatureBox
+              key={index}
+              number={feature.number}
+              text={feature.text}
+            />
           ))}
         </div>
       </div>
       <div className="hidden sm:block relative mr-5">
         <Image
-          src={logo_s.src}
+          src={logo_s}
           className="-z-50 w-[490px] 2xl:ml-[105px]"
           width={500}
           height={500}
