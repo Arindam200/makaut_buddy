@@ -1,7 +1,6 @@
 "use client";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { useAuth } from "@clerk/nextjs";
-import ThemeToggleButton from "../Navbar/ThemeToggleButton";
 import { useTheme } from "../../Context/ThemeContext";
 
 import {
@@ -48,9 +47,7 @@ export default function App() {
 
   return (
     <Navbar
-      className={`text-white max-2xl:px-10 max-sm:px-0 2xl:px-32 ${
-        theme === "default" ? "bg-[#000000b3]" : "bg-[#675e5e]"
-      }`}
+      className="text-white max-2xl:px-10 max-sm:px-0 2xl:px-32"
       height="5rem"
       isBordered
       isBlurred
@@ -150,9 +147,9 @@ export default function App() {
             )}
           </SignedOut>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <ThemeToggleButton />
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <NavbarMenu className="flex justify-between">
         <div>

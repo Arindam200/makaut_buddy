@@ -8,26 +8,17 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme) {
-      setTheme(storedTheme);
-    }
+    // Force the dark theme by default
+    setTheme("dark");
+    document.documentElement.classList.add("dark");
+    document.body.classList.add("dark");
+    localStorage.setItem("theme", "dark");
   }, []);
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-      document.body.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      document.body.classList.remove("dark");
-    }
-  }, [theme]);
-
   const toggleTheme = () => {
-    const newTheme = theme === "default" ? "dark" : "default";
-    setTheme(newTheme);
-    localStorage.setItem("theme", newTheme);
+    // Keep theme toggle functionality if needed for future use, but it will always toggle back to dark✌️🥲
+    setTheme("dark");
+    localStorage.setItem("theme", "dark");
   };
 
   return (

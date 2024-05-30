@@ -1,11 +1,9 @@
-"use client";
 import React from "react";
 import Image from "next/image";
-import { useTheme } from "../../Context/ThemeContext";
 import logo_s from "../../../../public/fixed_image_180.png";
 import "./index.css";
 
-const FeatureBox = ({ number, text, theme }) => (
+const FeatureBox = ({ number, text }) => (
   <div
     className="box w-64 h-96 text-black"
     role="region"
@@ -26,7 +24,6 @@ const FeatureBox = ({ number, text, theme }) => (
 );
 
 const Features = () => {
-  const { theme } = useTheme();
   const featureData = [
     {
       number: 1,
@@ -45,9 +42,7 @@ const Features = () => {
   return (
     <div
       id="features"
-      className={`sm:px-32 flex relative px-16 ${
-        theme === "dark" ? "bg-[#675e5e] text-white" : "text-black"
-      }`}
+      className="sm:px-32 flex relative px-16 bg-[#000000] text-white"
     >
       <div className="space-y-10 sm:py-20 pt-16">
         <h1 className="text-7xl max-sm:text-center font-bold font-grenze">
