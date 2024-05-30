@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 // import type { Config } from "tailwindcss";
 
+/** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
-
 const svgToDataUri = require("mini-svg-data-uri");
-import { nextui } from "@nextui-org/react";
+const { nextui } = require("@nextui-org/react");
 const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
@@ -32,7 +32,6 @@ module.exports = {
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
-        // shimmer: "shimmer 2s linear infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
@@ -72,7 +71,7 @@ module.exports = {
       },
     },
   },
-  darkMode: "class",
+  darkMode: "class", // Enable class-based dark mode
   plugins: [
     nextui(),
     addVariablesForColors,
