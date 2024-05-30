@@ -9,7 +9,7 @@ const Stat = React.memo(() => {
   ];
 
   return (
-    <div className="sm:px-32 bg-[#D9D9D9]">
+    <div className="sm:px-32 bg-[#d9d9d9]">
       <div className="sm:h-40 h-28 text-[#171717] flex p-10 justify-around">
         {stats.map((stat, index) => (
           <div key={index}>

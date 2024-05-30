@@ -32,47 +32,54 @@ const FAQ = () => {
   );
 
   return (
-    <div id="faq" className="sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10">
+    <div
+      id="faq"
+      className="sm:px-32 px-10 sm:py-20 py-10 sm:flex space-y-10 
+      bg-[#000000] text-white"
+    >
       <div className="sm:w-1/2 flex items-center justify-start">
         <div className="space-y-5 max-sm:px-10 font-grenze">
           <h1 className="sm:text-7xl text-5xl max-sm:text-center font-bold">
             FAQ
           </h1>
-          <h2 className="font-sans text-[#FFFFFF70] sm:text-xl text-md max-sm:text-center">
+          <h2 className="font-sans text-[#ffffff8c] sm:text-xl text-md max-sm:text-center">
             Frequently Asked Questions
           </h2>
         </div>
       </div>
 
-      <div className="sm:w-1/2 w-full text-[#FFFFFF70]">
-        <Accordion selectedKeys={selectedKeys} onSelectionChange={handleSelectionChange}>
+      <div className="sm:w-1/2 w-full text-[#fff]">
+        <Accordion
+          selectedKeys={selectedKeys}
+          onSelectionChange={handleSelectionChange}
+        >
           <AccordionItem
-            className="text-[#FFFFFF70]"
             key="1"
+            className="text-[#ffffff8c]"
             aria-label="Accordion 1"
             title="Are the resources reliable?"
           >
             {content1}
           </AccordionItem>
           <AccordionItem
-            className="text-[#FFFFFF70]"
             key="2"
+            className="text-[#ffffff8c]"
             aria-label="Accordion 2"
             title="Can I get 9+ CGPA with this?"
           >
             {content2}
           </AccordionItem>
           <AccordionItem
-            className="text-[#FFFFFF70]"
             key="3"
+            className="text-[#ffffff8c]"
             aria-label="Accordion 3"
             title="Is this free or do I need to pay?"
           >
             {content3}
           </AccordionItem>
           <AccordionItem
-            className="text-[#FFFFFF70]"
             key="4"
+            className="text-[#ffffff8c]"
             aria-label="Accordion 4"
             title="Is this only helpful for MAKAUT students?"
           >
