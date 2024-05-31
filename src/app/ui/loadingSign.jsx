@@ -5,7 +5,7 @@ const LoadingSign = () => {
     return (
         <div className="h-[88vh] flex justify-center items-end">
             <Image
-                src="/loading_static_image.jpg"
+                src="/static_image.png"
                 alt="Loading Image"
                 width={400}
                 height={400}
