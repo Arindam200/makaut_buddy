@@ -4,29 +4,16 @@
 
 html {
   scroll-behavior: smooth;
-  color-scheme: dark;
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
-.cl-internal-1lyyxjq {
-  display: none;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
+body,
+.theme-container {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -35,15 +22,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.cl-internal-1lyyxjq {
+  display: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
 
 .clerk-user-button {
-    /* Increase the width and height of the button */
-    width: 200px;
-    height: 50px;
+  /* Increase the width and height of the button */
+  width: 200px;
+  height: 50px;
 
-    /* Adjust font size if required */
-    font-size: 16px;
-  }
+  /* Adjust font size if required */
+  font-size: 16px;
+}

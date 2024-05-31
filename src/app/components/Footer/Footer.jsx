@@ -17,7 +17,6 @@ const PersonLinks = React.memo(({ name, links }) => (
 
 PersonLinks.displayName = "PersonLinks";
 
-
 const Footer = React.memo(() => {
   const people = [
     {
@@ -27,7 +26,10 @@ const Footer = React.memo(() => {
         { href: "https://github.com/Swpn0neel", label: "GitHub" },
         { href: "https://swapnoneel.hashnode.dev", label: "Blogs" },
         { href: "https://x.com/swapnoneel123", label: "Twitter" },
-        { href: "https://www.linkedin.com/in/swapnoneel-saha-14a3161b6/", label: "LinkedIn" },
+        {
+          href: "https://www.linkedin.com/in/swapnoneel-saha-14a3161b6/",
+          label: "LinkedIn",
+        },
       ],
     },
     {
@@ -37,7 +39,10 @@ const Footer = React.memo(() => {
         { href: "https://github.com/Arindam200", label: "GitHub" },
         { href: "https://arindam1729.hashnode.dev", label: "Blogs" },
         { href: "https://x.com/Arindam_1729", label: "Twitter" },
-        { href: "https://www.linkedin.com/in/arindam-majumder-021bb623b/", label: "LinkedIn" },
+        {
+          href: "https://www.linkedin.com/in/arindam-majumder-021bb623b/",
+          label: "LinkedIn",
+        },
       ],
     },
     {
@@ -47,7 +52,10 @@ const Footer = React.memo(() => {
         { href: "https://github.com/samyabrata-maji", label: "GitHub" },
         { href: "https://sammaji.hashnode.dev", label: "Blogs" },
         { href: "https://twitter.com/sammaji15", label: "Twitter" },
-        { href: "https://www.linkedin.com/in/samyabrata-maji/", label: "LinkedIn" },
+        {
+          href: "https://www.linkedin.com/in/samyabrata-maji/",
+          label: "LinkedIn",
+        },
       ],
     },
   ];
@@ -65,7 +73,11 @@ const Footer = React.memo(() => {
         </div>
         <div className="sm:px-20 hidden max-sm:text-center sm:pt-16 pt-10 sm:flex sm:space-x-40">
           {people.map((person) => (
-            <PersonLinks key={person.name} name={person.name} links={person.links} />
+            <PersonLinks
+              key={person.name}
+              name={person.name}
+              links={person.links}
+            />
           ))}
         </div>
       </div>
@@ -75,7 +87,10 @@ const Footer = React.memo(() => {
           Swapnoneel Saha
         </a>
         ,
-        <a className="text-white ml-2" href="https://arindam-majumder.vercel.app">
+        <a
+          className="text-white ml-2 mr-2"
+          href="https://arindam-majumder.vercel.app"
+        >
           Arindam Majumder
         </a>
         and
