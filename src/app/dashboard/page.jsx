@@ -41,7 +41,7 @@ export default function Page() {
 
   if (!userId || !sessionClaims) {
     console.error("User authentication data is missing");
-    return null;
+    // return null;
   }
   
   return (
