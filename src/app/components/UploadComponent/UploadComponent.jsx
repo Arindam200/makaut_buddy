@@ -4,8 +4,8 @@ import axios from "axios";
 
 export default function UplaodComponent({setStartUpload}){
     
-    const cloudName = "dqd7bujxh"; // replace with your own cloud name
-    const uploadPreset = "oziqxyaf"; // replace with your own upload preset
+    const cloudName = NEXT_PUBLIC_CLOUD_NAME; // replace with your own cloud name
+    const uploadPreset = NEXT_PUBLIC_UPLOAD_PRESET; // replace with your own upload preset
     const [secureUrl , setSecureUrl] = useState(null);
     const [error , setError] = useState(null);
     const [successMessage , setSuccessMessage] = useState(null);
