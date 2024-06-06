@@ -13,7 +13,9 @@ export default function UserSessionContextProvider({children}){
                 
         useEffect(() => {
 
-            fetch(`${apiUrl}/api/v1/getAuth`)
+            fetch(`${apiUrl}/api/v1/getAuth` , {
+                mode: "no-cors"
+            })
             .then(async (res) => {
                 console.log()
                 const response = await res.json();
