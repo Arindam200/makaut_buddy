@@ -21,10 +21,10 @@ This project provides study material for college students. Where they can 
 
 ## Prerequisites
 
-
-
 1. Node.Js installed on your local machine.
 2. Clerk Account for authentication.
+3. Prisma ORM
+
 
 ## Local Setup
 
@@ -80,10 +80,6 @@ We welcome your contributions! All changes (even with commit access) need a pull
 We love ❤️ pull requests! Learn how to contribute in our guide: [contribution guide](/CONTRIBUTING.md).
 
 ## Thanks to all Contributors 💪
-
-Contributions are always welcome!
-
-Please adhere to this project's `code of conduct`.
 
 Thanks a lot for spending your time helping all-round-calculator grow. Thanks a lot! Keep rocking 🍻
 

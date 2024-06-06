@@ -13,7 +13,6 @@ export default function PageJoin() {
             colorPrimary: "#171717",
           },
         }}
-        routing="/welcome"
         signInUrl="/login"
       />
     </div>

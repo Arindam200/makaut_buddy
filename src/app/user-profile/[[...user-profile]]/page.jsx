@@ -11,7 +11,22 @@ export default function UserProfilePage() {
   return (
     <>
   <div className="flex justify-center pt-3">
-    <UserProfile path="/user-profile" />
+    <UserProfile 
+      appearance={{
+        layout: { shimmer: true },
+        variables: {
+          borderRadius: "0.5",
+          colorBackground: "#d9d9d9",
+          colorInputBackground: "#d9d9d9",
+          colorPrimary: "#171717",
+        },
+        elements:{
+          footer:"hidden",
+          navbar:"hidden",
+        }
+      }}
+      path="/user-profile" 
+    />
   </div>
   </>
   );

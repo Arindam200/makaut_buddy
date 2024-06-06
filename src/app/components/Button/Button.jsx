@@ -1,4 +1,3 @@
-// app/page.tsx
 import { Button } from "@nextui-org/button";
 import React from "react";
 
