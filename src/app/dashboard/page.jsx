@@ -231,7 +231,7 @@ export default function Page() {
                       .filter((note) => {
                         
                         if(notesSearch){
-                          return (note.heading.includes(notesSearch) || note.description.includes(notesSearch))
+                          return (note.heading.toLowerCase().includes(notesSearch.toLowerCase()) || note.description.toLowerCase().includes(notesSearch.toLowerCase()))
                         }else{
                           return note
                         }
