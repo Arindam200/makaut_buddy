@@ -8,7 +8,7 @@ export default function UserSessionContextProvider({children}){
 
     const [userId , setUserId] = useState(null);
     const [sessionClaims , setSessionClaims] = useState(null);
-    const apiUrl = "http://localhost:3000"
+    const apiUrl = "https://makaut-buddy.vercel.app"
 
                 
         useEffect(() => {
@@ -17,8 +17,9 @@ export default function UserSessionContextProvider({children}){
                 mode: "no-cors"
             })
             .then(async (res) => {
-                console.log()
+                
                 const response = await res.json();
+                console.log(response , "response");
                 setUserId(response.userId);
                 setSessionClaims(response.sessionClaims);
             })
