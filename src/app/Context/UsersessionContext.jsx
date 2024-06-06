@@ -8,7 +8,7 @@ export default function UserSessionContextProvider({children}){
 
     const [userId , setUserId] = useState(null);
     const [sessionClaims , setSessionClaims] = useState(null);
-    const apiUrl = "http://localhost:3000"
+    const apiUrl = "https://makaut-buddy.vercel.app"
 
                 
         useEffect(() => {
