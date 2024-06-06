@@ -120,9 +120,12 @@ export default function Page() {
         </div>
         <Tabs />
         <div className="h-full flex max-lg:flex-col border-2 border-[#FFFFFF20] rounded-lg">
-          <div className="flex flex-col lg:basis-1/3 justify-between py-8 pl-4 lg:pl-10">
+          <div className="flex flex-col lg:basis-1/3 justify-between lg:py-8 py-4">
             <div>
-              <FormControl>
+              <div className="pl-4 mb-2 max-lg:px-2 ">
+              <SearchBarComponent setNotesSearch={setNotesSearch} />
+              </div>
+              <FormControl className="pl-4 lg:pl-10">
                   <RadioGroup
                     aria-labelledby="filter notes by"
                     defaultValue="video"
@@ -187,7 +190,7 @@ export default function Page() {
               </FormControl>
             </div>
               
-            <div className="mt-[4rem]">
+            <div className="lg:mt-[4rem] pl-4 lg:pl-10">
               {isAdmin && (
                 <div className="flex items-center gap-3 mt-4 lg:mt-0 hover:cursor-pointer "
                   onClick = {() => {
@@ -210,8 +213,7 @@ export default function Page() {
               )}
             </div>
           </div>
-            <section className="w-[100%] m-[20px]">
-              <SearchBarComponent setNotesSearch={setNotesSearch} />
+            <section className="w-[100%] lg:m-[20px]">
               <div className="lg:basis-2/3 grid grid-cols-1 lg:grid-cols-2 p-1">
                   
                   { 
