@@ -4,6 +4,7 @@ import Search from "../dashboard/searchbar";
 import Options from "../dashboard/options";
 
 export default function Tabs() {
+  
   const [activeTab, setActiveTab] = useState("tab1");
 
   const handleClick = (tab) => {
@@ -34,7 +35,6 @@ export default function Tabs() {
           onClick={() => handleClick("tab1")}
           role="button"
           tabIndex={0}
-          onKeyPress={() => handleClick("tab1")}
         >
           Search manually
         </div>
@@ -43,7 +43,6 @@ export default function Tabs() {
           onClick={() => handleClick("tab2")}
           role="button"
           tabIndex={0}
-          onKeyPress={() => handleClick("tab2")}
         >
           Search by stream
         </div>

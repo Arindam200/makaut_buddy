@@ -4,8 +4,8 @@ import { Analytics } from '@vercel/analytics/react';
 import { Providers } from "./providers";
 import  {ThemeProvider} from "../app/Context/ThemeContext"
 import { ClerkProvider } from "@clerk/nextjs";
-import DataState from "../app/Context/DataState";
-import Head from "next/head";
+import NotesDataContextProvider from "./Context/NotesDataContext";
+import UserSessionContextProvider from "./Context/UsersessionContext"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,6 +27,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html
       lang="en"
@@ -39,22 +40,23 @@ export default function RootLayout({ children }) {
 
       </Head> */}
       <body className={inter.className}>
+        
+        <NotesDataContextProvider>
         <ClerkProvider
           publishablekey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
         >
           
+        <UserSessionContextProvider>  
           <ThemeProvider>
-          <DataState>
             <Providers>
               {children}
               <Analytics />
             </Providers>
-          </DataState>
           </ThemeProvider>
+          </UserSessionContextProvider>
         </ClerkProvider>
-       
-
-      </body>
+        </NotesDataContextProvider>
+      </body> 
     </html>
   );
 }
