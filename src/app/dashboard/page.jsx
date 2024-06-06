@@ -22,7 +22,8 @@ export default function Page() {
 
   const {userId , sessionClaims} = useContext(UserSessionContext);
   const [startUpload , setStartUpload] = useState(false);
-  const isAdmin = sessionClaims?.metadata?.role === "admin";
+  const [isAdmin , setAdmin] = useState(null);
+  // const isAdmin = sessionClaims?.metadata?.role === "admin";
   const [filter , setFilter ] = useState("video");
    
   const [notesSearch , setNotesSearch] = useState("");
@@ -38,6 +39,16 @@ export default function Page() {
     // Cleanup function to remove the script on unmount
     return () => document.body.removeChild(script);
   }, []);
+
+
+  useEffect(() => {
+
+    console.log(userId , sessionClaims);
+    if(userId , sessionClaims){
+      setAdmin(sessionClaims?.metadata.role === "admin");
+    }
+
+  } , [userId , sessionClaims]);
 
   if (!userId || !sessionClaims) {
     console.error("User authentication data is missing");
