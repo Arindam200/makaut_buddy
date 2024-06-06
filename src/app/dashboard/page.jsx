@@ -44,7 +44,7 @@ export default function Page() {
   useEffect(() => {
 
     console.log(userId , sessionClaims);
-    if(userId , sessionClaims){
+    if(userId && sessionClaims){
       setAdmin(sessionClaims?.metadata.role === "admin");
     }
 
