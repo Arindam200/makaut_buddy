@@ -2,8 +2,8 @@
 
 import React, { useState, useContext } from 'react';
 import { Select, SelectItem } from '@nextui-org/react';
-import { stream, subject } from './data';
-import DataContext from '@/app/Context/DataContext';
+import { stream, subject } from '@/app/utils/subjectStreamData';
+// import DataContext from '@/app/Context/DataContext';
 import Toggle from '../Dopdown_components/Toggle/toggle';
 import SubjectDropDown from '../Dopdown_components/SubjectDropDown/dropdown';
 import Input from '../Dopdown_components/Input/input';
@@ -11,7 +11,7 @@ import List from '../Dopdown_components/List/list';
 
 export default function App() {
   const placement = 'outside';
-  const getData = useContext(DataContext);
+  // const getData = useContext(DataContext);
   const [showSubjectsDropDown , setShowSubjectsDropdown ] = useState({show : false  , sem : null});
   const [activeBar, setActiveBar] = useState("filter");
   const [input , setInput] = useState("");
@@ -35,7 +35,7 @@ export default function App() {
                   key={stream.value}
                   value={stream.value}
                   onClick={() => {
-                    getData.setYear(stream.value)
+                    // getData.setYear(stream.value)
                     setShowSubjectsDropdown({show : true , sem : stream.sem});
                   }}
                 >
