@@ -88,7 +88,7 @@ export default function SelectLabels() {
         console.log(typeof stream);
         // if user selects BTECH sem 1 then the value of stream is 1 and it will strip all the subjects that have sem != 1
         return subject.filter((sub) => sub.sem === stream ).map((sub) => {
-          return <MenuItem value={sub.value}>{sub.label}</MenuItem>
+          return <MenuItem key={sub.value} value={sub.value}>{sub.label}</MenuItem>
         })
       })
     }
@@ -100,10 +100,10 @@ export default function SelectLabels() {
 
   let counter = 0;
 
-  const semester = new Array(8).fill(0).map((sem) => {
+  const semester = new Array(8).fill(0).map(() => {
       counter += 1;
       return (
-        <MenuItem value={counter}>B.Tech CSE Semester {counter}</MenuItem>
+        <MenuItem key={counter} value={counter}>B.Tech CSE Semester {counter}</MenuItem>
       )
   })
 

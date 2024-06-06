@@ -18,7 +18,7 @@ import { NotesDataContext } from "../Context/NotesDataContext";
 import UploadComponent from "../components/UploadComponent/UploadComponent";
 import SearchBarComponent from "../components/SearchBarComponent/SearchBarComponent"
 
-export default function page() {
+export default function Page() {
 
   const {userId , sessionClaims} = useContext(UserSessionContext);
   const [startUpload , setStartUpload] = useState(false);
@@ -242,7 +242,7 @@ export default function page() {
                       console.log(note.id);
                       return (
               
-                        <section >
+                        <section  key={note.id}>
                             <Card
                             
                             key={note.id}
