@@ -3,8 +3,6 @@ import { Autocomplete, TextField } from "@mui/material";
 export default function SearchBarComponent({setNotesSearch}){
     return (
       <TextField fullWidth id="outlined-search" label="Search field" type="search" 
-      
-
       onChange={(e) => {
         console.log(e.target.value);
         setNotesSearch(e.target.value);
