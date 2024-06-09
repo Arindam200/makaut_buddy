@@ -22,8 +22,7 @@ This project provides study material for college students. Where they can 
 ## Prerequisites
 
 1. Node.Js installed on your local machine.
-2. Clerk Account for authentication.
-3. Prisma ORM
+2. Clerk Account for authentication& authorization.
 
 
 ## Local Setup
@@ -53,6 +52,9 @@ yarn install
 ```sh
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= YOUR_PUBLISHABLE_KEY
 CLERK_SECRET_KEY= YOUR_CLERK_SECRET_KEY
+NEXT_PUBLIC_API_URL= YOUR_API_URL
+NEXT_PUBLIC_CLOUD_NAME=YOUR_CLOUDINARY_CLOUD_NAME
+NEXT_PUBLIC_CLOUD_PRESET=YOUR_CLOUDINARY_CLOUD_PRESET
 ```
 
 You can get these keys here: [Clerk](https://clerk.com/)
