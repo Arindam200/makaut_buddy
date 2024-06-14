@@ -1,16 +1,10 @@
 import { UserProfile } from "@clerk/nextjs";
 import { auth } from '@clerk/nextjs/server';
-import { redirect } from "next/navigation";
 
 export default function UserProfilePage() {
-  const { userId } = auth();
+  auth().protect({ unauthorizedUrl: "/join" });
   
-  if (!userId) {
-    redirect("/join");
-  }
-  return (
-    <>
-  <div className="flex justify-center pt-3">
+  return <div className="flex justify-center pt-3">
     <UserProfile 
       appearance={{
         layout: { shimmer: true },
@@ -28,6 +22,5 @@ export default function UserProfilePage() {
       path="/user-profile" 
     />
   </div>
-  </>
   );
 }

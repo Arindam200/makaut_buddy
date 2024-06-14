@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo_s from "../../../../public/fixed_image_180.png";
+import logo_s from "./fixed_image_180.png";
 import "./index.css";
 
 const FeatureBox = ({ number, text }) => (
@@ -60,10 +60,8 @@ const Features = () => {
       </div>
       <div className="hidden sm:block relative mr-5">
         <Image
-          src={logo_s}
+          {...logo_s}
           className="-z-50 w-[490px] 2xl:ml-[105px]"
-          width={500}
-          height={500}
           alt="Makaut Buddy Hero Image"
         />
       </div>

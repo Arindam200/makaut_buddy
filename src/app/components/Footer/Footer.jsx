@@ -1,4 +1,4 @@
-import logo from "../../../../public/Logo_sm.svg";
+import logo from "./Logo_sm.svg";
 import Image from "next/image";
 import React from "react";
 
@@ -65,7 +65,7 @@ const Footer = React.memo(() => {
       <div className="sm:flex sm:divide-x-2 max-sm:divide-y-2 divide-[#FFFFFF10]">
         <div className="logo sm:pr-10">
           <Image
-            src={logo}
+            {...logo}
             className="sm:px-10 h-72 max-sm:pb-5 sm:w-80 sm:h-80"
             alt="Logo"
             priority
