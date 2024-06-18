@@ -19,7 +19,6 @@ export default function App() {
   const [activeBar, setActiveBar] = useState("filter");
   const [input, setInput] = useState("");
 
-
   return (
     <div className="w-full flex flex-col sm:gap-6">
       <div className="flex flex-col gap-2">

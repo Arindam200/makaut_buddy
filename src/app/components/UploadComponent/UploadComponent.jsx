@@ -87,7 +87,6 @@ export default function UplaodComponent({ setStartUpload }) {
     },
     (error, result) => {
       if (!error && result && result.event === "success") {
-
         setSecureUrl(result.info.secure_url);
         setError(null);
       } else if (error) {
