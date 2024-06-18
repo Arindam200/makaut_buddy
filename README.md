@@ -21,8 +21,9 @@ This project provides study material for college students. Where they can 
 
 ## Prerequisites
 
-1. Node.Js installed on your local machine.
-2. Clerk Account for authentication& authorization.
+1. [Node.Js](https://nodejs.org/en) installed on your local machine.
+2. [Clerk](https://clerk.com/) Account for authentication & authorization.
+3. [Cloudinary](https://cloudinary.com/) Account 
 
 
 ## Local Setup
@@ -41,7 +42,7 @@ git clone https://github.com/Arindam200/makaut_buddy.git
 npm install
 ```
 
-###### or
+or
 
 ```sh
 yarn install
@@ -57,7 +58,7 @@ NEXT_PUBLIC_CLOUD_NAME=YOUR_CLOUDINARY_CLOUD_NAME
 NEXT_PUBLIC_CLOUD_PRESET=YOUR_CLOUDINARY_CLOUD_PRESET
 ```
 
-You can get these keys here: [Clerk](https://clerk.com/)
+You can get these keys here: [Clerk](https://clerk.com/), [Cloudinary](https://cloudinary.com/).
 
 For reference, you can check the `.env.example` file.
 
