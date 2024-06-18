@@ -13,22 +13,22 @@ const FAQ = () => {
   const content1 = useMemo(
     () =>
       "Absolutely!! All the resources available on this platform are from trusted and well-renowned sources and are followed many students all over the country, and are compiled together for you by the toppers.",
-    []
+    [],
   );
   const content2 = useMemo(
     () =>
       "Yes and we all have too!! These are the refined and finest resources that can guarantee you a 9+ CGPA easily if you study them well enough, even one night before the exam.",
-    []
+    [],
   );
   const content3 = useMemo(
     () =>
       "The resources here are completely free and is solely made for you folks with the love and passion of three of us, i.e. Swapnoneel Saha, Arindam Majumder and Samyabrata Maji.",
-    []
+    [],
   );
   const content4 = useMemo(
     () =>
       "Although the resources gathered here are precisely targeted for the students of MAKAUT, but it may be fruitful to other college students too. So, don't hesitate to use them if you are not from MAKAUT, but looking for some good resources.",
-    []
+    [],
   );
 
   return (

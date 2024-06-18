@@ -1,46 +1,43 @@
-import React , {useState , useEffect, useContext} from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Autocomplete, TextField } from "@mui/material";
-import axios from 'axios';
+import axios from "axios";
 //importing stream and subject data from /utils/subjects/subjctStreamData
-import {stream , subject} from "@/app/utils/subjectStreamData";
+import { stream, subject } from "@/app/utils/subjectStreamData";
 import { NotesDataContext } from "../Context/NotesDataContext";
 
-const subjects = subject.map((data) => data.value )
+const subjects = subject.map((data) => data.value);
 
 const Search = React.memo(() => {
+  const [subjectValue, setSubjectValue] = useState(subjects[0]);
 
-  const [subjectValue , setSubjectValue] = useState(subjects[0]);
-  
-  const {notesData , setNotesData} = useContext(NotesDataContext);
-
+  const { notesData, setNotesData } = useContext(NotesDataContext);
 
   useEffect(() => {
-    
-        axios.get(`https://makaut-buddy-back-end.iamsagar762.workers.dev/getResource?sub=${subjectValue}` , 
-          {
-            headers : {
-              "access-control-request-method": "GET",
-              "Authorization" : process.env.NEXT_PUBLIC_API_SECRET
-            }
-          }
-        )
+    axios
+      .get(
+        `https://makaut-buddy-back-end.iamsagar762.workers.dev/getResource?sub=${subjectValue}`,
+        {
+          headers: {
+            "access-control-request-method": "GET",
+            Authorization: process.env.NEXT_PUBLIC_API_SECRET,
+          },
+        },
+      )
       .then(function (response) {
         // handle success
         console.log(response.data);
         setNotesData(response.data.documents);
-
       })
       .catch(function (error) {
         // handle error
         console.log(error);
-      })
-
-  } , [subjectValue]);
+      });
+  }, [subjectValue]);
 
   return (
     <Autocomplete
       value={subjectValue}
-      onChange={( event , newValue) => {
+      onChange={(event, newValue) => {
         setSubjectValue(newValue);
       }}
       disablePortal

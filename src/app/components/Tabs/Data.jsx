@@ -1,19 +1,9 @@
 // {
 
-//     Note from Sagar* : We have a backend connected to a db so we don't need this file anymore , but don't delete it yet , 
-//     the data has not been entered into the db , so someone has to do the dirty work and fill the data in the db manually through the admin dashboard ! 
+//     Note from Sagar* : We have a backend connected to a db so we don't need this file anymore , but don't delete it yet ,
+//     the data has not been entered into the db , so someone has to do the dirty work and fill the data in the db manually through the admin dashboard !
 
 // }
-
-
-
-
-
-
-
-
-
-
 
 // import { useContext } from "react";
 // import DataContext from "@/app/Context/DataContext";
@@ -94,7 +84,7 @@
 //             description:
 //               "Concept of consistency, how to check consistency, condition for unique solution, infinite solution and no solution",
 //             link: "https://www.youtube.com/watch?v=41Y38WjHbtE",
-//           },        
+//           },
 //           {
 //             key: 11,
 //             heading: "Cayley Hamilton Theorem & its application",
@@ -205,7 +195,7 @@
 //                                   description:
 //                                     "Maxima and minima refer to the highest and lowest points, respectively, in a mathematical function or data set. They represent extremes.",
 //                                   link: "https://www.youtube.com/watch?v=NpR91wexqHA&t=223s",},
-                                  
+
 //         ],
 //         pyq: [
 //           {
@@ -278,7 +268,6 @@
 
 //           {
 
-
 //             key: 7,
 //             heading:
 //               "All about Forward Bias",
@@ -295,7 +284,7 @@
 //             link: "https://youtu.be/u_8b4GAUWCg?si=tVdWEuqno9ddsw5h",
 //           },
 //           {
-           
+
 //             key:9,
 //             heading:
 //             " All about Ideal Diode (First Approximation of PN junction Diode) Basic Electronics",
@@ -310,7 +299,7 @@
 //             description:"A photodiode is a light-sensitive semiconductor diode.It produces current when it absorbs photons.",
 //             link:"https://www.youtube.com/watch?v=BZLOGi3t740&list=PL3qvHcrYGy1uF5KAGntUITTJ85Dm3Dtdy&index=36",
 //           },
-          
+
 //           {
 //             key:11,
 //             heading:
@@ -319,7 +308,7 @@
 //             "Zener diodes are semiconductor devices that allow current to flow in both directions but specialize in current flowing in reverse. Also known as breakdown diodes.",
 //             link:
 //            "https://youtu.be/qVwEVXf3CBQ?si=Go_1C_oDuR-9z1Z2",},
-//           { 
+//           {
 //             key:12,
 //             heading:
 //             " characteristics of PN junction Diode (Diode thory & applications)",
@@ -327,16 +316,15 @@
 //             "PN junction diode has the ability to rectify electric current. It can create a potential barrier and make use of its capacitance properties. ",
 //             link:
 //             "https://youtu.be/7ITiehTTh-o?si=biSt8YIpolzsHOAy",},
-          
+
 //           {
 //             key:13,
 //             heading:"Introduction to LC Filter",
 //             description:"a suitable L and C network can effectively filter out the A.C component from the rectified wave.",
 //             link:"https://youtu.be/DBw2sNphRME?si=v8zXdz1LHlPHMZfe",
 //           },
-          
-         
-//           { 
+
+//           {
 //             key:14,
 //             heading:
 //             "Introduction to Transistor",
@@ -355,7 +343,7 @@
 //             {
 //               key:16,
 //               heading:"Operation of PNP Transistor - Bipolar Junction Transistor",
-              
+
 //               description:
 //               "In a PNP transistor, the base current which enters into the collector is amplified",
 //               link:
@@ -367,7 +355,7 @@
 //             "MOSFET , EMOSFET , DMOSFET ",
 //             description:
 //             "MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor that includes subcategories such as E-MOSFET (Enhancement MOSFET) and D-MOSFET (Depletion MOSFET), each with distinct characteristics, used for electronic switching and amplification.",
-//             link: 
+//             link:
 //            "https://youtu.be/X4_8dh-J4ik?si=YYRGX4crLGd-RV0_",},
 
 //            {
@@ -430,14 +418,13 @@
 //             "https://youtu.be/_h62NLQ33DA?si=qIyOP05uzxPZ3h3-",
 //            },
 
-        
 //           {
 //             key:25,
 //             heading:
 //             "All about Norton's Theorm",
 //             description:
 //             "It states that any complex linear circuit can be simplified to an equivalent simple circuit with a single current source in parallel with a single resistor connected to a load.",
-//             link: 
+//             link:
 //            "https://youtu.be/T7MJpfhXGjs?si=gHQnaoByttYH814K",},
 //            {
 //             key:26,
@@ -445,7 +432,7 @@
 //             "All about superposition theorm",
 //             description:
 //             "It states that in any linear, bilateral network where more than one source is present, the response across any element in the circuit is the sum of the responses obtained from each source considered separately.",
-//             link: 
+//             link:
 //            "https://youtu.be/1icXtW97tIo?si=OzOYPBIAh85zymP2",},
 //            {
 //             key:27,
@@ -453,8 +440,8 @@
 //             "All about Maximum Power Transfer Theorm",
 //             description:
 //             "It explains that to generate maximum external power through a finite internal resistance (DC network), the resistance of the given load must be equal to the resistance of the available source.",
-//             link: 
-//            "https://youtu.be/U85eA3-suiQ?si=MA3dzftJRpr-pquE",},   
+//             link:
+//            "https://youtu.be/U85eA3-suiQ?si=MA3dzftJRpr-pquE",},
 //         ],
 
 //         pyq: [
@@ -797,7 +784,7 @@
 //             description:
 //               "different types of thermodynamic processes on the basis of pressure, temperature and volume.",
 //             link: "https://youtu.be/llJd3XcboBo?si=hew8qTo8OXmSzY_N",
-//           }, 
+//           },
 //           {
 //             key: 5,
 //             heading: "Quasistatic Process ",
@@ -837,7 +824,7 @@
 //           {
 //             key: 10,
 //             heading: "Atomic and Molecular Structure|BOHR'S Atomic Model",
-//             description: 
+//             description:
 //               "The Bohr model postulates that electrons orbit the nucleus at fixed energy levels.",
 //             link: "https://youtu.be/ULarF8oaBYc?si=nLzFlhoKFV52LVX1",
 //           },
@@ -858,7 +845,7 @@
 //           {
 //             key: 13,
 //             heading: "Atomic and Molecular Structure|Electronic Configuration",
-//             description: 
+//             description:
 //               "Electron configurations describe where electrons are located around the nucleus of an atom.",
 //             link: "https://youtu.be/QvznEhd-8Ts?si=4-3ui46QkBsWYpE4",
 //           },
@@ -931,14 +918,14 @@
 //             description:
 //              "The occurrence of the elements with similar properties after certain regular intervals when they are arranged in increasing order of atomic number",
 //             link: "https://youtu.be/uhRs0REbDhA?si=hY5St_OPrlcE7t03",
-//           },  
+//           },
 //           {
 //             key: 24,
 //             heading: "periodic properties (variation in s p d f orbitals energies)",
 //             description:
 //             "The basic law governing modern periodic table states that the properties of elements are periodic functions of their atomic number",
 //             link: "https://youtu.be/VSTqzzTM51M?si=DElFO0t89dve_eH9",
-//           }, 
+//           },
 //           {
 //             key: 25,
 //             heading: "Electronic configuration",
@@ -977,7 +964,7 @@
 //           {
 //             key: 30,
 //             heading: " periodic properties-Oxidation State and oxidation number",
-//             description: 
+//             description:
 //               "The oxidation number or state of an atom/ion is the number of electrons an atom/ion that the molecule has either gained or lost compared to the neutral atom.",
 //             link: "https://youtu.be/VVs66CwHFuc?si=WSdM1GddDiSgA2B9",
 //           },
@@ -1037,7 +1024,7 @@
 //               "importance of chiral drugs",
 //             link: "https://youtu.be/l1IIftU0BmU?si=AgrjKExNEmqiFzUo",
 //           },
-//           { 
+//           {
 //             key: 39,
 //             heading: " organic reactions",
 //             description:
@@ -1061,28 +1048,28 @@
 //           {
 //             key: 42,
 //             heading: "Addition Reaction",
-//             description: 
+//             description:
 //              " In the simplest of terms of organic chemistry, we can say that an addition reaction is a chemical reaction wherein two or more reactants come together to form a larger single product",
 //             link: "https://youtu.be/GvrM-0gN_Co?si=RHIvcyaeZi3Pnq5D",
 //           },
 //           {
 //             key: 43,
 //             heading: "Free Radical Addition Reaction",
-//             description: 
+//             description:
 //              "a chemical reaction wherein two or more reactants come together to form a larger single product",
 //             link: "https://youtu.be/flO_UsDd0yY?si=xRQTr0OyNwYyGZjF",
 //           },
 //           {
 //             key: 44,
 //             heading: "Elimination Reaction",
-//             description: 
+//             description:
 //              "a type of reaction that is mainly used to transform saturated compounds to unsaturated compounds",
 //             link: "https://youtu.be/Gv4ri_3Oyak?si=FRU0phVCgx4qTgcN",
 //           },
 //           {
 //             key: 45,
 //             heading: "Oxidation and Reduction",
-//             description: 
+//             description:
 //              "a process which involves the addition of oxygen or any electronegative element or the removal of hydrogen or any electropositive element",
 //             link: "https://youtu.be/OT8EdHHqpnM?si=tTu6ONcS24IcYwiV",
 //           },
@@ -1096,7 +1083,7 @@
 //           {
 //             key: 47,
 //             heading: "Ring Opening Reaction",
-//             description: 
+//             description:
 //              "important transformations that afford a 1,2-halohydrin system with two successive chiral carbon centers",
 //             link: "https://youtu.be/nQxwkIPDYzg?si=bWKWPWl9iw6MQdjo",
 //           },

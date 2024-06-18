@@ -4,7 +4,7 @@
 // import { useState } from 'react';
 
 // const DataState = (props) => {
-  
+
 //   const [year, setYear] = useState();
 //   const [sub, setSub] = useState();
 
@@ -14,13 +14,13 @@
 //     setYear,
 //     setSub,
 //   };
-  
+
 //   return (
 //     <DataContext.Provider value={passValue}>
 //       {props.children}
 //     </DataContext.Provider>
 //   );
-  
+
 // };
 
 // export default DataState;
