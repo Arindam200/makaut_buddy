@@ -8,7 +8,7 @@ export default function SearchBarComponent({ setNotesSearch }) {
       label="Search field"
       type="search"
       onChange={(e) => {
-        console.log(e.target.value);
+
         setNotesSearch(e.target.value);
       }}
       InputLabelProps={{

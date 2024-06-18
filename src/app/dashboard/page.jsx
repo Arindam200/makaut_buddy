@@ -3,8 +3,6 @@
 import { useContext, useState, useEffect } from "react";
 import Tabs from "../ui/tabs";
 import Card from "../ui/card";
-import Checkbox from "@mui/material/Checkbox";
-import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import RadioGroup from "@mui/material/RadioGroup";
@@ -39,7 +37,6 @@ export default function Page() {
   }, []);
 
   useEffect(() => {
-    console.log(userId, sessionClaims);
     if (userId && sessionClaims) {
       setAdmin(sessionClaims?.metadata.role === "admin");
     }
@@ -230,8 +227,6 @@ export default function Page() {
                       }
                     })
                     .map((note) => {
-                      console.log(note);
-                      console.log(note.id);
                       return (
                         <section key={note.id}>
                           <Card

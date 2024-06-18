@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo_s from "../../../../public/fixed_image_180.png";
+import logo_s from "./feature-image.png";
 import "./index.css";
 
 const FeatureBox = ({ number, text }) => (

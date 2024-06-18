@@ -6,7 +6,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import { subject, stream } from "@/app/utils/subjectStreamData";
+import { subject } from "@/app/utils/subjectStreamData";
 import { NotesDataContext } from "../Context/NotesDataContext";
 
 const formControlStyles = {
@@ -65,7 +65,6 @@ export default function SelectLabels() {
       )
       .then(function (response) {
         // handle success
-        console.log(response.data);
         setNotesData(response.data.documents);
       })
       .catch(function (error) {
@@ -78,8 +77,6 @@ export default function SelectLabels() {
     if (stream) {
       setShowSubjects(true);
       setListofSubjects(() => {
-        console.log(stream);
-        console.log(typeof stream);
         // if user selects BTECH sem 1 then the value of stream is 1 and it will strip all the subjects that have sem != 1
         return subject
           .filter((sub) => sub.sem === stream)

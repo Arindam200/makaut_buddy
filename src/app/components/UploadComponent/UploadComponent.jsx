@@ -58,7 +58,6 @@ export default function UplaodComponent({ setStartUpload }) {
       )
       .then(function (response) {
         // handle success
-        console.log(response.data);
         if (response.status === 200) {
           setSuccessMessage("resource uploaded successfully");
         }
@@ -88,7 +87,7 @@ export default function UplaodComponent({ setStartUpload }) {
     },
     (error, result) => {
       if (!error && result && result.event === "success") {
-        console.log(result.info);
+
         setSecureUrl(result.info.secure_url);
         setError(null);
       } else if (error) {

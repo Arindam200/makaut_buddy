@@ -48,7 +48,6 @@ const Card = React.memo(
         )
         .then(function (response) {
           // handle success
-          console.log(response.data);
           if (response.status === 200) {
             setSuccessMessage("resource uploaded successfully");
           }
@@ -73,7 +72,6 @@ const Card = React.memo(
         )
         .then(function (response) {
           // handle success
-          console.log(response.data);
           if (response.status === 200) {
             setSuccessMessage("resource deleted successfully");
           }

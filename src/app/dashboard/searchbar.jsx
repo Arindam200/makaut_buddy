@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Autocomplete, TextField } from "@mui/material";
 import axios from "axios";
 //importing stream and subject data from /utils/subjects/subjctStreamData
-import { stream, subject } from "@/app/utils/subjectStreamData";
+import { subject } from "@/app/utils/subjectStreamData";
 import { NotesDataContext } from "../Context/NotesDataContext";
 
 const subjects = subject.map((data) => data.value);
@@ -25,7 +25,6 @@ const Search = React.memo(() => {
       )
       .then(function (response) {
         // handle success
-        console.log(response.data);
         setNotesData(response.data.documents);
       })
       .catch(function (error) {

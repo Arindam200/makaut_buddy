@@ -7,7 +7,6 @@ export const NotesDataContext = createContext([]);
 const NotesDataContextProvider = (props) => {
   const [notesData, setNotesData] = useState([]);
 
-  console.log(notesData);
 
   return (
     <NotesDataContext.Provider value={{ notesData, setNotesData }}>

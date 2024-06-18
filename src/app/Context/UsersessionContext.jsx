@@ -14,7 +14,6 @@ export default function UserSessionContextProvider({ children }) {
       mode: "no-cors",
     }).then(async (res) => {
       const response = await res.json();
-      console.log(response, "response");
       setUserId(response.userId);
       setSessionClaims(response.sessionClaims);
     });
