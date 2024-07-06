@@ -121,7 +121,10 @@ export default function Page() {
                 <div className="pl-4 mb-2 max-lg:px-2 ">
                   <SearchBarComponent setNotesSearch={setNotesSearch} />
                 </div>
-                <FormControl className="pl-4 lg:pl-10">
+         
+                        {/* See Global.css rules for className radioButton */}
+
+                <FormControl className="radioButton ">
                   <RadioGroup
                     aria-labelledby="filter notes by"
                     defaultValue="video"

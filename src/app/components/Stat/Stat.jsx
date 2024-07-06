@@ -5,7 +5,7 @@ const Stat = React.memo(() => {
   const stats = [
     { label: "Previous Year Questions", value: "25" },
     { label: "Quality Video Tutorials", value: "90" },
-    { label: "Handwritten Notes", value: "15" },
+    { label: "Handwrittens Note", value: "15" },
   ];
 
   return (
