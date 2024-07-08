@@ -39,3 +39,12 @@ body,
   /* Adjust font size if required */
   font-size: 16px;
 }
+
+.radioButton {
+  padding-left: 30px !important;
+}
+@media (max-width: 1024px) {
+ .radioButton {
+    padding-left: 20px !important;
+  }
+}
