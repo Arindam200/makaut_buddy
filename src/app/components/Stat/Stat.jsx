@@ -25,5 +25,6 @@ const Stat = React.memo(() => {
 });
 
 Stat.displayName = "Stat";
-
+ 
 export default Stat;
+ 
