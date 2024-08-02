@@ -26,6 +26,30 @@ export const metadata = {
   keywords:
     "MAKAUT, University, Academic, Next.js, Notes, PYQ, Syllabus, Makaut Buddy, Makaut Buddy App, Makaut Buddy Website, Makaut Buddy Web App, Makaut Buddy Web Application, Makaut Buddy Web Platform, Makaut Questions,Makaut PYQ, Makaut website, Makaut Buddy Web Portal, Makaut Website",
   author: "Arindam Majumder",
+  openGraph: {
+    title: "Makaut Buddy",
+    description: "One-stop academic solution for every students of the University.",
+    url: "https://makaut-buddy.vercel.app",
+    siteName: "Makaut Buddy",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    title: "Makaut Buddy",
+    card: "summary_large_image",
+    description: "One-stop academic solution for every students of the University.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -34,12 +58,6 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.variable} ${grenze.variable} dark text-foreground  `}
     >
-      {/* <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-
-      </Head> */}
       <body className={inter.className}>
         <NotesDataContextProvider>
           <ClerkProvider
