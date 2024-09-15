@@ -1,9 +1,42 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
+import { TextField } from "@mui/material";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
 
-export default function UplaodComponent({ setStartUpload }) {
-  const cloudName = process.env.NEXT_PUBLIC_CLOUD_NAME; // replace with your own cloud name
-  const uploadPreset = process.env.NEXT_PUBLIC_UPLOAD_PRESET; // replace with your own upload preset
+const formControlStyles = {
+  "& .MuiOutlinedInput-root": {
+    color: "#FFFFFF80",
+    "& fieldset": {
+      borderColor: "#FFFFFF20",
+      borderWidth: "2px",
+      borderRadius: "8px",
+    },
+    "&:hover fieldset": {
+      borderColor: "#FFFFFF50",
+    },
+    "&.Mui-focused fieldset": {
+      borderColor: "#FFFFFF50",
+    },
+    "& .MuiSvgIcon-root": {
+      color: "#FFFFFF80",
+    },
+  },
+};
+
+const selectStyles = {
+  color: "#FFFFFF",
+  ".MuiSelect-icon": { color: "#FFFFFF" },
+  ".MuiOutlinedInput-notchedOutline": { borderColor: "#FFFFFF" },
+  "&.Mui-focused .MuiOutlinedInput-notchedOutline": { borderColor: "#FFFFFF" },
+  "& .MuiSelect-select": { color: "#FFFFFF80" },
+};
+
+export default function UploadComponent({ setStartUpload }) {
+  const cloudName = process.env.NEXT_PUBLIC_CLOUD_NAME;
+  const uploadPreset = process.env.NEXT_PUBLIC_UPLOAD_PRESET;
   const [secureUrl, setSecureUrl] = useState(null);
   const [error, setError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
@@ -15,13 +48,7 @@ export default function UplaodComponent({ setStartUpload }) {
   const linkRef = useRef();
   const urlRef = useRef();
 
-  //activeTab can be "notes" , "video" , "pyq"
   const [activeTab, setActiveTab] = useState("notes");
-
-  const activeTabStyle = {
-    backgroundColor: "#cacaca",
-    borderRadius: "5px",
-  };
 
   useEffect(() => {
     setError(null);
@@ -40,7 +67,6 @@ export default function UplaodComponent({ setStartUpload }) {
     axios
       .post(
         `https://makaut-buddy-back-end.iamsagar762.workers.dev/createResource`,
-
         JSON.stringify({
           sem: sem,
           subject: sub,
@@ -57,15 +83,13 @@ export default function UplaodComponent({ setStartUpload }) {
         },
       )
       .then(function (response) {
-        // handle success
         if (response.status === 200) {
-          setSuccessMessage("resource uploaded successfully");
+          setSuccessMessage("Resource uploaded successfully");
         }
       })
       .catch(function (error) {
-        // handle error
         console.log(error);
-        setError("some error occured");
+        setError("An error occurred");
       });
   }
 
@@ -73,17 +97,7 @@ export default function UplaodComponent({ setStartUpload }) {
     {
       cloudName: cloudName,
       uploadPreset: uploadPreset,
-      // cropping: true, //add a cropping step
-      // showAdvancedOptions: true,  //add advanced options (public_id and tag)
-      // sources: [ "local", "url"], // restrict the upload sources to URL and local files
-      multiple: false, //restrict upload to a single file
-      // folder: "user_images", //upload files to the specified folder
-      // tags: ["users", "profile"], //add the given tags to the uploaded files
-      // context: {alt: "user_uploaded"}, //add the given context data to the uploaded files
-      // clientAllowedFormats: ["images"], //restrict uploading to image files only
-      // maxImageFileSize: 2000000,  //restrict file size to less than 2MB
-      // maxImageWidth: 2000, //Scales the image down to a width of 2000 pixels before uploading
-      // theme: "purple", //change to a purple theme
+      multiple: false,
     },
     (error, result) => {
       if (!error && result && result.event === "success") {
@@ -107,204 +121,192 @@ export default function UplaodComponent({ setStartUpload }) {
   });
 
   return (
-    <section className="w-[50%] h-[90%] bg-white rounded-md z-30 ">
-      <section className="w-[100%] text-black flex flex-row">
-        <section
-          className="w-[33%] flex justify-center p-[10px]"
-          style={activeTab === "video" ? activeTabStyle : {}}
-          onClick={() => {
-            setActiveTab("video");
-          }}
-        >
-          Youtube vid{" "}
-        </section>
-        <section
-          className="w-[33%] flex justify-center p-[10px]"
-          style={activeTab === "notes" ? activeTabStyle : {}}
-          onClick={() => {
-            setActiveTab("notes");
-          }}
-        >
-          Handwritten Notes
-        </section>
-        <section
-          className="w-[33%] flex justify-center p-[10px]"
-          style={activeTab === "pyq" ? activeTabStyle : {}}
-          onClick={() => {
-            setActiveTab("pyq");
-          }}
-        >
-          PYQ
-        </section>
-      </section>
-      <section className="text-black flex flex-col items-center gap-4 z-[100] mt-[30px]">
-        <section className="flex flex-col border border-[#959597] px-[10px] pb-[10px] pt-[3px] w-[80%] rounded-md hover:border-[#000000]">
-          <label htmlFor="sem" className="text-[13px] pt-[0px] h-[10%]">
-            Select Semester*{" "}
-          </label>
-          <select
-            name="sem"
-            id="sem"
-            ref={semRef}
-            className="text-black bg-white pt-[10px]  h-[90%]"
-          >
-            {...semesters}
-          </select>
-        </section>
+    <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4">
+      <div className="w-full max-w-2xl bg-black rounded-lg shadow-lg border border-gray-700">
+        <div className="w-full text-white  flex">
+          {["video", "notes", "pyq"].map((tab) => (
+            <button
+              key={tab}
+              className={`flex-1 py-3 px-4 rounded-md ${
+                activeTab === tab
+                  ? "bg-white text-black"
+                  : "text-white hover:bg-gray-800 hover:text-white"
+              }`}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab === "video"
+                ? "Youtube vid"
+                : tab === "notes"
+                ? "Handwritten Notes"
+                : "PYQ"}
+            </button>
+          ))}
+        </div>
+        <div className="p-6 space-y-4">
+          <div className="space-y-2">
+            <FormControl fullWidth sx={formControlStyles}>
+              <InputLabel id="sem-selector" sx={{ color: "#FFFFFF" }}>
+              Select Semester*
+              </InputLabel>
+              <Select
+                labelId="sem-selector"
+                id="sem-selector"
+                ref={semRef}
+                label="Select Semester"
+                sx={selectStyles}
+              >
+                {...semesters}
+              </Select>
+            </FormControl>
+          </div>
 
-        <section className="flex flex-col border border-[#959597] px-[10px] pb-[10px] pt-[3px] w-[80%] rounded-md hover:border-[#000000]">
-          <label htmlFor="subject" className="text-[13px] pt-[0px] h-[10%]">
-            Enter Subject*
-          </label>
-          <input
-            type="text"
-            ref={subjectRef}
-            placeholder="subject"
-            id="subject"
-            className="text-black appearance-none outline-none bg-white pt-[10px] focus:ring-0 border-0 h-[90%]"
-          />
-        </section>
+          {["subject", "heading", "description"].map((field) => (
+            <div key={field} className="space-y-2">
+              
+              <TextField
+                label={field}
+                id={field}
+                ref={field === "subject" ? subjectRef : field === "heading" ? headingRef : descriptionRef}
+                className="w-full rounded-md bg-black border"
+                InputLabelProps={{
+                  style: { color: "#FFFFFF" }, // label color
+                }}
+                sx={{
+                  "& .MuiOutlinedInput-root": {
+                    color: "#FFFFFF80", // text color
+                    "& fieldset": {
+                      borderColor: "#FFFFFF20", // border color
+                      borderWidth: "2px", // thinner border
+                      borderRadius: "8px", // more rounded border
+                    },
+                    "&:hover fieldset": {
+                      borderColor: "#FFFFFF50", // border color on hover
+                    },
+                    "&.Mui-focused fieldset": {
+                      borderColor: "#FFFFFF50", // border color when focused
+                    },
+                    "& .MuiSvgIcon-root": {
+                      color: "#FFFFFF80", // icon color
+                    },
+                  },
+                }}
+              />
+            </div>
+          ))}
 
-        <section className="flex flex-col border border-[#959597] px-[10px] pb-[10px] pt-[3px] w-[80%] rounded-md hover:border-[#000000]">
-          <label htmlFor="heading" className="text-[13px] pt-[0px] h-[10%]">
-            Enter Heading *{" "}
-          </label>
-          <input
-            type="text"
-            ref={headingRef}
-            placeholder="heading"
-            id="heading"
-            className="text-black appearance-none outline-none bg-white pt-[10px] focus:ring-0 border-0 h-[90%]"
-          />
-        </section>
+          {activeTab === "video" && (
+            <div className="space-y-2">
+              
 
-        <section className="flex flex-col border border-[#959597] px-[10px] pb-[10px] pt-[3px] w-[80%] rounded-md hover:border-[#000000]">
-          <label htmlFor="description" className="text-[13px] pt-[0px] h-[10%]">
-            Enter Description *{" "}
-          </label>
-          <input
-            type="text"
-            ref={descriptionRef}
-            placeholder="description"
-            id="description"
-            className="text-black appearance-none outline-none bg-white pt-[10px] focus:ring-0 border-0 h-[90%]"
-          />
-        </section>
+              <TextField
+                label="Link"
+                id="link"
+                ref={linkRef}
+                className="w-full rounded-md bg-black border"
+                InputLabelProps={{
+                  style: { color: "#FFFFFF" }, // label color
+                }}
+                sx={{
+                  "& .MuiOutlinedInput-root": {
+                    color: "#FFFFFF80", // text color
+                    "& fieldset": {
+                      borderColor: "#FFFFFF20", // border color
+                      borderWidth: "2px", // thinner border
+                      borderRadius: "8px", // more rounded border
+                    },
+                    "&:hover fieldset": {
+                      borderColor: "#FFFFFF50", // border color on hover
+                    },
+                    "&.Mui-focused fieldset": {
+                      borderColor: "#FFFFFF50", // border color when focused
+                    },
+                    "& .MuiSvgIcon-root": {
+                      color: "#FFFFFF80", // icon color
+                    },
+                  },
+                }}
+              />
+            </div>
+          )}
 
-        {activeTab === "video" ? (
-          <section className="flex flex-col border border-[#959597] px-[10px] pb-[10px] pt-[3px] w-[80%] rounded-md hover:border-[#000000]">
-            <label htmlFor="link" className="text-[13px] pt-[0px] h-[10%]">
-              Enter Link *{" "}
-            </label>
-            <input
-              type="text"
-              ref={linkRef}
-              placeholder="link"
-              id="link"
-              className="text-black appearance-none outline-none bg-white pt-[10px] focus:ring-0 border-0 h-[90%]"
-            />
-          </section>
-        ) : null}
-
-        {activeTab === "notes" || activeTab === "pyq" ? (
-          <button
-            className="border border-[#959597] p-[10px] text-[14px] text-[#black] min-w-[150px] max-w-[200px] rounded-md"
-            onClick={() => {
-              if (
-                semRef.current.value &&
-                subjectRef.current.value &&
-                headingRef.current.value &&
-                descriptionRef.current.value
-              ) {
-                myWidget.open();
-              } else {
-                setError("please fill in the above fields first ");
-              }
-            }}
-          >
-            Upload a file
-          </button>
-        ) : null}
-
-        {secureUrl ? (
-          <section className="flex flex-col border border-[#959597] px-[10px] pb-[10px] pt-[3px] w-[80%] rounded-md hover:border-[#000000]">
-            <label htmlFor="link" className="text-[13px] pt-[0px] h-[10%]">
-              Secure Url *{" "}
-            </label>
-            <input
-              type="text"
-              ref={urlRef}
-              value={secureUrl}
-              placeholder="link"
-              id="link"
-              className="text-black appearance-none outline-none bg-white pt-[10px] focus:ring-0 border-0 h-[90%]"
-              readOnly
-            />
-          </section>
-        ) : null}
-        <section className="flex gap-4 text-[15px]">
-          <button
-            className="bg-[#121212] p-[10px] text-[#e3e4ea] min-w-[200px] max-w-[300px] rounded-md"
-            onClick={() => {
-              if (
-                semRef.current.value &&
-                subjectRef.current.value &&
-                headingRef.current.value &&
-                descriptionRef.current.value &&
-                (linkRef.current?.value || urlRef.current?.value)
-              ) {
-                switch (activeTab) {
-                  case "notes" || "pyq":
-                    uploadResource(
-                      semRef.current.value,
-                      subjectRef.current.value,
-                      headingRef.current.value,
-                      descriptionRef.current.value,
-                      urlRef.current.value,
-                      activeTab,
-                    );
-                    break;
-                  case "video":
-                    uploadResource(
-                      semRef.current.value,
-                      subjectRef.current.value,
-                      headingRef.current.value,
-                      descriptionRef.current.value,
-                      linkRef.current.value,
-                      activeTab,
-                    );
-                    break;
+          {(activeTab === "notes" || activeTab === "pyq") && (
+            <button
+              className="w-full bg-gray-800 text-white border border-gray-700 rounded-md p-2.5 my-4 hover:bg-gray-700"
+              onClick={() => {
+                if (
+                  semRef.current.value &&
+                  subjectRef.current.value &&
+                  headingRef.current.value &&
+                  descriptionRef.current.value
+                ) {
+                  myWidget.open();
+                } else {
+                  setError("Please fill in the above fields first");
                 }
-              } else {
-                setError("please fill in the above fields first");
-              }
-            }}
-          >
-            Upload Resource
-          </button>
+              }}
+            >
+              Upload a file
+            </button>
+          )}
 
-          <button
-            className="bg-[#121212] p-[10px] text-[#e3e4ea] min-w-[200px] max-w-[300px] rounded-md"
-            onClick={() => {
-              setStartUpload((val) => false);
-            }}
-          >
-            Close
-          </button>
-        </section>
-        {error ? (
-          <span className=" text-[#ff3b6b] mt-[10px] p-[10px] bg-[white] rounded-md ">
-            ! {error}
-          </span>
-        ) : null}
+          {secureUrl && (
+            <div className="space-y-2">
+              <label htmlFor="secureUrl" className="block text-sm font-medium text-gray-300">
+                Secure Url*
+              </label>
+              <input
+                type="text"
+                id="secureUrl"
+                ref={urlRef}
+                value={secureUrl}
+                readOnly
+                className="w-full bg-gray-900 text-white border border-gray-700 rounded-md p-2"
+              />
+            </div>
+          )}
 
-        {successMessage ? (
-          <span className=" text-[#3cd93c] mt-[10px] p-[10px] bg-[white] rounded-md ">
-            {" "}
-            :{`)`} {successMessage}
-          </span>
-        ) : null}
-      </section>
-    </section>
+          <div className="flex space-x-4">
+            <button
+              className="flex-1 bg-white text-black p-2 rounded-md hover:bg-blue-700"
+              onClick={() => {
+                if (
+                  semRef.current.value &&
+                  subjectRef.current.value &&
+                  headingRef.current.value &&
+                  descriptionRef.current.value &&
+                  (linkRef.current?.value || urlRef.current?.value)
+                ) {
+                  uploadResource(
+                    semRef.current.value,
+                    subjectRef.current.value,
+                    headingRef.current.value,
+                    descriptionRef.current.value,
+                    activeTab === "video" ? linkRef.current.value : urlRef.current.value,
+                    activeTab,
+                  );
+                } else {
+                  setError("Please fill in all the required fields");
+                }
+              }}
+            >
+              Upload Resource
+            </button>
+            <button
+              className="flex-1 bg-gray-700 text-white p-2 rounded-md hover:bg-gray-600"
+              onClick={() => setStartUpload(false)}
+            >
+              Close
+            </button>
+          </div>
+
+          {error && (
+            <p className="text-red-400 bg-gray-800 p-2 rounded-md"> {error}</p>
+          )}
+          {successMessage && (
+            <p className="text-green-400 bg-gray-800 p-2 rounded-md"> {successMessage}</p>
+          )}
+        </div>
+      </div>
+    </div>
   );
 }
