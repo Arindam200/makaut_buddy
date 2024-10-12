@@ -15,7 +15,7 @@ const Search = React.memo(() => {
   useEffect(() => {
     axios
       .get(
-        `https://makaut-buddy-back-end.iamsagar762.workers.dev/getResource?sub=${subjectValue}`,
+        `/api/v1/getResource?sub=${subjectValue}`,
         {
           headers: {
             "access-control-request-method": "GET",

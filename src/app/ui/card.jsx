@@ -36,7 +36,7 @@ const Card = React.memo(
     function updateResource(data) {
       axios
         .put(
-          `https://makaut-buddy-back-end.iamsagar762.workers.dev/updateResource/${id}`,
+          `/api/v1/updateResource/${id}`,
 
           data,
           {
@@ -62,7 +62,7 @@ const Card = React.memo(
     function deleteResource(id) {
       axios
         .delete(
-          `https://makaut-buddy-back-end.iamsagar762.workers.dev/deleteResource/${id}`,
+          `/api/v1/deleteResource/${id}`,
           {
             headers: {
               "access-control-request-method": "PUT",

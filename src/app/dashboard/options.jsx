@@ -55,7 +55,7 @@ export default function SelectLabels() {
   useEffect(() => {
     axios
       .get(
-        `https://makaut-buddy-back-end.iamsagar762.workers.dev/getResource?sub=${sub}`,
+        `/api/v1/getResource?sub=${sub}`,
         {
           headers: {
             "access-control-request-method": "GET",
