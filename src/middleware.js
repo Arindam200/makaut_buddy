@@ -8,8 +8,9 @@ export default clerkMiddleware(
   },
   {
     clockSkewInMs: 100_000,
-    clockSkewInSeconds: 100,
     
+    clockSkewInSeconds: 100,
+
   },
 );
 
