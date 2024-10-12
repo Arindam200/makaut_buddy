@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '../../../../lib/mongoose.js';
 import Resource from '../../../../models/Resource.js';
-import { rateLimitMiddleware } from '../../_middleware/rateLimit.js';
+import { rateLimitMiddleware } from '../../../_middleware/rateLimit.js';
 
 async function PUTREQ(request, { params }) {
   await dbConnect();
