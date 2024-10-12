@@ -66,7 +66,7 @@ export default function UploadComponent({ setStartUpload }) {
   function uploadResource(sem, sub, heading, desc, link, type) {
     axios
       .post(
-        `https://makaut-buddy-back-end.iamsagar762.workers.dev/createResource`,
+        `/api/v1/createResource`,
         JSON.stringify({
           sem: sem,
           subject: sub,
