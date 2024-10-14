@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import Search from "../dashboard/searchbar";
 import Options from "../dashboard/options";
@@ -24,12 +25,11 @@ export default function Tabs() {
     };
   }, []);
 
-  const style =
-    "text-black bg-[#D9D9D9] rounded-md basis-1/2 py-2 text-center transition-all duration-500 ease-in-out";
+  const style = "text-black bg-[#D9D9D9] rounded-md basis-1/2 py-2 text-center transition-all duration-500 ease-in-out";
 
   return (
     <>
-      <div className="flex w-full p-2 border-2 border-[#FFFFFF20] rounded-lg">
+      <div className="flex w-full p-2 border-2 border-[#FFFFFF20] rounded-lg my-4">
         <div
           className={
             activeTab === "tab1" ? style : "basis-1/2 py-2 text-center"

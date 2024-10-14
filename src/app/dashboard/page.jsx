@@ -15,6 +15,7 @@ import { UserSessionContext } from "../Context/UsersessionContext";
 import { NotesDataContext } from "../Context/NotesDataContext";
 import UploadComponent from "../components/UploadComponent/UploadComponent";
 import SearchBarComponent from "../components/SearchBarComponent/SearchBarComponent";
+import Image from 'next/image';
 
 export default function Page() {
   const { userId, sessionClaims } = useContext(UserSessionContext);
@@ -47,6 +48,31 @@ export default function Page() {
     // return null;
   }
 
+  const NoResourcesAvailable = () => (
+    <div className="flex flex-col items-center justify-center w-full h-full text-white">
+      <Image
+        src="/empty-box.png"
+        alt="No resources available"
+        width={150}
+        height={150}
+        className="mb-4"
+      />
+      <h2 className="text-xl font-semibold mb-2">No Resources Available</h2>
+      <p className="text-gray-400 text-center max-w-md text-sm">
+        It looks like there are no resources available at the moment. Check back later or try adjusting your filters.
+      </p>
+      {isAdmin && (
+        <button
+          onClick={() => setStartUpload(true)}
+          className="mt-4 bg-white hover:bg-gray-200 text-black font-semibold py-2 px-4 rounded-md flex items-center text-sm"
+        >
+          <AddIcon className="mr-2" />
+          Add Resources
+        </button>
+      )}
+    </div>
+  );
+
   return (
     <>
       {startUpload ? (
@@ -54,12 +80,12 @@ export default function Page() {
           <UploadComponent setStartUpload={setStartUpload} />
         </section>
       ) : null}
-      <div className="h-full flex max-lg:flex-col max-lg:border-b-2">
-        <div className="max-lg:border-b-2 justify-between lg:basis-1/12 py-3 lg:pt-28 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
+      <div className="h-full flex max-lg:flex-col">
+        <div className="lg:h-screen justify-between lg:basis-1/12 py-3 lg:pt-14 bg-[#FFFFFF05] lg:border-r-2 border-[#FFFFFF20]">
           <Link href="/" className="hidden lg:flex justify-center">
-            <ArrowBackIosNewRoundedIcon sx={{ fontSize: 60, color: "white" }} />
+            <ArrowBackIosNewRoundedIcon sx={{ fontSize: 50, color: "white" }} />
           </Link>
-          <div className="flex justify-center items-center  lg:hidden">
+          <div className="flex justify-center items-center lg:hidden">
             <Link
               href="/"
               className="flex items-center justify-start px-4 w-1/2"
@@ -89,9 +115,9 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="lg:basis-11/12 flex flex-col px-4 lg:px-12 pt-6 lg:pt-28 pb-5 gap-2">
+        <div className="lg:basis-11/12 flex flex-col px-4 lg:px-12 pt-6 lg:pt-14 pb-5 gap-2">
           <div className="flex items-center justify-between pb-2">
-            <div className="text-3xl lg:text-6xl text-[#D9D9D9] font-medium">
+            <div className="text-3xl lg:text-5xl text-[#D9D9D9] font-medium">
               Dashboard
             </div>
             <div className="hidden lg:flex justify-center items-center">
@@ -115,10 +141,10 @@ export default function Page() {
             </div>
           </div>
           <Tabs />
-          <div className="h-full flex max-lg:flex-col border-2 border-[#FFFFFF20] rounded-lg">
-            <div className="flex flex-col lg:basis-1/3 justify-between lg:py-8 py-4">
+          <div className="h-full flex max-lg:flex-col border-2 border-[#FFFFFF20] rounded-lg my-4">
+            <div className="flex flex-col lg:basis-1/3 justify-between py-4 border-r border-[#FFFFFF20]">
               <div>
-                <div className="pl-4 mb-2 max-lg:px-2 ">
+                <div className="px-4 mb-2 max-lg:px-2">
                   <SearchBarComponent setNotesSearch={setNotesSearch} />
                 </div>
          
@@ -204,10 +230,10 @@ export default function Page() {
                 )}
               </div>
             </div>
-            <section className="w-[100%] lg:m-[20px]">
-              <div className="lg:basis-2/3 grid grid-cols-1 lg:grid-cols-2 p-1">
-                {notesData.length ? (
-                  notesData
+            <section className="w-full lg:flex-grow flex justify-end items-start p-4 pt-8">
+              {notesData.length ? (
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+                  {notesData
                     ?.filter((note) => {
                       if (filter.length === 0) {
                         return note;
@@ -229,28 +255,26 @@ export default function Page() {
                         return note;
                       }
                     })
-                    .map((note) => {
-                      return (
-                        <section key={note.id}>
-                          <Card
-                            key={note.id}
-                            id={note.id}
-                            sem={note.sem}
-                            subject={note.subject}
-                            type={note.type}
-                            title={note.heading}
-                            description={note.description}
-                            link={note.link}
-                          ></Card>
-                        </section>
-                      );
-                    })
-                ) : (
-                  <section className="text-[white] flex items-center justify-center w-[100%] h-[100%] pt-[30px] ">
-                    No Resources available
-                  </section>
-                )}
-              </div>
+                    .map((note) => (
+                      <Card
+                        key={note.id}
+                        id={note.id}
+                        sem={note.sem}
+                        subject={note.subject}
+                        type={note.type}
+                        title={note.heading}
+                        description={note.description}
+                        link={note.link}
+                      />
+                    ))}
+                </div>
+              ) : (
+                <div className="w-full h-full flex justify-center">
+                  <div className="max-w-xs md:max-w-sm">
+                    <NoResourcesAvailable />
+                  </div>
+                </div>
+              )}
             </section>
           </div>
         </div>
