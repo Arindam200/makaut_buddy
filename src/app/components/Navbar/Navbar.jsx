@@ -84,8 +84,8 @@ export default function App() {
           );
         })}
       </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem>
+      <NavbarContent justify="end" className="flex items-center space-x-4">
+        <NavbarItem className="flex items-center">
           <Button
             radius="sm"
             size="lg"
@@ -98,7 +98,7 @@ export default function App() {
             Give us a star ⭐️
           </Button>
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="flex items-center">
           <SignedIn>
             <UserButton
               appearance={{
