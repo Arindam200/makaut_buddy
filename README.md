@@ -23,7 +23,8 @@ This project provides study material for college students. Where they can 
 
 1. [Node.Js](https://nodejs.org/en) installed on your local machine.
 2. [Clerk](https://clerk.com/) Account for authentication & authorization.
-3. [Cloudinary](https://cloudinary.com/) Account 
+3. [Cloudinary](https://cloudinary.com/) Account
+4. [MongoDB](https://www.mongodb.com/) Account for database setup.
 
 
 ## Local Setup
@@ -56,6 +57,7 @@ CLERK_SECRET_KEY= YOUR_CLERK_SECRET_KEY
 NEXT_PUBLIC_API_URL= YOUR_API_URL
 NEXT_PUBLIC_CLOUD_NAME=YOUR_CLOUDINARY_CLOUD_NAME
 NEXT_PUBLIC_CLOUD_PRESET=YOUR_CLOUDINARY_CLOUD_PRESET
+MONGODB_URI=YOUR_MONGODB_CONNECTION_URI
 ```
 
 You can get these keys here: [Clerk](https://clerk.com/), [Cloudinary](https://cloudinary.com/).
@@ -89,4 +91,3 @@ Thanks a lot for spending your time helping all-round-calculator grow. Thanks a 
 <a href="https://github.com/Arindam200/makaut_buddy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Arindam200/makaut_buddy" />
 </a>
-
