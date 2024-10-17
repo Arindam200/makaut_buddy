@@ -23,7 +23,8 @@ This project provides study material for college students. Where they can 
 
 1. [Node.Js](https://nodejs.org/en) installed on your local machine.
 2. [Clerk](https://clerk.com/) Account for authentication & authorization.
-3. [Cloudinary](https://cloudinary.com/) Account 
+3. [Cloudinary](https://cloudinary.com/) Account
+4. [MongoDB](https://www.mongodb.com/) Account for database setup.
 
 
 ## Local Setup
@@ -89,4 +90,3 @@ Thanks a lot for spending your time helping all-round-calculator grow. Thanks a 
 <a href="https://github.com/Arindam200/makaut_buddy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Arindam200/makaut_buddy" />
 </a>
-
