@@ -61,15 +61,6 @@ export default function Page() {
       <p className="text-gray-400 text-center max-w-md text-sm">
         It looks like there are no resources available at the moment. Check back later or try adjusting your filters.
       </p>
-      {isAdmin && (
-        <button
-          onClick={() => setStartUpload(true)}
-          className="mt-4 bg-white hover:bg-gray-200 text-black font-semibold py-2 px-4 rounded-md flex items-center text-sm"
-        >
-          <AddIcon className="mr-2" />
-          Add Resources
-        </button>
-      )}
     </div>
   );
 
