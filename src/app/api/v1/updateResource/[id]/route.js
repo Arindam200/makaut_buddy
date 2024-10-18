@@ -8,11 +8,11 @@ async function PUTREQ(request, { params }) {
 
   const { id } = params;
   const body = await request.json();
-  const token = request.headers.get("authorization")?.replace("Bearer-", "");
+  // const token = request.headers.get("authorization")?.replace("Bearer-", "");
 
-  if (token !== process.env.SECRET) {
-    return NextResponse.json({ boo: "hoo", jokes: "on you!" }, { status: 400 });
-  }
+  // if (token !== process.env.SECRET) {
+  //   return NextResponse.json({ boo: "hoo", jokes: "on you!" }, { status: 400 });
+  // }
 
   try {
     const document = await Resource.findByIdAndUpdate(id, body, { new: true });
