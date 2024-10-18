@@ -7,11 +7,7 @@ async function DELETEREQ(request, { params }) {
   await dbConnect();
 
   const { id } = params;
-  const token = request.headers.get("authorization")?.replace("Bearer-", "");
- console.log(token , process.env.SECRET);
-  if (token !== process.env.SECRET) {
-    return NextResponse.json({ boo: "hoo", jokes: "on you!" }, { status: 400 });
-  }
+
 
   try {
     const document = await Resource.findByIdAndDelete(id);
