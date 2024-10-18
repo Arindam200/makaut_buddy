@@ -7,11 +7,7 @@ async function POSTREQ(request) {
   await dbConnect();
 
   const body = await request.json();
-  const token = request.headers.get("authorization")?.replace("Bearer-", "");
 
-  if (token !== process.env.SECRET) {
-    return NextResponse.json({ boo: "hoo", jokes: "on you!" }, { status: 400 });
-  }
 
   try {
     const document = await Resource.create(body);
